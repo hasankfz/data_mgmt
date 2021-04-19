@@ -1,0 +1,17 @@
+Artikel Eigenschaften:Unterkategorie> Verantwortlicher> Name;K24-Nr.;Artikel Eigenschaften:Bewirtschaftungscode;Artikel Eigenschaften:Bewirtschaftungscode> Bezeichnung;Katalog:Ist kaufbar[DE];Katalog:Ad Hoc (Produktiv);Data Warehouse Informationen:ABC-Kennzeichen k24;Data Warehouse Informationen:Absatz 12. Monate rollierend;Data Warehouse Informationen:Bestand komplett (Menge);Artikel Eigenschaften:Artikelstatus;Katalog:Check 'Ist kaufbar';Artikel-ID;Hersteller;Hersteller-Artikel-Nr.;Präprozessor-Hersteller-Artikel-Nr.;Artikel Eigenschaften:Mengeneinheit;Texte:Artikel-Bez.[de];Artikel Eigenschaften:Artikeltyp> Artikeltyp-Nr.;Artikel Eigenschaften:GenArt;Artikel Eigenschaften:Ist Sperrgut;Katalog:Ausleitung Core-System;Katalog:Ad Hoc (Staging)
+Ilko Schmidt;2350-101826;;;False;False;A;287,00;1,00;8;;2893529;THU;710400;;STK;Thule Evo Raised Rail;;1201;;True;False
+Michael Speer;1910-105457;;;False;False;A;115,00;10,00;8;;2454592;VDO;A2C9626040080;;STK;[VDO] Einspritzdüse;;3902;;True;False
+Thomas Stechmesser;1720-119914;;;False;False;A;35,00;1,00;8;;2181445;MAR;352316171245;;STK;[MAR] Wasserpumpe;;1260;;True;False
+Michael Speer;1910-105411;;;False;False;A;23,00;4,00;8;;2454429;VDO;A2C59513484;;STK;[VDO] Einspritzdüse;;3902;;True;False
+Thomas Stechmesser;1810-102936;;;False;False;B;15,00;1,00;8;;1650270;INA;529 0125 10;;STK;[INA] Keilrippenriemensatz;;542;False;True;False
+Michael Speer;1910-105423;;;False;False;B;15,00;3,00;8;;2454476;VDO;A2C59514268;;STK;[VDO] AGR-Ventil;;1145;;True;False
+Thomas Stechmesser;2010-8651;;;False;False;C;10,00;1,00;8;;144377;9WIX;2010-8651;WA9707;STK;[PH] Luftfilter;;8;;True;False
+Ilko Schmidt;2311-8679;;;False;False;B;7,00;1,00;8;;412618;PET;AS58710;;STK;PASSFORM GUMMI-SCHALENMATTE für den Kofferraum;;4731;;True;False
+Stefan Habermann;1570-20717;;;False;False;B;5,00;1,00;8;;450678;FEB;26277;;STK;[FEB] Lenker, Radaufhängung;;273;;True;False
+Ilko Schmidt;2360-105967;;;False;False;C;4,00;4,00;8;;3446754;ROW;21048-0050-03;;STK;HIGHTEC ANTIFREEZE AN-SF 12+ READY-MIX -25 °C [5L];;1602;;True;False
+Ilko Schmidt;2311-7090;;;False;False;C;1,00;;1;;412038;PET;AS32610;;STK;PASSFORM GUMMI-SCHALENMATTE für den Kofferraum;;4731;;True;False
+Michael Speer;2130-0172;;;False;False;C;1,00;1,00;8;;993853;HB;51278030;;STK;Zündleitungssatz (72) Zündkerze: Anschlußausführun;;685;;True;False
+Michael Speer;1115-2043;;;False;False;C;0,00;1,00;8;;128498;9VAN;1115-2043;5894265;STK;[PH] Fensterheber;;1561;;True;False
+Michael Speer;1260-0424;;;False;False;C;0,00;1,00;8;;302217;HLL;6PA 009 166-121;;STK;Lambdasonde (2);;3923;;True;False
+Stefan Habermann;1410-6345;;;False;False;C;0,00;1,00;6;;343775;BLT;ADN142105;;STK;[BLT] Bremsbelagsatz, Scheibenbremse;;402;;True;False
+Thomas Stechmesser;1230-6108;;;False;False;C;0,00;1,00;8;;541718;WAK;20828;;STK;[WAK] Katalysator;;429;;True;False
