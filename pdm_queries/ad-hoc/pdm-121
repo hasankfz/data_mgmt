@@ -16,4 +16,4 @@ SELECT
   LEFT OUTER JOIN [ji_reporting].[dbo].[pdm-121_import] T4 WITH (NOLOCK) ON CAST(T4.[ArtN] as varchar) = CAST([base].[K24Number] as varchar)
 
 WHERE T4.[ArtN] IS NOT NULL
-ORDER BY base.[Manufacturer:Link], T1.[ProductGroup:Link], base.[ArticleID]
+ORDER BY base.[Manufacturer:Link], T1.[ProductGroup:Link], base.[K24Number]
