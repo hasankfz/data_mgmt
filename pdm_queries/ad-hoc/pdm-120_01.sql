@@ -1,3 +1,7 @@
+/*
+   Join article data in PDM with TecDoc data in PDM
+*/
+
 SELECT TOP 100
   base.[:Id] as "ArtID", 
   T2.[:Id] as "TD-ArtID",
