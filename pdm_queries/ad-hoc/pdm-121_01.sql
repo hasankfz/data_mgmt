@@ -1,14 +1,26 @@
+/*
+
+
+*/
+
 SELECT TOP 100 
-       T3.[Name] as "Motor", 
-       T1.[PassengerCarNo], 
-       T5.[Name], 
-       T6.[Designation], 
---       T7.[GenericArticleNo] 
-       T10.[Designation] as "K24-Kategorie", 
-       T8.[Designation] as "TD-Genart", 
-       T11.[ArticleNo] as "TD-ArtNr.", 
-       T12.[Designation] as "TD-ArtBeschreibung"
---       T11.[State:Link]
+
+  T3.[Name] as "Motor", 
+  T1.[PassengerCarNo], 
+  T5.[Name], 
+  T6.[Designation], 
+  T10.[Designation] as "K24-Kategorie", 
+  T8.[Designation] as "TD-Genart", 
+  T11.[ArticleNo] as "TD-ArtNr.", 
+--  T12.[Designation] as "TD-ArtBeschreibung"
+
+  td_art.[TecDoc.ArtNo] as "Art-TDArtNr",
+  td_art.[:Id],
+  art.[:Id],
+
+  art.[ArticleID], 
+  art.[K24Number] 
+
 
  FROM [dbo].[TecDoc.Linkages.PassengerCars] base WITH (NOLOCK) 
   LEFT OUTER JOIN [dbo].[TecDoc.LinkingTargets.PassengerCars] T1 WITH (NOLOCK) ON T1.[PassengerCarNo] = [base].[LinkingTarget:Link]
@@ -29,6 +41,12 @@ SELECT TOP 100
   LEFT OUTER JOIN [dbo].[TecDoc.Articles.Articles <TecDoc.GeneralData.UsedLanguages>] T12 WITH (NOLOCK) ON T12.[:Id] = [T11].[:Id]
               AND T12.[:TecDoc.GeneralData.UsedLanguages_Id] = '3e8124e1-b1cd-4faf-bdda-eebbfaf0acfd'
  
+  LEFT OUTER JOIN [dbo].[Article.Articles:TecDocData] td_art WITH (NOLOCK) ON td_art.[TecDoc.ArtNo] = T11.[ArticleNo]
+  LEFT OUTER JOIN [dbo].[Article.Articles] art WITH (NOLOCK) ON art.[:Id] = td_art.[:Id]
+
+WHERE art.[K24Number] IS NOT NULL
+
+/*
  WHERE 
   (
   -- EngineType
@@ -38,8 +56,4 @@ SELECT TOP 100
 	  OR (T3.[Name] = 'Plug-In Hybrid'))
   AND (T11.[State:Link] = '73-001') -- TecDoc Status
   )
-
-ORDER BY
-  T3.[Name], 
-  T1.[PassengerCarNo], 
-  T7.[GenericArticleNo]
+*/
