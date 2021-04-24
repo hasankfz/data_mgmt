@@ -3,7 +3,7 @@
 
 */
 
-SELECT TOP 10 
+SELECT TOP 10000 
 
   T3.[Name] as "EngineType", 
   T1.[PassengerCarNo] as "CarNr", 
@@ -21,7 +21,10 @@ SELECT TOP 10
 
   art.[ArticleID] as "PDM-ArtID", 
   art.[K24Number] as "K24-Nr",
-   T1.[ImportVersionNo]
+  T1.[ImportVersionNo],
+
+  art.[Manufacturer:Link], -- ATE is manufacturer
+  T11.[Manufacturer:Link] -- 3 is the link to the manufacturer
 
  FROM [dbo].[TecDoc.Linkages.PassengerCars] base WITH (NOLOCK) 
   LEFT OUTER JOIN [dbo].[TecDoc.LinkingTargets.PassengerCars] T1 WITH (NOLOCK) ON T1.[PassengerCarNo] = [base].[LinkingTarget:Link]
@@ -44,6 +47,7 @@ SELECT TOP 10
  
   LEFT OUTER JOIN [dbo].[Article.Articles:TecDocData] td_art WITH (NOLOCK) ON td_art.[TecDoc.ArtNo] = T11.[ArticleNo]
   LEFT OUTER JOIN [dbo].[Article.Articles] art WITH (NOLOCK) ON art.[:Id] = td_art.[:Id]
+--  LEFT OUTER JOIN [dbo].[MasterData.Manufacturers] manu WITH (NOLOCK) ON manu.[ManufacturerNo] = art.[Manufacturer:Link]
 
  WHERE 
   -- Latest TD dataset
