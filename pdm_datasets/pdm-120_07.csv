@@ -1,0 +1,101 @@
+﻿EngineType;CarNr;CarMake;TD-GenartNr;TD-Genart;K24-Kategorie;TD-ArtNr;PDM-ArtID;K24Number;Manufacturer;TD-ManufacturerNr
+Elektromotor;6438;MERCEDES-BENZ;1419;Bremsbackensatz, Feststellbremse;Bremsanlage;03.0137-0170.2;656512;1410-5230;ATE;3
+Elektromotor;6438;MERCEDES-BENZ;1419;Bremsbackensatz, Feststellbremse;Bremsanlage;03.0137-0170.2;664894;1410-17794;BKL;3
+Elektromotor;14525;FIAT;70;Bremsbackensatz;Bremsanlage;03.0137-0015.2;662987;1410-17225;BKL;3
+Elektromotor;14525;FIAT;70;Bremsbackensatz;Bremsanlage;03.0137-0015.2;655781;1410-5177;ATE;3
+Elektromotor;27855;FIAT;70;Bremsbackensatz;Bremsanlage;03.0137-0015.2;662987;1410-17225;BKL;3
+Elektromotor;27855;FIAT;70;Bremsbackensatz;Bremsanlage;03.0137-0015.2;655781;1410-5177;ATE;3
+Full Hybrid;57561;BMW;1419;Bremsbackensatz, Feststellbremse;Bremsanlage;03.0137-0305.2;656997;1410-5341;ATE;3
+Full Hybrid;57561;BMW;1419;Bremsbackensatz, Feststellbremse;Bremsanlage;03.0137-0305.2;664898;1410-17798;BKL;3
+Elektromotor;27694;CITROËN;70;Bremsbackensatz;Bremsanlage;03.0137-0195.2;657114;1410-5252;ATE;3
+Elektromotor;27694;CITROËN;70;Bremsbackensatz;Bremsanlage;03.0137-0195.2;664895;1410-17795;BKL;3
+Elektromotor;100080;VW;70;Bremsbackensatz;Bremsanlage;03.0137-0268.2;662981;1410-17219;BKL;3
+Elektromotor;100080;VW;70;Bremsbackensatz;Bremsanlage;03.0137-0268.2;656946;1410-5311;ATE;3
+Elektromotor;23825;CITROËN;70;Bremsbackensatz;Bremsanlage;03.0137-0195.2;657114;1410-5252;ATE;3
+Elektromotor;23825;CITROËN;70;Bremsbackensatz;Bremsanlage;03.0137-0195.2;664895;1410-17795;BKL;3
+Elektromotor;23825;CITROËN;70;Bremsbackensatz;Bremsanlage;03.0137-0196.2;665236;1410-18084;BKL;3
+Elektromotor;23825;CITROËN;70;Bremsbackensatz;Bremsanlage;03.0137-0196.2;657115;1410-5253;ATE;3
+Elektromotor;23825;CITROËN;70;Bremsbackensatz;Bremsanlage;03.0137-0312.2;657019;1410-5348;ATE;3
+Elektromotor;23825;CITROËN;70;Bremsbackensatz;Bremsanlage;03.0137-0312.2;664899;1410-17799;BKL;3
+Plug-In Hybrid;117341;BMW;1419;Bremsbackensatz, Feststellbremse;Bremsanlage;03.0137-0305.2;664898;1410-17798;BKL;3
+Plug-In Hybrid;117341;BMW;1419;Bremsbackensatz, Feststellbremse;Bremsanlage;03.0137-0305.2;656997;1410-5341;ATE;3
+Elektromotor;137671;VW;70;Bremsbackensatz;Bremsanlage;03.0137-0268.2;656946;1410-5311;ATE;3
+Elektromotor;137671;VW;70;Bremsbackensatz;Bremsanlage;03.0137-0268.2;662981;1410-17219;BKL;3
+Elektromotor;13514;PEUGEOT;70;Bremsbackensatz;Bremsanlage;03.0137-0196.2;657115;1410-5253;ATE;3
+Elektromotor;13514;PEUGEOT;70;Bremsbackensatz;Bremsanlage;03.0137-0196.2;665236;1410-18084;BKL;3
+Elektromotor;27693;CITROËN;70;Bremsbackensatz;Bremsanlage;03.0137-0195.2;664895;1410-17795;BKL;3
+Elektromotor;27693;CITROËN;70;Bremsbackensatz;Bremsanlage;03.0137-0195.2;657114;1410-5252;ATE;3
+Elektromotor;118761;VW;70;Bremsbackensatz;Bremsanlage;03.0137-0268.2;662981;1410-17219;BKL;3
+Elektromotor;118761;VW;70;Bremsbackensatz;Bremsanlage;03.0137-0268.2;656946;1410-5311;ATE;3
+Mild Hybrid;17802;HONDA;70;Bremsbackensatz;Bremsanlage;03.0137-0294.2;665239;1410-18087;BKL;3
+Mild Hybrid;17802;HONDA;70;Bremsbackensatz;Bremsanlage;03.0137-0294.2;656989;1410-5333;ATE;3
+Mild Hybrid;17802;HONDA;70;Bremsbackensatz;Bremsanlage;03.0137-0287.2;656982;1410-5326;ATE;3
+Mild Hybrid;17802;HONDA;70;Bremsbackensatz;Bremsanlage;03.0137-0287.2;663122;1410-18747;BKL;3
+Full Hybrid;57560;BMW;1419;Bremsbackensatz, Feststellbremse;Bremsanlage;03.0137-0305.2;664898;1410-17798;BKL;3
+Full Hybrid;57560;BMW;1419;Bremsbackensatz, Feststellbremse;Bremsanlage;03.0137-0305.2;656997;1410-5341;ATE;3
+Plug-In Hybrid;117343;BMW;1419;Bremsbackensatz, Feststellbremse;Bremsanlage;03.0137-0305.2;664898;1410-17798;BKL;3
+Plug-In Hybrid;117343;BMW;1419;Bremsbackensatz, Feststellbremse;Bremsanlage;03.0137-0305.2;656997;1410-5341;ATE;3
+Elektromotor;140638;SKODA;70;Bremsbackensatz;Bremsanlage;03.0137-0268.2;662981;1410-17219;BKL;3
+Elektromotor;140638;SKODA;70;Bremsbackensatz;Bremsanlage;03.0137-0268.2;656946;1410-5311;ATE;3
+Elektromotor;30431;RENAULT;70;Bremsbackensatz;Bremsanlage;03.0137-0271.2;656949;1410-5314;ATE;3
+Elektromotor;27770;PEUGEOT;70;Bremsbackensatz;Bremsanlage;03.0137-0196.2;665236;1410-18084;BKL;3
+Elektromotor;27770;PEUGEOT;70;Bremsbackensatz;Bremsanlage;03.0137-0196.2;657115;1410-5253;ATE;3
+Elektromotor;30344;RENAULT;70;Bremsbackensatz;Bremsanlage;03.0137-0271.2;656949;1410-5314;ATE;3
+Elektromotor;137676;SEAT;70;Bremsbackensatz;Bremsanlage;03.0137-0268.2;662981;1410-17219;BKL;3
+Elektromotor;137676;SEAT;70;Bremsbackensatz;Bremsanlage;03.0137-0268.2;656946;1410-5311;ATE;3
+Elektromotor;140321;MERCEDES-BENZ;1419;Bremsbackensatz, Feststellbremse;Bremsanlage;03.0137-4003.2;659704;1410-14331;ATE;3
+Elektromotor;140321;MERCEDES-BENZ;1419;Bremsbackensatz, Feststellbremse;Bremsanlage;03.0137-4003.2;663205;1410-18732;BKL;3
+Elektromotor;132150;RENAULT;70;Bremsbackensatz;Bremsanlage;03.0137-0496.2;651583;1410-17235;ATE;3
+Full Hybrid;58962;MERCEDES-BENZ;1419;Bremsbackensatz, Feststellbremse;Bremsanlage;03.0137-4007.2;651586;1410-17238;ATE;3
+Plug-In Hybrid;59587;PORSCHE;1419;Bremsbackensatz, Feststellbremse;Bremsanlage;03.0137-3054.2;1682889;1410-112953;ATE;3
+Mild Hybrid;139507;FIAT;70;Bremsbackensatz;Bremsanlage;03.0137-0479.2;660735;1410-6515;ATE;3
+Mild Hybrid;139507;FIAT;70;Bremsbackensatz;Bremsanlage;03.0137-0479.2;664737;1410-18438;BKL;3
+Full Hybrid;112814;SUBARU;1419;Bremsbackensatz, Feststellbremse;Bremsanlage;03.0137-3045.2;650126;1410-35276;ATE;3
+Full Hybrid;33309;VW;1419;Bremsbackensatz, Feststellbremse;Bremsanlage;03.0137-3019.2;650791;1410-18285;ATE;3
+Elektromotor;58957;SMART;70;Bremsbackensatz;Bremsanlage;03.0137-0487.2;660183;1410-12924;ATE;3
+Elektromotor;58957;SMART;70;Bremsbackensatz;Bremsanlage;03.0137-0487.2;666389;1410-20094;BKL;3
+Elektromotor;135024;NISSAN;1419;Bremsbackensatz, Feststellbremse;Bremsanlage;03.0137-3012.2;661816;1410-14903;ATE;3
+Elektromotor;137781;PEUGEOT;70;Bremsbackensatz;Bremsanlage;03.0137-0341.2;664453;1410-18091;BKL;3
+Elektromotor;137781;PEUGEOT;70;Bremsbackensatz;Bremsanlage;03.0137-0341.2;656322;1410-5369;ATE;3
+Plug-In Hybrid;11815;PORSCHE;1419;Bremsbackensatz, Feststellbremse;Bremsanlage;03.0137-3054.2;1682889;1410-112953;ATE;3
+Full Hybrid;10477;TOYOTA;1419;Bremsbackensatz, Feststellbremse;Bremsanlage;03.0137-0402.2;665225;1410-18118;BKL;3
+Full Hybrid;10477;TOYOTA;1419;Bremsbackensatz, Feststellbremse;Bremsanlage;03.0137-0402.2;657446;1410-5416;ATE;3
+Plug-In Hybrid;116697;BMW;1419;Bremsbackensatz, Feststellbremse;Bremsanlage;03.0137-0419.2;665226;1410-18119;BKL;3
+Plug-In Hybrid;116697;BMW;1419;Bremsbackensatz, Feststellbremse;Bremsanlage;03.0137-0419.2;657461;1410-5432;ATE;3
+Elektromotor;27770;PEUGEOT;1502;Zubehörsatz, Bremsbacken;Bremsanlage;03.0137-9055.2;655235;1440-21760;ATE;3
+Full Hybrid;108869;BMW;1419;Bremsbackensatz, Feststellbremse;Bremsanlage;03.0137-0419.2;657461;1410-5432;ATE;3
+Full Hybrid;108869;BMW;1419;Bremsbackensatz, Feststellbremse;Bremsanlage;03.0137-0419.2;665226;1410-18119;BKL;3
+Elektromotor;129541;SMART;70;Bremsbackensatz;Bremsanlage;03.0137-0522.2;1682874;1410-111462;ATE;3
+Mild Hybrid;10587;BMW;1419;Bremsbackensatz, Feststellbremse;Bremsanlage;03.0137-0419.2;657461;1410-5432;ATE;3
+Mild Hybrid;10587;BMW;1419;Bremsbackensatz, Feststellbremse;Bremsanlage;03.0137-0419.2;665226;1410-18119;BKL;3
+Elektromotor;13514;PEUGEOT;1502;Zubehörsatz, Bremsbacken;Bremsanlage;03.0137-9055.2;655235;1440-21760;ATE;3
+Elektromotor;58953;SMART;70;Bremsbackensatz;Bremsanlage;03.0137-0487.2;666389;1410-20094;BKL;3
+Elektromotor;58953;SMART;70;Bremsbackensatz;Bremsanlage;03.0137-0487.2;660183;1410-12924;ATE;3
+Elektromotor;141189;MERCEDES-BENZ;1419;Bremsbackensatz, Feststellbremse;Bremsanlage;03.0137-4009.2;665228;1410-18121;BKL;3
+Elektromotor;141189;MERCEDES-BENZ;1419;Bremsbackensatz, Feststellbremse;Bremsanlage;03.0137-4009.2;661474;1410-15464;ATE;3
+Plug-In Hybrid;129185;PORSCHE;1419;Bremsbackensatz, Feststellbremse;Bremsanlage;03.0137-3054.2;1682889;1410-112953;ATE;3
+Elektromotor;27776;CITROËN;70;Bremsbackensatz;Bremsanlage;03.0137-0341.2;664453;1410-18091;BKL;3
+Elektromotor;27776;CITROËN;70;Bremsbackensatz;Bremsanlage;03.0137-0341.2;656322;1410-5369;ATE;3
+Plug-In Hybrid;122828;PORSCHE;1419;Bremsbackensatz, Feststellbremse;Bremsanlage;03.0137-3054.2;1682889;1410-112953;ATE;3
+Elektromotor;58959;SMART;70;Bremsbackensatz;Bremsanlage;03.0137-0487.2;660183;1410-12924;ATE;3
+Elektromotor;58959;SMART;70;Bremsbackensatz;Bremsanlage;03.0137-0487.2;666389;1410-20094;BKL;3
+Plug-In Hybrid;129186;PORSCHE;1419;Bremsbackensatz, Feststellbremse;Bremsanlage;03.0137-3054.2;1682889;1410-112953;ATE;3
+Elektromotor;59486;MERCEDES-BENZ;1419;Bremsbackensatz, Feststellbremse;Bremsanlage;03.0137-4009.2;665228;1410-18121;BKL;3
+Elektromotor;59486;MERCEDES-BENZ;1419;Bremsbackensatz, Feststellbremse;Bremsanlage;03.0137-4009.2;661474;1410-15464;ATE;3
+Elektromotor;112395;CITROËN;70;Bremsbackensatz;Bremsanlage;03.0137-0525.2;1682876;1410-112949;ATE;3
+Elektromotor;23825;CITROËN;1502;Zubehörsatz, Bremsbacken;Bremsanlage;03.0137-9055.2;655235;1440-21760;ATE;3
+Elektromotor;23825;CITROËN;1502;Zubehörsatz, Bremsbacken;Bremsanlage;03.0137-9055.2;662424;1440-45821;BKL;3
+Elektromotor;30344;RENAULT;1502;Zubehörsatz, Bremsbacken;Bremsanlage;03.0137-9027.2;655183;1440-21744;ATE;3
+Elektromotor;108894;NISSAN;1419;Bremsbackensatz, Feststellbremse;Bremsanlage;03.0137-3012.2;661816;1410-14903;ATE;3
+Full Hybrid;3977;MERCEDES-BENZ;1419;Bremsbackensatz, Feststellbremse;Bremsanlage;03.0137-4006.2;661819;1410-14906;ATE;3
+Elektromotor;6404;SMART;70;Bremsbackensatz;Bremsanlage;03.0137-0487.2;660183;1410-12924;ATE;3
+Elektromotor;6404;SMART;70;Bremsbackensatz;Bremsanlage;03.0137-0487.2;666389;1410-20094;BKL;3
+Elektromotor;58958;SMART;70;Bremsbackensatz;Bremsanlage;03.0137-0487.2;660183;1410-12924;ATE;3
+Elektromotor;58958;SMART;70;Bremsbackensatz;Bremsanlage;03.0137-0487.2;666389;1410-20094;BKL;3
+Elektromotor;9830;MITSUBISHI;70;Bremsbackensatz;Bremsanlage;03.0137-0525.2;1682876;1410-112949;ATE;3
+Elektromotor;127352;SMART;70;Bremsbackensatz;Bremsanlage;03.0137-0531.2;1682882;1410-111469;ATE;3
+Full Hybrid;55584;TOYOTA;1419;Bremsbackensatz, Feststellbremse;Bremsanlage;03.0137-3050.2;2681135;1410-134726;ATE;3
+Full Hybrid;57469;KIA;1419;Bremsbackensatz, Feststellbremse;Bremsanlage;03.0137-3049.2;1682886;1410-112951;ATE;3
+Elektromotor;133268;FIAT;70;Bremsbackensatz;Bremsanlage;03.0137-0493.2;661978;1410-15259;ATE;3
+Plug-In Hybrid;138693;PORSCHE;1419;Bremsbackensatz, Feststellbremse;Bremsanlage;03.0137-3054.2;1682889;1410-112953;ATE;3
+Mild Hybrid;5752;BMW;1419;Bremsbackensatz, Feststellbremse;Bremsanlage;03.0137-0419.2;657461;1410-5432;ATE;3

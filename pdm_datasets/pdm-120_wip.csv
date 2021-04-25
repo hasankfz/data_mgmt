@@ -1,0 +1,1001 @@
+﻿EngineType;CarNr;CarMake;TD-GenartNr;TD-Genart;K24-Kategorie;TD-ArtNr;PDM-ArtID;K24Number;Manufacturer;TD-ManufacturerNr
+Elektromotor;650;NISSAN;1;Starterbatterie;Startanlage;013550030101;625023;2230-0132;BAN;2352
+Elektromotor;650;NISSAN;1;Starterbatterie;Startanlage;013545230101;625025;2230-0130;BAN;2352
+Elektromotor;650;NISSAN;1;Starterbatterie;Startanlage;5451560333132;662307;2230-10309;BKL;26
+Elektromotor;650;NISSAN;1;Starterbatterie;Startanlage;5451560333132;683327;2230-10381;VAR;26
+Elektromotor;650;NISSAN;1;Starterbatterie;Startanlage;545 084 030;1521496;2230-100126;MLO;1517
+Elektromotor;650;NISSAN;1;Starterbatterie;Startanlage;8731760008882;1569309;2230-100185;VAR;26
+Elektromotor;650;NISSAN;1;Starterbatterie;Startanlage;TMA45A;2240554;2230-100255;IPS;238
+Elektromotor;650;NISSAN;1;Starterbatterie;Startanlage;2800012019280;2756502;2230-100464;CTT;4434
+Elektromotor;650;NISSAN;1;Starterbatterie;Startanlage;012555150101;3311996;NULL;BAN;2352
+Elektromotor;650;NISSAN;1;Starterbatterie;Startanlage;EL550;3563501;2230-100677;EXE;24
+Elektromotor;650;NISSAN;1;Starterbatterie;Startanlage;5451550337902;3563619;NULL;BEG;143
+Elektromotor;650;NISSAN;1;Starterbatterie;Startanlage;069045390007;3563813;2230-100855;MAR;95
+Elektromotor;650;NISSAN;1;Starterbatterie;Startanlage;U540L09B;3563982;NULL;NPS;440
+Elektromotor;650;NISSAN;1;Starterbatterie;Startanlage;85-0019;4640485;2230-101059;MXG;403
+Elektromotor;650;NISSAN;1;Starterbatterie;Startanlage;FB454;4640633;NULL;FUL;241
+Elektromotor;650;NISSAN;1;Starterbatterie;Startanlage;YBX3012;4641008;2230-101242;YBS;4451
+Elektromotor;650;NISSAN;1;Starterbatterie;Startanlage;YBX3053;4641015;2230-101249;YBS;4451
+Elektromotor;650;NISSAN;1;Starterbatterie;Startanlage;YBX5012;4641056;2230-101275;YBS;4451
+Elektromotor;650;NISSAN;1;Starterbatterie;Startanlage;YBX5053;4641060;2230-101279;YBS;4451
+Elektromotor;650;NISSAN;1;Starterbatterie;Startanlage;S54517;4641165;2230-101368;ER;234
+Elektromotor;650;NISSAN;1;Starterbatterie;Startanlage;EA530;4641250;2230-101434;EXE;24
+Elektromotor;650;NISSAN;1;Starterbatterie;Startanlage;EB500;4641295;2230-101475;EXE;24
+Elektromotor;650;NISSAN;5;Gelenksatz, Antriebswelle;Radantrieb;641175;1888004;1520-110419;GSP;373
+Elektromotor;650;NISSAN;5;Gelenksatz, Antriebswelle;Radantrieb;641176;1888005;1520-110420;GSP;373
+Elektromotor;650;NISSAN;5;Gelenksatz, Antriebswelle;Radantrieb;641175;3338109;NULL;9GSP;373
+Elektromotor;650;NISSAN;5;Gelenksatz, Antriebswelle;Radantrieb;641176;3338110;NULL;9GSP;373
+Elektromotor;650;NISSAN;5;Gelenksatz, Antriebswelle;Radantrieb;0210-B30;3581055;1520-124012;FBT;4674
+Elektromotor;650;NISSAN;5;Gelenksatz, Antriebswelle;Radantrieb;36621;4667677;1520-137241;SPI;1
+Elektromotor;650;NISSAN;5;Gelenksatz, Antriebswelle;Radantrieb;306800;4667683;1520-137246;LOB;56
+Elektromotor;650;NISSAN;7;Ölfilter;Schmierung;NOBFO;4028475;NULL;B+B;475
+Elektromotor;650;NISSAN;8;Luftfilter;Luftversorgung;NOBFA;3636433;NULL;B+B;475
+Elektromotor;650;NISSAN;12;Hydraulikpumpe, Lenkung;Lenkung;STSP000;2992465;NULL;SVT;2534
+Elektromotor;650;NISSAN;39;Anhängevorrichtung;Anhängevorrichtung;545241;3317610;2330-106138;BRK;106
+Elektromotor;650;NISSAN;51;Axialgelenk, Spurstange;Lenkung;G2-1310;2495932;1570-198582;OPT;129
+Elektromotor;650;NISSAN;51;Axialgelenk, Spurstange;Lenkung;S030830;3376902;NULL;GSP;373
+Elektromotor;650;NISSAN;51;Axialgelenk, Spurstange;Lenkung;049161B;3970743;NULL;BDX;49
+Elektromotor;650;NISSAN;51;Axialgelenk, Spurstange;Lenkung;0222-B17U;3970815;1570-252358;FBT;4674
+Elektromotor;650;NISSAN;56;Verschlussdeckel, Kühlmittelbehälter;Kühlung;BRC151;2010646;1710-134615;B+B;475
+Elektromotor;650;NISSAN;56;Verschlussdeckel, Kühlmittelbehälter;Kühlung;FRC151;3072388;1710-140469;FLI;407
+Elektromotor;650;NISSAN;56;Verschlussdeckel, Kühlmittelbehälter;Kühlung;RC0016;4665635;1720-158345;CBV;215
+Elektromotor;650;NISSAN;56;Verschlussdeckel, Kühlmittelbehälter;Kühlung;RC0016;4665635;1720-158345;CBV;215
+Elektromotor;650;NISSAN;56;Verschlussdeckel, Kühlmittelbehälter;Kühlung;RC0184;4665694;1720-158404;CBV;215
+Elektromotor;650;NISSAN;62;Blinkleuchte;Signalanlage;045168;387795;1125-10748;VAL;21
+Elektromotor;650;NISSAN;62;Blinkleuchte;Signalanlage;045169;388315;1125-10749;VAL;21
+Elektromotor;650;NISSAN;70;Bremsbackensatz;Bremsanlage;BBS6403;1311623;1410-106369;B+B;475
+Elektromotor;650;NISSAN;70;Bremsbackensatz;Bremsanlage;BB-7578;3107200;NULL;OPT;129
+Elektromotor;650;NISSAN;70;Bremsbackensatz;Bremsanlage;N350N14;3965013;NULL;NPS;440
+Elektromotor;650;NISSAN;78;Bremssattel;Bremsanlage;F 56 176;218149;1435-43023;BRO;65
+Elektromotor;650;NISSAN;78;Bremssattel;Bremsanlage;F 56 177;218150;1435-43024;BRO;65
+Elektromotor;650;NISSAN;78;Bremssattel;Bremsanlage;F 56 178;218151;1435-43025;BRO;65
+Elektromotor;650;NISSAN;78;Bremssattel;Bremsanlage;F 56 179;218152;1435-43026;BRO;65
+Elektromotor;650;NISSAN;78;Bremssattel;Bremsanlage;344820;1478609;1435-111362;BDW;114
+Elektromotor;650;NISSAN;78;Bremssattel;Bremsanlage;344821;1478610;1435-111363;BDW;114
+Elektromotor;650;NISSAN;78;Bremssattel;Bremsanlage;344822;1478611;1435-111364;BDW;114
+Elektromotor;650;NISSAN;78;Bremssattel;Bremsanlage;344823;1478612;1435-111365;BDW;114
+Elektromotor;650;NISSAN;78;Bremssattel;Bremsanlage;8170 344820;2088435;1435-115798;TRN;108
+Elektromotor;650;NISSAN;78;Bremssattel;Bremsanlage;8170 344821;2088436;1435-115799;TRN;108
+Elektromotor;650;NISSAN;78;Bremssattel;Bremsanlage;8170 344822;2088440;1435-115800;TRN;108
+Elektromotor;650;NISSAN;78;Bremssattel;Bremsanlage;8170 344823;2088441;1435-115801;TRN;108
+Elektromotor;650;NISSAN;78;Bremssattel;Bremsanlage;740531;2816463;1435-123370;BKL;206
+Elektromotor;650;NISSAN;78;Bremssattel;Bremsanlage;740532;2816464;1435-123371;BKL;206
+Elektromotor;650;NISSAN;78;Bremssattel;Bremsanlage;740531;3085476;1435-127865;ABS;206
+Elektromotor;650;NISSAN;78;Bremssattel;Bremsanlage;740532;3085477;1435-127866;ABS;206
+Elektromotor;650;NISSAN;78;Bremssattel;Bremsanlage;740561;3085482;1435-127871;ABS;206
+Elektromotor;650;NISSAN;78;Bremssattel;Bremsanlage;740562;3085483;1435-127872;ABS;206
+Elektromotor;650;NISSAN;78;Bremssattel;Bremsanlage;2122183;3104346;1435-127933;NK;127
+Elektromotor;650;NISSAN;78;Bremssattel;Bremsanlage;2122184;3104347;1435-127934;NK;127
+Elektromotor;650;NISSAN;78;Bremssattel;Bremsanlage;2122185;3104348;1435-127935;NK;127
+Elektromotor;650;NISSAN;78;Bremssattel;Bremsanlage;2122186;3104349;1435-127936;NK;127
+Elektromotor;650;NISSAN;78;Bremssattel;Bremsanlage;2122183;3199130;NULL;9NK;127
+Elektromotor;650;NISSAN;78;Bremssattel;Bremsanlage;2122184;3199131;NULL;9NK;127
+Elektromotor;650;NISSAN;78;Bremssattel;Bremsanlage;2122185;3199132;NULL;9NK;127
+Elektromotor;650;NISSAN;78;Bremssattel;Bremsanlage;2122186;3199133;NULL;9NK;127
+Elektromotor;650;NISSAN;78;Bremssattel;Bremsanlage;J3211089;3392924;1435-126972;JAK;55
+Elektromotor;650;NISSAN;78;Bremssattel;Bremsanlage;J3211093;3392926;1435-126974;JAK;55
+Elektromotor;650;NISSAN;78;Bremssattel;Bremsanlage;J3221089;3392954;1435-127002;JAK;55
+Elektromotor;650;NISSAN;78;Bremssattel;Bremsanlage;J3221093;3392956;1435-127004;JAK;55
+Elektromotor;650;NISSAN;78;Bremssattel;Bremsanlage;740561;3496532;1435-127371;BKL;206
+Elektromotor;650;NISSAN;78;Bremssattel;Bremsanlage;740562;3496533;1435-127372;BKL;206
+Elektromotor;650;NISSAN;78;Bremssattel;Bremsanlage;53012122183;3573032;1435-129477;EBK;4770
+Elektromotor;650;NISSAN;78;Bremssattel;Bremsanlage;53012122184;3573033;1435-129478;EBK;4770
+Elektromotor;650;NISSAN;78;Bremssattel;Bremsanlage;53012122185;3573034;1435-129479;EBK;4770
+Elektromotor;650;NISSAN;78;Bremssattel;Bremsanlage;53012122186;3573035;1435-129480;EBK;4770
+Elektromotor;650;NISSAN;78;Bremssattel;Bremsanlage;DC74820;3699167;NULL;DEL;214
+Elektromotor;650;NISSAN;78;Bremssattel;Bremsanlage;DC74820;3699167;NULL;DEL;214
+Elektromotor;650;NISSAN;78;Bremssattel;Bremsanlage;DC74821;3699168;NULL;DEL;214
+Elektromotor;650;NISSAN;78;Bremssattel;Bremsanlage;DC74821;3699168;NULL;DEL;214
+Elektromotor;650;NISSAN;78;Bremssattel;Bremsanlage;DC84822;3763624;NULL;DEL;214
+Elektromotor;650;NISSAN;78;Bremssattel;Bremsanlage;DC84822;3763624;NULL;DEL;214
+Elektromotor;650;NISSAN;78;Bremssattel;Bremsanlage;DC84823;3763625;NULL;DEL;214
+Elektromotor;650;NISSAN;78;Bremssattel;Bremsanlage;DC84823;3763625;NULL;DEL;214
+Elektromotor;650;NISSAN;78;Bremssattel;Bremsanlage;ET7843;3899696;NULL;DA;332
+Elektromotor;650;NISSAN;78;Bremssattel;Bremsanlage;ET7844;3899697;NULL;DA;332
+Elektromotor;650;NISSAN;78;Bremssattel;Bremsanlage;ET7847;3899698;NULL;DA;332
+Elektromotor;650;NISSAN;78;Bremssattel;Bremsanlage;ET7848;3899699;NULL;DA;332
+Elektromotor;650;NISSAN;78;Bremssattel;Bremsanlage;594270;4024493;NULL;BDX;49
+Elektromotor;650;NISSAN;78;Bremssattel;Bremsanlage;594271;4024494;NULL;BDX;49
+Elektromotor;650;NISSAN;78;Bremssattel;Bremsanlage;594272;4024495;NULL;BDX;49
+Elektromotor;650;NISSAN;78;Bremssattel;Bremsanlage;594273;4024496;NULL;BDX;49
+Elektromotor;650;NISSAN;78;Bremssattel;Bremsanlage;82-2497;4229288;1435-139626;ELS;226
+Elektromotor;650;NISSAN;78;Bremssattel;Bremsanlage;83-2497;4230417;1435-140649;ELS;226
+Elektromotor;650;NISSAN;78;Bremssattel;Bremsanlage;86-2496;4299487;1435-142490;ELS;226
+Elektromotor;650;NISSAN;78;Bremssattel;Bremsanlage;87-2496;4300221;1435-143146;ELS;226
+Elektromotor;650;NISSAN;78;Bremssattel;Bremsanlage;BC54820;4511243;NULL;ERB;224
+Elektromotor;650;NISSAN;78;Bremssattel;Bremsanlage;BC54821;4511244;NULL;ERB;224
+Elektromotor;650;NISSAN;78;Bremssattel;Bremsanlage;BC64822;4581897;NULL;ERB;224
+Elektromotor;650;NISSAN;78;Bremssattel;Bremsanlage;BC64823;4581898;NULL;ERB;224
+Elektromotor;650;NISSAN;82;Bremsscheibe;Bremsanlage;202261;133666;1420-5034;9NK;127
+Elektromotor;650;NISSAN;82;Bremsscheibe;Bremsanlage;202261;133666;1420-5034;9NK;127
+Elektromotor;650;NISSAN;82;Bremsscheibe;Bremsanlage;312261;165232;1420-17896;9NK;127
+Elektromotor;650;NISSAN;82;Bremsscheibe;Bremsanlage;312261;165232;1420-17896;9NK;127
+Elektromotor;650;NISSAN;82;Bremsscheibe;Bremsanlage;202285;180781;1420-49359;9NK;127
+Elektromotor;650;NISSAN;82;Bremsscheibe;Bremsanlage;202285;180781;1420-49359;9NK;127
+Elektromotor;650;NISSAN;82;Bremsscheibe;Bremsanlage;202290;180782;1420-49360;9NK;127
+Elektromotor;650;NISSAN;82;Bremsscheibe;Bremsanlage;312285;181166;1420-49418;9NK;127
+Elektromotor;650;NISSAN;82;Bremsscheibe;Bremsanlage;312285;181166;1420-49418;9NK;127
+Elektromotor;650;NISSAN;82;Bremsscheibe;Bremsanlage;312290;181169;1420-49421;9NK;127
+Elektromotor;650;NISSAN;82;Bremsscheibe;Bremsanlage;0 986 479 C12;186929;1420-20544;BOH;30
+Elektromotor;650;NISSAN;82;Bremsscheibe;Bremsanlage;09.8969.21;239031;1420-49070;BRO;65
+Elektromotor;650;NISSAN;82;Bremsscheibe;Bremsanlage;ADN143176;241413;1420-49510;BLT;350
+Elektromotor;650;NISSAN;82;Bremsscheibe;Bremsanlage;ADN143167;281144;1420-18546;BLT;350
+Elektromotor;650;NISSAN;82;Bremsscheibe;Bremsanlage;24.0116-0119.1;660939;1420-8804;ATE;3
+Elektromotor;650;NISSAN;82;Bremsscheibe;Bremsanlage;24.0116-0119.1;662281;1420-16472;BKL;3
+Elektromotor;650;NISSAN;82;Bremsscheibe;Bremsanlage;200.2523.20;1019816;1420-58177;ZIM;86
+Elektromotor;650;NISSAN;82;Bremsscheibe;Bremsanlage;202285;1100178;1420-103162;NK;127
+Elektromotor;650;NISSAN;82;Bremsscheibe;Bremsanlage;202285;1100178;1420-103162;NK;127
+Elektromotor;650;NISSAN;82;Bremsscheibe;Bremsanlage;202290;1100181;1420-102129;NK;127
+Elektromotor;650;NISSAN;82;Bremsscheibe;Bremsanlage;202261;1105573;1420-101455;NK;127
+Elektromotor;650;NISSAN;82;Bremsscheibe;Bremsanlage;202261;1105573;1420-101455;NK;127
+Elektromotor;650;NISSAN;82;Bremsscheibe;Bremsanlage;312285;1107132;1420-103230;NK;127
+Elektromotor;650;NISSAN;82;Bremsscheibe;Bremsanlage;312285;1107132;1420-103230;NK;127
+Elektromotor;650;NISSAN;82;Bremsscheibe;Bremsanlage;312261;1111661;1420-102649;NK;127
+Elektromotor;650;NISSAN;82;Bremsscheibe;Bremsanlage;312261;1111661;1420-102649;NK;127
+Elektromotor;650;NISSAN;82;Bremsscheibe;Bremsanlage;312290;1113058;1420-102885;NK;127
+Elektromotor;650;NISSAN;82;Bremsscheibe;Bremsanlage;DF4745;1192924;1420-100565;TRW;161
+Elektromotor;650;NISSAN;82;Bremsscheibe;Bremsanlage;17632;1205461;1420-105678;ABS;206
+Elektromotor;650;NISSAN;82;Bremsscheibe;Bremsanlage;J3311043;1212061;1420-100632;JAK;55
+Elektromotor;650;NISSAN;82;Bremsscheibe;Bremsanlage;5815202261;1251983;1420-107195;EBK;4770
+Elektromotor;650;NISSAN;82;Bremsscheibe;Bremsanlage;5815202261;1251983;1420-107195;EBK;4770
+Elektromotor;650;NISSAN;82;Bremsscheibe;Bremsanlage;6110217;1252595;1420-104327;MEZ;94
+Elektromotor;650;NISSAN;82;Bremsscheibe;Bremsanlage;15287;1254047;1420-104354;MAP;133
+Elektromotor;650;NISSAN;82;Bremsscheibe;Bremsanlage;18409;1263812;1420-106508;ABS;206
+Elektromotor;650;NISSAN;82;Bremsscheibe;Bremsanlage;605-10-4110;1290639;1420-107574;SKR;4547
+Elektromotor;650;NISSAN;82;Bremsscheibe;Bremsanlage;KBD4368;1313829;1420-110361;KYP;4879
+Elektromotor;650;NISSAN;82;Bremsscheibe;Bremsanlage;BBD4368;1314338;1420-108541;B+B;475
+Elektromotor;650;NISSAN;82;Bremsscheibe;Bremsanlage;197317;1376844;1420-114143;VAL;21
+Elektromotor;650;NISSAN;82;Bremsscheibe;Bremsanlage;09.8969.20;1405068;1420-114264;BRO;65
+Elektromotor;650;NISSAN;82;Bremsscheibe;Bremsanlage;J3301014;1583749;1420-110952;JAK;55
+Elektromotor;650;NISSAN;82;Bremsscheibe;Bremsanlage;44119;1646339;1420-111778;FEB;101
+Elektromotor;650;NISSAN;82;Bremsscheibe;Bremsanlage;36-15 521 0074/PD;1672617;1420-112966;MYE;144
+Elektromotor;650;NISSAN;82;Bremsscheibe;Bremsanlage;36-15 523 0050;1672631;1420-112973;MYE;144
+Elektromotor;650;NISSAN;82;Bremsscheibe;Bremsanlage;36-15 523 0050/PD;1672632;1420-112974;MYE;144
+Elektromotor;650;NISSAN;82;Bremsscheibe;Bremsanlage;09.C544.11;1688307;1420-113394;BRO;65
+Elektromotor;650;NISSAN;82;Bremsscheibe;Bremsanlage;09.C545.11;1688308;1420-113395;BRO;65
+Elektromotor;650;NISSAN;82;Bremsscheibe;Bremsanlage;18495;1713251;1420-122470;ABS;206
+Elektromotor;650;NISSAN;82;Bremsscheibe;Bremsanlage;24.0128-0268.1;1726252;1420-113425;ATE;3
+Elektromotor;650;NISSAN;82;Bremsscheibe;Bremsanlage;4363200900;1855094;1420-125493;JP;268
+Elektromotor;650;NISSAN;82;Bremsscheibe;Bremsanlage;8DD 355 122-791;1933711;1420-131148;HLL;2
+Elektromotor;650;NISSAN;82;Bremsscheibe;Bremsanlage;8DD 355 125-071;1933927;1420-131173;HLL;2
+Elektromotor;650;NISSAN;82;Bremsscheibe;Bremsanlage;BBD5384;1969740;1420-126021;B+B;475
+Elektromotor;650;NISSAN;82;Bremsscheibe;Bremsanlage;BG3765;1997440;1420-126978;DEH;89
+Elektromotor;650;NISSAN;82;Bremsscheibe;Bremsanlage;BG3765;1997440;1420-126978;DEH;89
+Elektromotor;650;NISSAN;82;Bremsscheibe;Bremsanlage;BG3765C;1997443;1420-126979;DEH;89
+Elektromotor;650;NISSAN;82;Bremsscheibe;Bremsanlage;BG3765C;1997443;1420-126979;DEH;89
+Elektromotor;650;NISSAN;82;Bremsscheibe;Bremsanlage;BG4678C;1999436;1420-127613;DEH;89
+Elektromotor;650;NISSAN;82;Bremsscheibe;Bremsanlage;BG4770C;1999646;1420-127680;DEH;89
+Elektromotor;650;NISSAN;82;Bremsscheibe;Bremsanlage;DDF1579;2010555;1420-153265;FED;62
+Elektromotor;650;NISSAN;82;Bremsscheibe;Bremsanlage;200.2523.52;2023215;1420-115692;ZIM;86
+Elektromotor;650;NISSAN;82;Bremsscheibe;Bremsanlage;8120 10118C;2060956;1420-115971;TRN;108
+Elektromotor;650;NISSAN;82;Bremsscheibe;Bremsanlage;8120 14160C;2062127;1420-116396;TRN;108
+Elektromotor;650;NISSAN;82;Bremsscheibe;Bremsanlage;360406110100;2202064;1420-123730;MAR;95
+Elektromotor;650;NISSAN;82;Bremsscheibe;Bremsanlage;360406110101;2202067;1420-123731;MAR;95
+Elektromotor;650;NISSAN;82;Bremsscheibe;Bremsanlage;DF6786;2483292;1420-120206;TRW;161
+Elektromotor;650;NISSAN;82;Bremsscheibe;Bremsanlage;8DD 355 118-711;2678709;1420-132444;HLP;4625
+Elektromotor;650;NISSAN;82;Bremsscheibe;Bremsanlage;8DD 355 122-791;2679016;1420-130349;HLP;4625
+Elektromotor;650;NISSAN;82;Bremsscheibe;Bremsanlage;8DD 355 125-071;2679089;1420-130401;HLP;4625
+Elektromotor;650;NISSAN;82;Bremsscheibe;Bremsanlage;6110802;2775655;1420-131592;MEZ;94
+Elektromotor;650;NISSAN;82;Bremsscheibe;Bremsanlage;ADP154314;2787378;1420-131502;BLT;350
+Elektromotor;650;NISSAN;82;Bremsscheibe;Bremsanlage;0 986 479 C12;2841565;1420-134632;BOH;30
+Elektromotor;650;NISSAN;82;Bremsscheibe;Bremsanlage;09.8969.20;2843772;1420-136683;BRO;65
+Elektromotor;650;NISSAN;82;Bremsscheibe;Bremsanlage;09.8969.21;2843773;1420-136684;BRO;65
+Elektromotor;650;NISSAN;82;Bremsscheibe;Bremsanlage;09.C544.11;2844689;1420-137600;BRO;65
+Elektromotor;650;NISSAN;82;Bremsscheibe;Bremsanlage;09.C545.11;2844690;1420-137601;BRO;65
+Elektromotor;650;NISSAN;82;Bremsscheibe;Bremsanlage;197317;2848629;1420-139646;VAL;21
+Elektromotor;650;NISSAN;82;Bremsscheibe;Bremsanlage;200.2523.20;2848876;1420-139844;ZIM;86
+Elektromotor;650;NISSAN;82;Bremsscheibe;Bremsanlage;24.0116-0119.1;2852659;1420-140709;ATE;3
+Elektromotor;650;NISSAN;82;Bremsscheibe;Bremsanlage;24.0128-0268.1;2853452;1420-141479;ATE;3
+Elektromotor;650;NISSAN;82;Bremsscheibe;Bremsanlage;36-15 521 0074/PD;2858825;1420-143198;MYE;144
+Elektromotor;650;NISSAN;82;Bremsscheibe;Bremsanlage;36-15 523 0050;2858835;1420-143208;MYE;144
+Elektromotor;650;NISSAN;82;Bremsscheibe;Bremsanlage;36-15 523 0050/PD;2858836;1420-143209;MYE;144
+Elektromotor;650;NISSAN;82;Bremsscheibe;Bremsanlage;44119;2861416;1420-144079;FEB;101
+Elektromotor;650;NISSAN;82;Bremsscheibe;Bremsanlage;6110217;2865032;1420-144896;MEZ;94
+Elektromotor;650;NISSAN;82;Bremsscheibe;Bremsanlage;6110802;2865505;1420-145369;MEZ;94
+Elektromotor;650;NISSAN;82;Bremsscheibe;Bremsanlage;8DD 355 118-711;2869754;1420-146548;HLP;4625
+Elektromotor;650;NISSAN;82;Bremsscheibe;Bremsanlage;ADN143167;2874194;1420-148095;BLT;350
+Elektromotor;650;NISSAN;82;Bremsscheibe;Bremsanlage;ADN143176;2874202;1420-148103;BLT;350
+Elektromotor;650;NISSAN;82;Bremsscheibe;Bremsanlage;J3301014;2875727;1420-148681;JAK;55
+Elektromotor;650;NISSAN;82;Bremsscheibe;Bremsanlage;J3311043;2876148;1420-149091;JAK;55
+Elektromotor;650;NISSAN;82;Bremsscheibe;Bremsanlage;202261;2881105;1420-150577;9NK;127
+Elektromotor;650;NISSAN;82;Bremsscheibe;Bremsanlage;202261;2881105;1420-150577;9NK;127
+Elektromotor;650;NISSAN;82;Bremsscheibe;Bremsanlage;202285;2881128;1420-150600;9NK;127
+Elektromotor;650;NISSAN;82;Bremsscheibe;Bremsanlage;202285;2881128;1420-150600;9NK;127
+Elektromotor;650;NISSAN;82;Bremsscheibe;Bremsanlage;202290;2881132;1420-150604;9NK;127
+Elektromotor;650;NISSAN;82;Bremsscheibe;Bremsanlage;312261;2882767;1420-152207;9NK;127
+Elektromotor;650;NISSAN;82;Bremsscheibe;Bremsanlage;312261;2882767;1420-152207;9NK;127
+Elektromotor;650;NISSAN;82;Bremsscheibe;Bremsanlage;312285;2882785;1420-152225;9NK;127
+Elektromotor;650;NISSAN;82;Bremsscheibe;Bremsanlage;312285;2882785;1420-152225;9NK;127
+Elektromotor;650;NISSAN;82;Bremsscheibe;Bremsanlage;312290;2882788;1420-152228;9NK;127
+Elektromotor;650;NISSAN;82;Bremsscheibe;Bremsanlage;602612;2897025;1420-154612;DAC;6479
+Elektromotor;650;NISSAN;82;Bremsscheibe;Bremsanlage;602624;2897032;1420-154619;DAC;6479
+Elektromotor;650;NISSAN;82;Bremsscheibe;Bremsanlage;4363200900;3082561;1420-156900;JP;268
+Elektromotor;650;NISSAN;82;Bremsscheibe;Bremsanlage;09.8969.21;3086511;1420-163628;ABS;206
+Elektromotor;650;NISSAN;82;Bremsscheibe;Bremsanlage;09.C544.11;3087188;1420-164232;ABS;206
+Elektromotor;650;NISSAN;82;Bremsscheibe;Bremsanlage;09.C545.11;3087189;1420-164233;ABS;206
+Elektromotor;650;NISSAN;82;Bremsscheibe;Bremsanlage;BS-8362C;3105900;1420-158399;OPT;129
+Elektromotor;650;NISSAN;82;Bremsscheibe;Bremsanlage;BS-9078C;3106230;1420-158582;OPT;129
+Elektromotor;650;NISSAN;82;Bremsscheibe;Bremsanlage;108392;3135641;1420-159037;FEB;101
+Elektromotor;650;NISSAN;82;Bremsscheibe;Bremsanlage;108686;3326803;1420-159678;FEB;101
+Elektromotor;650;NISSAN;82;Bremsscheibe;Bremsanlage;108392;3447946;1420-160601;FEB;101
+Elektromotor;650;NISSAN;82;Bremsscheibe;Bremsanlage;108686;3448220;1420-160854;FEB;101
+Elektromotor;650;NISSAN;82;Bremsscheibe;Bremsanlage;8DD 355 122-791;3451127;NULL;HLL;2
+Elektromotor;650;NISSAN;82;Bremsscheibe;Bremsanlage;8DD 355 122-791;3451128;1420-161684;HLP;2
+Elektromotor;650;NISSAN;82;Bremsscheibe;Bremsanlage;8DD 355 125-071;3451177;NULL;HLL;2
+Elektromotor;650;NISSAN;82;Bremsscheibe;Bremsanlage;8DD 355 125-071;3451178;1420-161701;HLP;2
+Elektromotor;650;NISSAN;82;Bremsscheibe;Bremsanlage;ADP154314;3451744;1420-162030;BLT;350
+Elektromotor;650;NISSAN;82;Bremsscheibe;Bremsanlage;200.2538.20;3483415;1420-165478;ZIM;86
+Elektromotor;650;NISSAN;82;Bremsscheibe;Bremsanlage;6998.10;3498938;1420-166055;RE;153
+Elektromotor;650;NISSAN;82;Bremsscheibe;Bremsanlage;J3311043;3500087;1420-167018;NIP;248
+Elektromotor;650;NISSAN;82;Bremsscheibe;Bremsanlage;N3301107;3500223;1420-167146;NIP;248
+Elektromotor;650;NISSAN;82;Bremsscheibe;Bremsanlage;N3301118;3500233;1420-167156;NIP;248
+Elektromotor;650;NISSAN;82;Bremsscheibe;Bremsanlage;24011601191-PCS-MS;3501278;NULL;MSP;358
+Elektromotor;650;NISSAN;82;Bremsscheibe;Bremsanlage;24011601191-SET-MS;3501279;NULL;MSP;358
+Elektromotor;650;NISSAN;82;Bremsscheibe;Bremsanlage;24011601191PR-PCS-MS;3501280;NULL;MSP;358
+Elektromotor;650;NISSAN;82;Bremsscheibe;Bremsanlage;5815202290;3566474;1420-167735;EBK;4770
+Elektromotor;650;NISSAN;82;Bremsscheibe;Bremsanlage;5815312261;3567374;1420-168096;EBK;4770
+Elektromotor;650;NISSAN;82;Bremsscheibe;Bremsanlage;5815312261;3567374;1420-168096;EBK;4770
+Elektromotor;650;NISSAN;82;Bremsscheibe;Bremsanlage;5815312285;3567393;1420-168109;EBK;4770
+Elektromotor;650;NISSAN;82;Bremsscheibe;Bremsanlage;5815312285;3567393;1420-168109;EBK;4770
+Elektromotor;650;NISSAN;82;Bremsscheibe;Bremsanlage;5815312290;3567396;1420-168110;EBK;4770
+Elektromotor;650;NISSAN;82;Bremsscheibe;Bremsanlage;24012802681-PCS-MS;3568383;NULL;MSP;358
+Elektromotor;650;NISSAN;82;Bremsscheibe;Bremsanlage;24112527271-PCS-MS;3631884;NULL;MSP;358
+Elektromotor;650;NISSAN;82;Bremsscheibe;Bremsanlage;6106102;3632134;1420-169635;SAS;260
+Elektromotor;650;NISSAN;82;Bremsscheibe;Bremsanlage;800-797C;3694259;1420-171190;CIF;311
+Elektromotor;650;NISSAN;82;Bremsscheibe;Bremsanlage;8DD 355 118-711;3756984;NULL;HLL;2
+Elektromotor;650;NISSAN;82;Bremsscheibe;Bremsanlage;DI-167C;3757730;1420-190681;JPP;156
+Elektromotor;650;NISSAN;82;Bremsscheibe;Bremsanlage;DP-158C;3757816;1420-190764;JPP;156
+Elektromotor;650;NISSAN;82;Bremsscheibe;Bremsanlage;DDF2466C;3826210;1420-173654;FED;62
+Elektromotor;650;NISSAN;82;Bremsscheibe;Bremsanlage;92144003;3826652;1420-173799;TEX;39
+Elektromotor;650;NISSAN;82;Bremsscheibe;Bremsanlage;92274203;3827447;1420-174508;TEX;39
+Elektromotor;650;NISSAN;82;Bremsscheibe;Bremsanlage;92280103;3827493;1420-174554;TEX;39
+Elektromotor;650;NISSAN;82;Bremsscheibe;Bremsanlage;BS5479;3894648;1420-178015;FTE;54
+Elektromotor;650;NISSAN;82;Bremsscheibe;Bremsanlage;BS5479B;3894649;1420-178016;FTE;54
+Elektromotor;650;NISSAN;82;Bremsscheibe;Bremsanlage;BS7804;3895807;1420-179174;FTE;54
+Elektromotor;650;NISSAN;82;Bremsscheibe;Bremsanlage;BS7804B;3895808;1420-179175;FTE;54
+Elektromotor;650;NISSAN;82;Bremsscheibe;Bremsanlage;RT 20313;3958876;NULL;RTI;4676
+Elektromotor;650;NISSAN;82;Bremsscheibe;Bremsanlage;RT 20313-GL;3958877;NULL;RTI;4676
+Elektromotor;650;NISSAN;82;Bremsscheibe;Bremsanlage;RT 20313-GL T3;3958878;NULL;RTI;4676
+Elektromotor;650;NISSAN;82;Bremsscheibe;Bremsanlage;RT 20313-GL T5;3958879;NULL;RTI;4676
+Elektromotor;650;NISSAN;82;Bremsscheibe;Bremsanlage;RT 20313-GL T6;3958880;NULL;RTI;4676
+Elektromotor;650;NISSAN;82;Bremsscheibe;Bremsanlage;PCD11422;3959304;NULL;DO;278
+Elektromotor;650;NISSAN;82;Bremsscheibe;Bremsanlage;N2006V;3960875;1420-180188;LPR;197
+Elektromotor;650;NISSAN;82;Bremsscheibe;Bremsanlage;N2006VR;3960876;NULL;LPR;197
+Elektromotor;650;NISSAN;82;Bremsscheibe;Bremsanlage;N2052V;3960908;1420-180216;LPR;197
+Elektromotor;650;NISSAN;82;Bremsscheibe;Bremsanlage;RT 20785;4020901;NULL;RTI;4676
+Elektromotor;650;NISSAN;82;Bremsscheibe;Bremsanlage;RT 20785-GL;4020902;NULL;RTI;4676
+Elektromotor;650;NISSAN;82;Bremsscheibe;Bremsanlage;RT 20785-GL T3;4020903;NULL;RTI;4676
+Elektromotor;650;NISSAN;82;Bremsscheibe;Bremsanlage;RT 20785-GL T5;4020904;NULL;RTI;4676
+Elektromotor;650;NISSAN;82;Bremsscheibe;Bremsanlage;RT 20785-GL T6;4020905;NULL;RTI;4676
+Elektromotor;650;NISSAN;82;Bremsscheibe;Bremsanlage;RAD1171C;4022593;NULL;DEL;214
+Elektromotor;650;NISSAN;82;Bremsscheibe;Bremsanlage;RAD1225C;4022644;NULL;DEL;214
+Elektromotor;650;NISSAN;82;Bremsscheibe;Bremsanlage;RT 21689;4084567;NULL;RTI;4676
+Elektromotor;650;NISSAN;82;Bremsscheibe;Bremsanlage;RT 21689-GL;4084568;NULL;RTI;4676
+Elektromotor;650;NISSAN;82;Bremsscheibe;Bremsanlage;RT 21689-GL T3;4084569;NULL;RTI;4676
+Elektromotor;650;NISSAN;82;Bremsscheibe;Bremsanlage;RT 21689-GL T5;4084570;NULL;RTI;4676
+Elektromotor;650;NISSAN;82;Bremsscheibe;Bremsanlage;RT 21689-GL T6;4084571;NULL;RTI;4676
+Elektromotor;650;NISSAN;82;Bremsscheibe;Bremsanlage;RAD2232C;4085783;NULL;DEL;214
+Elektromotor;650;NISSAN;82;Bremsscheibe;Bremsanlage;360406156801;4220548;1420-175990;MAR;95
+Elektromotor;650;NISSAN;82;Bremsscheibe;Bremsanlage;360704033100;4220874;NULL;MAR;95
+Elektromotor;650;NISSAN;82;Bremsscheibe;Bremsanlage;60-01-167C;4221615;1420-181388;ASH;257
+Elektromotor;650;NISSAN;82;Bremsscheibe;Bremsanlage;562280JC;4222252;1420-181958;JUR;48
+Elektromotor;650;NISSAN;82;Bremsscheibe;Bremsanlage;563120JC;4222941;1420-182634;JUR;48
+Elektromotor;650;NISSAN;82;Bremsscheibe;Bremsanlage;61-01-158C;4290681;1420-183488;ASH;257
+Elektromotor;650;NISSAN;82;Bremsscheibe;Bremsanlage;BN-0145;4291338;NULL;AKE;4024
+Elektromotor;650;NISSAN;82;Bremsscheibe;Bremsanlage;BN-0145E;4291339;NULL;AKE;4024
+Elektromotor;650;NISSAN;82;Bremsscheibe;Bremsanlage;BN-0516;4360308;NULL;AKE;4024
+Elektromotor;650;NISSAN;82;Bremsscheibe;Bremsanlage;BN-0516E;4360309;NULL;AKE;4024
+Elektromotor;650;NISSAN;82;Bremsscheibe;Bremsanlage;BN-1120;4361516;NULL;AKE;4024
+Elektromotor;650;NISSAN;82;Bremsscheibe;Bremsanlage;BN-1120E;4361517;NULL;AKE;4024
+Elektromotor;650;NISSAN;82;Bremsscheibe;Bremsanlage;23-0797C;4430778;1420-184177;MLI;121
+Elektromotor;650;NISSAN;82;Bremsscheibe;Bremsanlage;N330N114;4504340;NULL;NPS;440
+Elektromotor;650;NISSAN;82;Bremsscheibe;Bremsanlage;N331N46;4504447;NULL;NPS;440
+Elektromotor;650;NISSAN;82;Bremsscheibe;Bremsanlage;562280CH;4572257;1420-176568;CHA;43
+Elektromotor;650;NISSAN;82;Bremsscheibe;Bremsanlage;MDC1786C;4572999;NULL;MIN;73
+Elektromotor;650;NISSAN;82;Bremsscheibe;Bremsanlage;MDC2695;4573665;NULL;MIN;73
+Elektromotor;650;NISSAN;82;Bremsscheibe;Bremsanlage;MDC2732;4573704;NULL;MIN;73
+Elektromotor;650;NISSAN;82;Bremsscheibe;Bremsanlage;61531.10;4578794;NULL;RE;153
+Elektromotor;650;NISSAN;82;Bremsscheibe;Bremsanlage;61581.10;4578848;1420-184905;RE;153
+Elektromotor;650;NISSAN;82;Bremsscheibe;Bremsanlage;17632;4643099;1420-186265;BKL;206
+Elektromotor;650;NISSAN;82;Bremsscheibe;Bremsanlage;18409;4643737;1420-186903;BKL;206
+Elektromotor;650;NISSAN;82;Bremsscheibe;Bremsanlage;18495;4644263;1420-187333;BKL;206
+Elektromotor;650;NISSAN;83;Bremsschlauch;Bremsanlage;T 56 166;254426;1440-60214;BRO;65
+Elektromotor;650;NISSAN;83;Bremsschlauch;Bremsanlage;J3701035;1584573;1440-117532;JAK;55
+Elektromotor;650;NISSAN;83;Bremsschlauch;Bremsanlage;J3701197;1584620;1440-117579;JAK;55
+Elektromotor;650;NISSAN;83;Bremsschlauch;Bremsanlage;J3701211;1584632;1440-117591;JAK;55
+Elektromotor;650;NISSAN;83;Bremsschlauch;Bremsanlage;J3701212;1584633;1440-117592;JAK;55
+Elektromotor;650;NISSAN;83;Bremsschlauch;Bremsanlage;J3701231;1584647;1440-117606;JAK;55
+Elektromotor;650;NISSAN;83;Bremsschlauch;Bremsanlage;BBH7704;1971914;1440-142508;B+B;475
+Elektromotor;650;NISSAN;83;Bremsschlauch;Bremsanlage;BBH8047;1972720;1440-142790;B+B;475
+Elektromotor;650;NISSAN;83;Bremsschlauch;Bremsanlage;BBH8084;1972830;1440-142827;B+B;475
+Elektromotor;650;NISSAN;83;Bremsschlauch;Bremsanlage;8150 14169;2072472;1440-129979;TRN;108
+Elektromotor;650;NISSAN;83;Bremsschlauch;Bremsanlage;8150 14262;2072575;1440-130024;TRN;108
+Elektromotor;650;NISSAN;83;Bremsschlauch;Bremsanlage;8150 14303;2072646;1440-130056;TRN;108
+Elektromotor;650;NISSAN;83;Bremsschlauch;Bremsanlage;SL 6469;2254293;1440-139011;ABS;206
+Elektromotor;650;NISSAN;83;Bremsschlauch;Bremsanlage;SL 6470;2254296;1440-139012;ABS;206
+Elektromotor;650;NISSAN;83;Bremsschlauch;Bremsanlage;SL 6471;2254300;1440-139013;ABS;206
+Elektromotor;650;NISSAN;83;Bremsschlauch;Bremsanlage;SL 6473;2254306;1440-139014;ABS;206
+Elektromotor;650;NISSAN;83;Bremsschlauch;Bremsanlage;4111249;2261894;1440-123746;MEZ;94
+Elektromotor;650;NISSAN;83;Bremsschlauch;Bremsanlage;PHA613;2538913;1440-144728;TRW;161
+Elektromotor;650;NISSAN;83;Bremsschlauch;Bremsanlage;PHD2104;3440362;1440-154547;TRW;161
+Elektromotor;650;NISSAN;83;Bremsschlauch;Bremsanlage;PHD2105;3440363;1440-154548;TRW;161
+Elektromotor;650;NISSAN;83;Bremsschlauch;Bremsanlage;PHD2106;3440364;1440-154549;TRW;161
+Elektromotor;650;NISSAN;83;Bremsschlauch;Bremsanlage;PHD2107;3440365;1440-154550;TRW;161
+Elektromotor;650;NISSAN;83;Bremsschlauch;Bremsanlage;BBH8888;3443924;NULL;B+B;475
+Elektromotor;650;NISSAN;83;Bremsschlauch;Bremsanlage;BBH8889;3443925;NULL;B+B;475
+Elektromotor;650;NISSAN;83;Bremsschlauch;Bremsanlage;6T48305;4508053;NULL;LPR;197
+Elektromotor;650;NISSAN;83;Bremsschlauch;Bremsanlage;SL 6469;4719232;1440-177032;BKL;206
+Elektromotor;650;NISSAN;83;Bremsschlauch;Bremsanlage;SL 6470;4719233;1440-177033;BKL;206
+Elektromotor;650;NISSAN;83;Bremsschlauch;Bremsanlage;SL 6471;4719234;1440-177034;BKL;206
+Elektromotor;650;NISSAN;83;Bremsschlauch;Bremsanlage;SL 6473;4719235;1440-177035;BKL;206
+Elektromotor;650;NISSAN;105;Glühlampe, Blinkleuchte;Signalanlage;BL2011;35232;1080-1979;SPA;45
+Elektromotor;650;NISSAN;105;Glühlampe, Blinkleuchte;Signalanlage;2020;35543;1080-1941;SPA;45
+Elektromotor;650;NISSAN;105;Glühlampe, Blinkleuchte;Signalanlage;2011;35739;AGF2;9SPA;45
+Elektromotor;650;NISSAN;105;Glühlampe, Blinkleuchte;Signalanlage;5221Y;35741;AGH2;SPA;45
+Elektromotor;650;NISSAN;105;Glühlampe, Blinkleuchte;Signalanlage;12496NAB2;414479;1080-2754;PHI;75
+Elektromotor;650;NISSAN;105;Glühlampe, Blinkleuchte;Signalanlage;12396NAB2;414489;1080-2764;PHI;75
+Elektromotor;650;NISSAN;105;Glühlampe, Blinkleuchte;Signalanlage;12071B2;414648;1080-2769;PHI;75
+Elektromotor;650;NISSAN;105;Glühlampe, Blinkleuchte;Signalanlage;12071B2;414648;1080-2769;PHI;75
+Elektromotor;650;NISSAN;105;Glühlampe, Blinkleuchte;Signalanlage;12496SVB2;414929;AOU;PHI;75
+Elektromotor;650;NISSAN;105;Glühlampe, Blinkleuchte;Signalanlage;20211;912470;1080-1944;SPA;45
+Elektromotor;650;NISSAN;105;Glühlampe, Blinkleuchte;Signalanlage;7507ULT-02B;1001896;1080-2864;OSR;67
+Elektromotor;650;NISSAN;105;Glühlampe, Blinkleuchte;Signalanlage;7507-02B;1001927;1080-2917;OSR;67
+Elektromotor;650;NISSAN;105;Glühlampe, Blinkleuchte;Signalanlage;7507DC-02B;1001941;1080-2892;OSR;67
+Elektromotor;650;NISSAN;105;Glühlampe, Blinkleuchte;Signalanlage;2011;1130336;1080-100266;SPA;45
+Elektromotor;650;NISSAN;105;Glühlampe, Blinkleuchte;Signalanlage;BL2011;1133934;1080-100122;DIV;45
+Elektromotor;650;NISSAN;105;Glühlampe, Blinkleuchte;Signalanlage;2020;1136640;1080-100143;DIV;45
+Elektromotor;650;NISSAN;105;Glühlampe, Blinkleuchte;Signalanlage;5221Y;1136651;1080-100147;DIV;45
+Elektromotor;650;NISSAN;105;Glühlampe, Blinkleuchte;Signalanlage;032108;1376319;1080-100610;VAL;21
+Elektromotor;650;NISSAN;105;Glühlampe, Blinkleuchte;Signalanlage;12071CP;1413921;1080-100410;PHI;75
+Elektromotor;650;NISSAN;105;Glühlampe, Blinkleuchte;Signalanlage;12071CP;1413921;1080-100410;PHI;75
+Elektromotor;650;NISSAN;105;Glühlampe, Blinkleuchte;Signalanlage;12396NACP;1415438;1080-100430;PHI;75
+Elektromotor;650;NISSAN;105;Glühlampe, Blinkleuchte;Signalanlage;12496LLECOCP;1415772;1080-100434;PHI;75
+Elektromotor;650;NISSAN;105;Glühlampe, Blinkleuchte;Signalanlage;12496NACP;1415773;1080-100435;PHI;75
+Elektromotor;650;NISSAN;105;Glühlampe, Blinkleuchte;Signalanlage;7507;1554597;1080-100940;OSR;67
+Elektromotor;650;NISSAN;105;Glühlampe, Blinkleuchte;Signalanlage;7507ULT;1554639;1080-100941;OSR;67
+Elektromotor;650;NISSAN;105;Glühlampe, Blinkleuchte;Signalanlage;032120;1914542;1080-101087;VAL;21
+Elektromotor;650;NISSAN;105;Glühlampe, Blinkleuchte;Signalanlage;032213;1914581;1080-101094;VAL;21
+Elektromotor;650;NISSAN;105;Glühlampe, Blinkleuchte;Signalanlage;LID10054;2218305;1080-101228;DID;253
+Elektromotor;650;NISSAN;105;Glühlampe, Blinkleuchte;Signalanlage;LID10055;2218309;1080-101229;DID;253
+Elektromotor;650;NISSAN;105;Glühlampe, Blinkleuchte;Signalanlage;V99-84-0009;2588019;1080-101605;VMO;183
+Elektromotor;650;NISSAN;105;Glühlampe, Blinkleuchte;Signalanlage;78-0022;4501586;NULL;MXG;403
+Elektromotor;650;NISSAN;105;Glühlampe, Blinkleuchte;Signalanlage;78-0045;4501605;NULL;MXG;403
+Elektromotor;650;NISSAN;105;Glühlampe, Blinkleuchte;Signalanlage;78-0045SET;4501606;1080-102373;MXG;403
+Elektromotor;650;NISSAN;105;Glühlampe, Blinkleuchte;Signalanlage;78-0047;4501609;NULL;MXG;403
+Elektromotor;650;NISSAN;105;Glühlampe, Blinkleuchte;Signalanlage;78-0047;4501609;NULL;MXG;403
+Elektromotor;650;NISSAN;105;Glühlampe, Blinkleuchte;Signalanlage;78-0047SET;4501610;1080-102375;MXG;403
+Elektromotor;650;NISSAN;105;Glühlampe, Blinkleuchte;Signalanlage;CBM48S;4501651;1080-102162;CHA;43
+Elektromotor;650;NISSAN;105;Glühlampe, Blinkleuchte;Signalanlage;CBM64S;4501663;1080-102174;CHA;43
+Elektromotor;650;NISSAN;105;Glühlampe, Blinkleuchte;Signalanlage;LLB581;4501737;NULL;LU;4501
+Elektromotor;650;NISSAN;105;Glühlampe, Blinkleuchte;Signalanlage;LLB581LLPX2;4501738;NULL;LU;4501
+Elektromotor;650;NISSAN;105;Glühlampe, Blinkleuchte;Signalanlage;LLB581PX2;4501739;NULL;LU;4501
+Elektromotor;650;NISSAN;105;Glühlampe, Blinkleuchte;Signalanlage;LLB581T;4501740;NULL;LU;4501
+Elektromotor;650;NISSAN;105;Glühlampe, Blinkleuchte;Signalanlage;LLB582A;4501742;NULL;LU;4501
+Elektromotor;650;NISSAN;105;Glühlampe, Blinkleuchte;Signalanlage;LLB582AP;4501743;NULL;LU;4501
+Elektromotor;650;NISSAN;105;Glühlampe, Blinkleuchte;Signalanlage;LLB582AT;4501744;NULL;LU;4501
+Elektromotor;650;NISSAN;106;Glühlampe, Fernscheinwerfer;Beleuchtung;586002;35603;1080-0454;9SPA;45
+Elektromotor;650;NISSAN;106;Glühlampe, Fernscheinwerfer;Beleuchtung;032011;390396;1080-2603;VAL;21
+Elektromotor;650;NISSAN;106;Glühlampe, Fernscheinwerfer;Beleuchtung;12342LLECOB1;414490;1080-2726;PHI;75
+Elektromotor;650;NISSAN;106;Glühlampe, Fernscheinwerfer;Beleuchtung;12342WHVSM;414491;1080-2727;PHI;75
+Elektromotor;650;NISSAN;106;Glühlampe, Fernscheinwerfer;Beleuchtung;12342WHVB1;414492;1080-2728;PHI;75
+Elektromotor;650;NISSAN;106;Glühlampe, Fernscheinwerfer;Beleuchtung;12361B1;414553;1080-2737;PHI;75
+Elektromotor;650;NISSAN;106;Glühlampe, Fernscheinwerfer;Beleuchtung;12342PRB1;414778;1080-2722;PHI;75
+Elektromotor;650;NISSAN;106;Glühlampe, Fernscheinwerfer;Beleuchtung;12342VPB1;414779;1080-2723;PHI;75
+Elektromotor;650;NISSAN;106;Glühlampe, Fernscheinwerfer;Beleuchtung;12342XV+S2;414780;1080-2724;PHI;75
+Elektromotor;650;NISSAN;106;Glühlampe, Fernscheinwerfer;Beleuchtung;12342XV+B1;414781;1080-2725;PHI;75
+Elektromotor;650;NISSAN;106;Glühlampe, Fernscheinwerfer;Beleuchtung;12342RVS2;414856;1080-3018;PHI;75
+Elektromotor;650;NISSAN;106;Glühlampe, Fernscheinwerfer;Beleuchtung;12342RVB1;414857;1080-3019;PHI;75
+Elektromotor;650;NISSAN;106;Glühlampe, Fernscheinwerfer;Beleuchtung;12342VPS2;414931;CTS;PHI;75
+Elektromotor;650;NISSAN;106;Glühlampe, Fernscheinwerfer;Beleuchtung;64213;1001921;1080-2911;OSR;67
+Elektromotor;650;NISSAN;106;Glühlampe, Fernscheinwerfer;Beleuchtung;586002;1135167;1080-100299;SPA;45
+Elektromotor;650;NISSAN;106;Glühlampe, Fernscheinwerfer;Beleuchtung;12342LLECOC1;1415290;1080-100421;PHI;75
+Elektromotor;650;NISSAN;106;Glühlampe, Fernscheinwerfer;Beleuchtung;12342LLECOS2;1415291;1080-100642;PHI;75
+Elektromotor;650;NISSAN;106;Glühlampe, Fernscheinwerfer;Beleuchtung;12342PRC1;1415297;1080-100423;PHI;75
+Elektromotor;650;NISSAN;106;Glühlampe, Fernscheinwerfer;Beleuchtung;12361C1;1415357;1080-100427;PHI;75
+Elektromotor;650;NISSAN;106;Glühlampe, Fernscheinwerfer;Beleuchtung;LID10035;2218248;1080-101209;DID;253
+Elektromotor;650;NISSAN;106;Glühlampe, Fernscheinwerfer;Beleuchtung;12342WVUB1;2839212;1080-101792;PHI;75
+Elektromotor;650;NISSAN;106;Glühlampe, Fernscheinwerfer;Beleuchtung;12342WVUSM;2839213;1080-101791;PHI;75
+Elektromotor;650;NISSAN;106;Glühlampe, Fernscheinwerfer;Beleuchtung;12342XVGB1;2839214;1080-101790;PHI;75
+Elektromotor;650;NISSAN;106;Glühlampe, Fernscheinwerfer;Beleuchtung;12342XVGS2;2839215;1080-101789;PHI;75
+Elektromotor;650;NISSAN;106;Glühlampe, Fernscheinwerfer;Beleuchtung;78-0197;4358981;1080-102318;MXG;403
+Elektromotor;650;NISSAN;106;Glühlampe, Fernscheinwerfer;Beleuchtung;78-0198;4358982;1080-102319;MXG;403
+Elektromotor;650;NISSAN;106;Glühlampe, Fernscheinwerfer;Beleuchtung;CBH113L;4359045;1080-102098;CHA;43
+Elektromotor;650;NISSAN;106;Glühlampe, Fernscheinwerfer;Beleuchtung;CBH14S;4359050;1080-102103;CHA;43
+Elektromotor;650;NISSAN;106;Glühlampe, Fernscheinwerfer;Beleuchtung;CBH16B;4359052;1080-102105;CHA;43
+Elektromotor;650;NISSAN;106;Glühlampe, Fernscheinwerfer;Beleuchtung;CBH20S;4359055;1080-102108;CHA;43
+Elektromotor;650;NISSAN;106;Glühlampe, Fernscheinwerfer;Beleuchtung;CBH88F;4359065;1080-102118;CHA;43
+Elektromotor;650;NISSAN;106;Glühlampe, Fernscheinwerfer;Beleuchtung;CBH89H;4359066;1080-102119;CHA;43
+Elektromotor;650;NISSAN;106;Glühlampe, Fernscheinwerfer;Beleuchtung;LLB709;4359225;NULL;LU;4501
+Elektromotor;650;NISSAN;106;Glühlampe, Fernscheinwerfer;Beleuchtung;LLB709P;4359226;NULL;LU;4501
+Elektromotor;650;NISSAN;106;Glühlampe, Fernscheinwerfer;Beleuchtung;12342RGTB1;4359324;1080-102334;PHI;75
+Elektromotor;650;NISSAN;106;Glühlampe, Fernscheinwerfer;Beleuchtung;12342RGTS2;4359325;1080-102335;PHI;75
+Elektromotor;650;NISSAN;106;Glühlampe, Fernscheinwerfer;Beleuchtung;12342XVPB1;4359326;1080-102336;PHI;75
+Elektromotor;650;NISSAN;106;Glühlampe, Fernscheinwerfer;Beleuchtung;12342XVPS2;4359327;1080-102337;PHI;75
+Elektromotor;650;NISSAN;106;Glühlampe, Fernscheinwerfer;Beleuchtung;78-0012;4501975;1080-102402;MXG;403
+Elektromotor;650;NISSAN;107;Glühlampe, Hauptscheinwerfer;Beleuchtung;54182LL;35221;1080-2635;DIV;45
+Elektromotor;650;NISSAN;107;Glühlampe, Hauptscheinwerfer;Beleuchtung;54080;35380;1080-2019;SPA;45
+Elektromotor;650;NISSAN;107;Glühlampe, Hauptscheinwerfer;Beleuchtung;54185;35383;1080-2027;SPA;45
+Elektromotor;650;NISSAN;107;Glühlampe, Hauptscheinwerfer;Beleuchtung;54186;35384;1080-2028;SPA;45
+Elektromotor;650;NISSAN;107;Glühlampe, Hauptscheinwerfer;Beleuchtung;54182;35665;1080-0040;9SPA;45
+Elektromotor;650;NISSAN;107;Glühlampe, Hauptscheinwerfer;Beleuchtung;BL54182;35800;1080-3015;DIV;45
+Elektromotor;650;NISSAN;107;Glühlampe, Hauptscheinwerfer;Beleuchtung;54180;35854;1080-2999;DIV;45
+Elektromotor;650;NISSAN;107;Glühlampe, Hauptscheinwerfer;Beleuchtung;54183;35855;1080-3000;DIV;45
+Elektromotor;650;NISSAN;107;Glühlampe, Hauptscheinwerfer;Beleuchtung;54188;35856;1080-3001;DIV;45
+Elektromotor;650;NISSAN;107;Glühlampe, Hauptscheinwerfer;Beleuchtung;12342LLECOB1;414490;1080-2726;PHI;75
+Elektromotor;650;NISSAN;107;Glühlampe, Hauptscheinwerfer;Beleuchtung;12342WHVSM;414491;1080-2727;PHI;75
+Elektromotor;650;NISSAN;107;Glühlampe, Hauptscheinwerfer;Beleuchtung;12342WHVB1;414492;1080-2728;PHI;75
+Elektromotor;650;NISSAN;107;Glühlampe, Hauptscheinwerfer;Beleuchtung;12342PRB1;414778;1080-2722;PHI;75
+Elektromotor;650;NISSAN;107;Glühlampe, Hauptscheinwerfer;Beleuchtung;12342VPB1;414779;1080-2723;PHI;75
+Elektromotor;650;NISSAN;107;Glühlampe, Hauptscheinwerfer;Beleuchtung;12342XV+S2;414780;1080-2724;PHI;75
+Elektromotor;650;NISSAN;107;Glühlampe, Hauptscheinwerfer;Beleuchtung;12342XV+B1;414781;1080-2725;PHI;75
+Elektromotor;650;NISSAN;107;Glühlampe, Hauptscheinwerfer;Beleuchtung;12342RVS2;414856;1080-3018;PHI;75
+Elektromotor;650;NISSAN;107;Glühlampe, Hauptscheinwerfer;Beleuchtung;12342RVB1;414857;1080-3019;PHI;75
+Elektromotor;650;NISSAN;107;Glühlampe, Hauptscheinwerfer;Beleuchtung;12342VPS2;414931;CTS;PHI;75
+Elektromotor;650;NISSAN;107;Glühlampe, Hauptscheinwerfer;Beleuchtung;54100;912323;1080-2020;SPA;45
+Elektromotor;650;NISSAN;107;Glühlampe, Hauptscheinwerfer;Beleuchtung;64193CBI-HCB;1001850;1080-1663;OSR;67
+Elektromotor;650;NISSAN;107;Glühlampe, Hauptscheinwerfer;Beleuchtung;64193NB-HCB;1001884;1080-3025;OSR;67
+Elektromotor;650;NISSAN;107;Glühlampe, Hauptscheinwerfer;Beleuchtung;64193ULT-HCB;1001889;1080-2857;OSR;67
+Elektromotor;650;NISSAN;107;Glühlampe, Hauptscheinwerfer;Beleuchtung;64193ULT-01B;1001890;1080-2858;OSR;67
+Elektromotor;650;NISSAN;107;Glühlampe, Hauptscheinwerfer;Beleuchtung;64193-01B;1001918;1080-2908;OSR;67
+Elektromotor;650;NISSAN;107;Glühlampe, Hauptscheinwerfer;Beleuchtung;64193CBI-01B;1001954;1080-2884;OSR;67
+Elektromotor;650;NISSAN;107;Glühlampe, Hauptscheinwerfer;Beleuchtung;54182;1130345;1080-100270;SPA;45
+Elektromotor;650;NISSAN;107;Glühlampe, Hauptscheinwerfer;Beleuchtung;54183;1130346;1080-100271;SPA;45
+Elektromotor;650;NISSAN;107;Glühlampe, Hauptscheinwerfer;Beleuchtung;54188;1130347;1080-100272;SPA;45
+Elektromotor;650;NISSAN;107;Glühlampe, Hauptscheinwerfer;Beleuchtung;54080;1132355;1080-100105;DIV;45
+Elektromotor;650;NISSAN;107;Glühlampe, Hauptscheinwerfer;Beleuchtung;BL54182;1132376;1080-100392;SPA;45
+Elektromotor;650;NISSAN;107;Glühlampe, Hauptscheinwerfer;Beleuchtung;54180;1133920;1080-100378;SPA;45
+Elektromotor;650;NISSAN;107;Glühlampe, Hauptscheinwerfer;Beleuchtung;54182LL;1133921;1080-100291;SPA;45
+Elektromotor;650;NISSAN;107;Glühlampe, Hauptscheinwerfer;Beleuchtung;54185;1135163;1080-100132;DIV;45
+Elektromotor;650;NISSAN;107;Glühlampe, Hauptscheinwerfer;Beleuchtung;54186;1136654;1080-100148;DIV;45
+Elektromotor;650;NISSAN;107;Glühlampe, Hauptscheinwerfer;Beleuchtung;032508;1376335;1080-100626;VAL;21
+Elektromotor;650;NISSAN;107;Glühlampe, Hauptscheinwerfer;Beleuchtung;032509;1376336;1080-100627;VAL;21
+Elektromotor;650;NISSAN;107;Glühlampe, Hauptscheinwerfer;Beleuchtung;032515;1376337;1080-100628;VAL;21
+Elektromotor;650;NISSAN;107;Glühlampe, Hauptscheinwerfer;Beleuchtung;12342LLECOC1;1415290;1080-100421;PHI;75
+Elektromotor;650;NISSAN;107;Glühlampe, Hauptscheinwerfer;Beleuchtung;12342LLECOS2;1415291;1080-100642;PHI;75
+Elektromotor;650;NISSAN;107;Glühlampe, Hauptscheinwerfer;Beleuchtung;12342PRC1;1415297;1080-100423;PHI;75
+Elektromotor;650;NISSAN;107;Glühlampe, Hauptscheinwerfer;Beleuchtung;64193;1537314;1080-100867;OSR;67
+Elektromotor;650;NISSAN;107;Glühlampe, Hauptscheinwerfer;Beleuchtung;64193CBI;1537317;1080-100868;OSR;67
+Elektromotor;650;NISSAN;107;Glühlampe, Hauptscheinwerfer;Beleuchtung;64193CLC;1537319;1080-100870;OSR;67
+Elektromotor;650;NISSAN;107;Glühlampe, Hauptscheinwerfer;Beleuchtung;64193ULT;1537335;1080-100879;OSR;67
+Elektromotor;650;NISSAN;107;Glühlampe, Hauptscheinwerfer;Beleuchtung;94193;1579254;1080-101046;OSR;67
+Elektromotor;650;NISSAN;107;Glühlampe, Hauptscheinwerfer;Beleuchtung;032006;1914516;1080-101079;VAL;21
+Elektromotor;650;NISSAN;107;Glühlampe, Hauptscheinwerfer;Beleuchtung;032007;1914519;1080-101080;VAL;21
+Elektromotor;650;NISSAN;107;Glühlampe, Hauptscheinwerfer;Beleuchtung;032510;1914611;1080-101099;VAL;21
+Elektromotor;650;NISSAN;107;Glühlampe, Hauptscheinwerfer;Beleuchtung;032511;1914614;1080-101100;VAL;21
+Elektromotor;650;NISSAN;107;Glühlampe, Hauptscheinwerfer;Beleuchtung;032512;1914617;1080-101101;VAL;21
+Elektromotor;650;NISSAN;107;Glühlampe, Hauptscheinwerfer;Beleuchtung;032513;1914620;1080-101102;VAL;21
+Elektromotor;650;NISSAN;107;Glühlampe, Hauptscheinwerfer;Beleuchtung;032514;1914623;1080-101103;VAL;21
+Elektromotor;650;NISSAN;107;Glühlampe, Hauptscheinwerfer;Beleuchtung;LID10009;2218179;1080-101186;DID;253
+Elektromotor;650;NISSAN;107;Glühlampe, Hauptscheinwerfer;Beleuchtung;LID10010;2218182;1080-101187;DID;253
+Elektromotor;650;NISSAN;107;Glühlampe, Hauptscheinwerfer;Beleuchtung;LID10011;2218185;1080-101188;DID;253
+Elektromotor;650;NISSAN;107;Glühlampe, Hauptscheinwerfer;Beleuchtung;LID10042;2218270;1080-101216;DID;253
+Elektromotor;650;NISSAN;107;Glühlampe, Hauptscheinwerfer;Beleuchtung;LID10064;2218335;1080-101238;DID;253
+Elektromotor;650;NISSAN;107;Glühlampe, Hauptscheinwerfer;Beleuchtung;LID10067;2218343;1080-101241;DID;253
+Elektromotor;650;NISSAN;107;Glühlampe, Hauptscheinwerfer;Beleuchtung;64193ALS;2427161;1080-101157;OSR;67
+Elektromotor;650;NISSAN;107;Glühlampe, Hauptscheinwerfer;Beleuchtung;64193SUP;2427167;1080-101160;OSR;67
+Elektromotor;650;NISSAN;107;Glühlampe, Hauptscheinwerfer;Beleuchtung;V99-84-0007;2588017;1080-101603;VMO;183
+Elektromotor;650;NISSAN;107;Glühlampe, Hauptscheinwerfer;Beleuchtung;64193NBS-01B;2666018;1080-101709;OSR;67
+Elektromotor;650;NISSAN;107;Glühlampe, Hauptscheinwerfer;Beleuchtung;64193NBS-HCB;2666019;1080-101710;OSR;67
+Elektromotor;650;NISSAN;107;Glühlampe, Hauptscheinwerfer;Beleuchtung;64193NL-01B;2666020;1080-101711;OSR;67
+Elektromotor;650;NISSAN;107;Glühlampe, Hauptscheinwerfer;Beleuchtung;64193NL-HCB;2666021;1080-101712;OSR;67
+Elektromotor;650;NISSAN;107;Glühlampe, Hauptscheinwerfer;Beleuchtung;64193NBS;2776320;1080-101800;OSR;67
+Elektromotor;650;NISSAN;107;Glühlampe, Hauptscheinwerfer;Beleuchtung;64193NL;2776321;1080-101801;OSR;67
+Elektromotor;650;NISSAN;107;Glühlampe, Hauptscheinwerfer;Beleuchtung;12342WVUB1;2839212;1080-101792;PHI;75
+Elektromotor;650;NISSAN;107;Glühlampe, Hauptscheinwerfer;Beleuchtung;12342WVUSM;2839213;1080-101791;PHI;75
+Elektromotor;650;NISSAN;107;Glühlampe, Hauptscheinwerfer;Beleuchtung;12342XVGB1;2839214;1080-101790;PHI;75
+Elektromotor;650;NISSAN;107;Glühlampe, Hauptscheinwerfer;Beleuchtung;12342XVGS2;2839215;1080-101789;PHI;75
+Elektromotor;650;NISSAN;107;Glühlampe, Hauptscheinwerfer;Beleuchtung;CBH113L;4359045;1080-102098;CHA;43
+Elektromotor;650;NISSAN;107;Glühlampe, Hauptscheinwerfer;Beleuchtung;CBH14S;4359050;1080-102103;CHA;43
+Elektromotor;650;NISSAN;107;Glühlampe, Hauptscheinwerfer;Beleuchtung;CBH16B;4359052;1080-102105;CHA;43
+Elektromotor;650;NISSAN;107;Glühlampe, Hauptscheinwerfer;Beleuchtung;CBH88F;4359065;1080-102118;CHA;43
+Elektromotor;650;NISSAN;107;Glühlampe, Hauptscheinwerfer;Beleuchtung;CBH89H;4359066;1080-102119;CHA;43
+Elektromotor;650;NISSAN;107;Glühlampe, Hauptscheinwerfer;Beleuchtung;12342RGTB1;4359324;1080-102334;PHI;75
+Elektromotor;650;NISSAN;107;Glühlampe, Hauptscheinwerfer;Beleuchtung;12342RGTS2;4359325;1080-102335;PHI;75
+Elektromotor;650;NISSAN;107;Glühlampe, Hauptscheinwerfer;Beleuchtung;12342XVPB1;4359326;1080-102336;PHI;75
+Elektromotor;650;NISSAN;107;Glühlampe, Hauptscheinwerfer;Beleuchtung;12342XVPS2;4359327;1080-102337;PHI;75
+Elektromotor;650;NISSAN;108;Glühlampe, Nebelscheinwerfer;Beleuchtung;586001;35601;1080-0387;9SPA;45
+Elektromotor;650;NISSAN;108;Glühlampe, Nebelscheinwerfer;Beleuchtung;12360B1;414552;1080-2736;PHI;75
+Elektromotor;650;NISSAN;108;Glühlampe, Nebelscheinwerfer;Beleuchtung;12360WHVB1;414791;1080-2945;PHI;75
+Elektromotor;650;NISSAN;108;Glühlampe, Nebelscheinwerfer;Beleuchtung;032225;439859;1080-2977;VAL;21
+Elektromotor;650;NISSAN;108;Glühlampe, Nebelscheinwerfer;Beleuchtung;64212;1001920;1080-2910;OSR;67
+Elektromotor;650;NISSAN;108;Glühlampe, Nebelscheinwerfer;Beleuchtung;64212CBI-HCB;1001956;1080-2886;OSR;67
+Elektromotor;650;NISSAN;108;Glühlampe, Nebelscheinwerfer;Beleuchtung;586001;1132361;1080-100280;SPA;45
+Elektromotor;650;NISSAN;108;Glühlampe, Nebelscheinwerfer;Beleuchtung;12360C1;1415354;1080-100426;PHI;75
+Elektromotor;650;NISSAN;108;Glühlampe, Nebelscheinwerfer;Beleuchtung;LID10034;2218245;1080-101208;DID;253
+Elektromotor;650;NISSAN;108;Glühlampe, Nebelscheinwerfer;Beleuchtung;64212NL;2666030;1080-101721;OSR;67
+Elektromotor;650;NISSAN;108;Glühlampe, Nebelscheinwerfer;Beleuchtung;V99-84-0074;2670927;1080-101739;VMO;183
+Elektromotor;650;NISSAN;108;Glühlampe, Nebelscheinwerfer;Beleuchtung;78-0011;4358936;1080-102274;MXG;403
+Elektromotor;650;NISSAN;108;Glühlampe, Nebelscheinwerfer;Beleuchtung;78-0195;4358979;1080-102316;MXG;403
+Elektromotor;650;NISSAN;108;Glühlampe, Nebelscheinwerfer;Beleuchtung;78-0196;4358980;1080-102317;MXG;403
+Elektromotor;650;NISSAN;108;Glühlampe, Nebelscheinwerfer;Beleuchtung;CBH19S;4359054;1080-102107;CHA;43
+Elektromotor;650;NISSAN;108;Glühlampe, Nebelscheinwerfer;Beleuchtung;LLB708;4359223;NULL;LU;4501
+Elektromotor;650;NISSAN;108;Glühlampe, Nebelscheinwerfer;Beleuchtung;LLB708P;4359224;NULL;LU;4501
+Elektromotor;650;NISSAN;108;Glühlampe, Nebelscheinwerfer;Beleuchtung;12360WVUB1;4359328;1080-102338;PHI;75
+Elektromotor;650;NISSAN;112;Glühlampe, Kennzeichenleuchte;Beleuchtung;BL5221;35237;1080-1984;SPA;45
+Elektromotor;650;NISSAN;112;Glühlampe, Kennzeichenleuchte;Beleuchtung;5221;35671;1080-0048;9SPA;45
+Elektromotor;650;NISSAN;112;Glühlampe, Kennzeichenleuchte;Beleuchtung;12961NBVB2;414487;1080-2762;PHI;75
+Elektromotor;650;NISSAN;112;Glühlampe, Kennzeichenleuchte;Beleuchtung;12961B2;414488;1080-2763;PHI;75
+Elektromotor;650;NISSAN;112;Glühlampe, Kennzeichenleuchte;Beleuchtung;5221L;688115;1080-2630;SPA;45
+Elektromotor;650;NISSAN;112;Glühlampe, Kennzeichenleuchte;Beleuchtung;2825ULT-02B;1001899;1080-2867;OSR;67
+Elektromotor;650;NISSAN;112;Glühlampe, Kennzeichenleuchte;Beleuchtung;2825-02B;1001935;1080-2925;OSR;67
+Elektromotor;650;NISSAN;112;Glühlampe, Kennzeichenleuchte;Beleuchtung;5221;1135159;1080-100298;SPA;45
+Elektromotor;650;NISSAN;112;Glühlampe, Kennzeichenleuchte;Beleuchtung;BL5221;1173630;1080-100173;DIV;45
+Elektromotor;650;NISSAN;112;Glühlampe, Kennzeichenleuchte;Beleuchtung;032116;1376323;1080-100614;VAL;21
+Elektromotor;650;NISSAN;112;Glühlampe, Kennzeichenleuchte;Beleuchtung;032211;1376329;1080-100620;VAL;21
+Elektromotor;650;NISSAN;112;Glühlampe, Kennzeichenleuchte;Beleuchtung;12961CP;1417812;1080-100461;PHI;75
+Elektromotor;650;NISSAN;112;Glühlampe, Kennzeichenleuchte;Beleuchtung;12961LLECOB2;1417814;1080-100462;PHI;75
+Elektromotor;650;NISSAN;112;Glühlampe, Kennzeichenleuchte;Beleuchtung;12961LLECOCP;1417815;1080-100463;PHI;75
+Elektromotor;650;NISSAN;112;Glühlampe, Kennzeichenleuchte;Beleuchtung;2825;1460256;1080-100715;OSR;67
+Elektromotor;650;NISSAN;112;Glühlampe, Kennzeichenleuchte;Beleuchtung;2825ULT;1460260;1080-100717;OSR;67
+Elektromotor;650;NISSAN;112;Glühlampe, Kennzeichenleuchte;Beleuchtung;0800850;1749041;1080-101502;KFT;4546
+Elektromotor;650;NISSAN;112;Glühlampe, Kennzeichenleuchte;Beleuchtung;LID10078;2218374;1080-101251;DID;253
+Elektromotor;650;NISSAN;112;Glühlampe, Kennzeichenleuchte;Beleuchtung;LID10079;2218377;1080-101252;DID;253
+Elektromotor;650;NISSAN;112;Glühlampe, Kennzeichenleuchte;Beleuchtung;V99-84-0001;2588011;1080-101597;VMO;183
+Elektromotor;650;NISSAN;112;Glühlampe, Kennzeichenleuchte;Beleuchtung;78-0044;4501603;NULL;MXG;403
+Elektromotor;650;NISSAN;112;Glühlampe, Kennzeichenleuchte;Beleuchtung;78-0044SET;4501604;1080-102372;MXG;403
+Elektromotor;650;NISSAN;112;Glühlampe, Kennzeichenleuchte;Beleuchtung;CBM60S;4501660;1080-102171;CHA;43
+Elektromotor;650;NISSAN;112;Glühlampe, Kennzeichenleuchte;Beleuchtung;CBM62B;4501662;1080-102173;CHA;43
+Elektromotor;650;NISSAN;112;Glühlampe, Kennzeichenleuchte;Beleuchtung;LLB501;4501728;NULL;LU;4501
+Elektromotor;650;NISSAN;112;Glühlampe, Kennzeichenleuchte;Beleuchtung;LLB501LLPX2;4501733;NULL;LU;4501
+Elektromotor;650;NISSAN;112;Glühlampe, Kennzeichenleuchte;Beleuchtung;LLB501PX2;4501734;NULL;LU;4501
+Elektromotor;650;NISSAN;112;Glühlampe, Kennzeichenleuchte;Beleuchtung;LLB501T;4501735;NULL;LU;4501
+Elektromotor;650;NISSAN;112;Glühlampe, Kennzeichenleuchte;Beleuchtung;12961WVUB2;4501767;1080-102400;PHI;75
+Elektromotor;650;NISSAN;112;Glühlampe, Kennzeichenleuchte;Beleuchtung;12961XVPB2;4501768;1080-102401;PHI;75
+Elektromotor;650;NISSAN;113;Glühlampe, Nebelschlussleuchte;Beleuchtung;20210;35553;1080-0242;SPA;45
+Elektromotor;650;NISSAN;113;Glühlampe, Nebelschlussleuchte;Beleuchtung;12065B2;414646;1080-2767;PHI;75
+Elektromotor;650;NISSAN;113;Glühlampe, Nebelschlussleuchte;Beleuchtung;7505-02B;1001933;1080-2923;OSR;67
+Elektromotor;650;NISSAN;113;Glühlampe, Nebelschlussleuchte;Beleuchtung;20210;1133906;1080-100113;DIV;45
+Elektromotor;650;NISSAN;113;Glühlampe, Nebelschlussleuchte;Beleuchtung;12065CP;1413906;1080-100407;PHI;75
+Elektromotor;650;NISSAN;113;Glühlampe, Nebelschlussleuchte;Beleuchtung;7505;1554476;1080-100937;OSR;67
+Elektromotor;650;NISSAN;113;Glühlampe, Nebelschlussleuchte;Beleuchtung;LID10091;2218393;1080-101467;DID;253
+Elektromotor;650;NISSAN;113;Glühlampe, Nebelschlussleuchte;Beleuchtung;LID10094;2218399;1080-101469;DID;253
+Elektromotor;650;NISSAN;113;Glühlampe, Nebelschlussleuchte;Beleuchtung;78-0046;4501607;NULL;MXG;403
+Elektromotor;650;NISSAN;113;Glühlampe, Nebelschlussleuchte;Beleuchtung;78-0046SET;4501608;1080-102374;MXG;403
+Elektromotor;650;NISSAN;113;Glühlampe, Nebelschlussleuchte;Beleuchtung;CBM57S;4501658;1080-102169;CHA;43
+Elektromotor;650;NISSAN;113;Glühlampe, Nebelschlussleuchte;Beleuchtung;LLB582;4501741;NULL;LU;4501
+Elektromotor;650;NISSAN;113;Glühlampe, Nebelschlussleuchte;Beleuchtung;LLB582P;4501745;NULL;LU;4501
+Elektromotor;650;NISSAN;113;Glühlampe, Nebelschlussleuchte;Beleuchtung;LLB582T;4501746;NULL;LU;4501
+Elektromotor;650;NISSAN;114;Glühlampe, Rückfahrleuchte;Beleuchtung;751506;35225;1080-2147;SPA;45
+Elektromotor;650;NISSAN;114;Glühlampe, Rückfahrleuchte;Beleuchtung;12067B2;414645;1080-2766;PHI;75
+Elektromotor;650;NISSAN;114;Glühlampe, Rückfahrleuchte;Beleuchtung;751506;1173624;1080-100169;DIV;45
+Elektromotor;650;NISSAN;114;Glühlampe, Rückfahrleuchte;Beleuchtung;032122;1376324;1080-100615;VAL;21
+Elektromotor;650;NISSAN;114;Glühlampe, Rückfahrleuchte;Beleuchtung;032215;1376330;1080-100621;VAL;21
+Elektromotor;650;NISSAN;114;Glühlampe, Rückfahrleuchte;Beleuchtung;12067CP;1413909;1080-100409;PHI;75
+Elektromotor;650;NISSAN;114;Glühlampe, Rückfahrleuchte;Beleuchtung;921;1577899;1080-101044;OSR;67
+Elektromotor;650;NISSAN;114;Glühlampe, Rückfahrleuchte;Beleuchtung;LID10089;2218389;1080-101465;DID;253
+Elektromotor;650;NISSAN;114;Glühlampe, Rückfahrleuchte;Beleuchtung;921-02B;2445457;1080-101168;OSR;67
+Elektromotor;650;NISSAN;114;Glühlampe, Rückfahrleuchte;Beleuchtung;78-0159SET;4501639;1080-102396;MXG;403
+Elektromotor;650;NISSAN;114;Glühlampe, Rückfahrleuchte;Beleuchtung;CBM55S;4501657;1080-102168;CHA;43
+Elektromotor;650;NISSAN;114;Glühlampe, Rückfahrleuchte;Beleuchtung;LLB955;4501755;NULL;LU;4501
+Elektromotor;650;NISSAN;114;Glühlampe, Rückfahrleuchte;Beleuchtung;LLB955P;4501757;NULL;LU;4501
+Elektromotor;650;NISSAN;114;Glühlampe, Rückfahrleuchte;Beleuchtung;LLB955PX2;4501758;NULL;LU;4501
+Elektromotor;650;NISSAN;114;Glühlampe, Rückfahrleuchte;Beleuchtung;LLB955T;4501759;NULL;LU;4501
+Elektromotor;650;NISSAN;114;Glühlampe, Rückfahrleuchte;Beleuchtung;921K;4501762;NULL;OSR;67
+Elektromotor;650;NISSAN;179;Elektrosatz, Anhängevorrichtung;Anhängevorrichtung;748223;259908;2330-10808;JAE;1291
+Elektromotor;650;NISSAN;188;Fahrwerksfeder;Federung/Dämpfung;87448;2443859;1540-125149;SPI;1
+Elektromotor;650;NISSAN;188;Fahrwerksfeder;Federung/Dämpfung;87449;2443860;1540-125150;SPI;1
+Elektromotor;650;NISSAN;188;Fahrwerksfeder;Federung/Dämpfung;87450;2443861;1540-125151;SPI;1
+Elektromotor;650;NISSAN;188;Fahrwerksfeder;Federung/Dämpfung;87451;2443862;1540-125152;SPI;1
+Elektromotor;650;NISSAN;188;Fahrwerksfeder;Federung/Dämpfung;CS8843;3291872;NULL;RO1;401
+Elektromotor;650;NISSAN;188;Fahrwerksfeder;Federung/Dämpfung;CS8844;3291873;NULL;RO1;401
+Elektromotor;650;NISSAN;188;Fahrwerksfeder;Federung/Dämpfung;CS8845;3291874;NULL;RO1;401
+Elektromotor;650;NISSAN;188;Fahrwerksfeder;Federung/Dämpfung;4062094;3292153;1540-173415;LSJ;175
+Elektromotor;650;NISSAN;188;Fahrwerksfeder;Federung/Dämpfung;4262078;3292268;1540-173530;LSJ;175
+Elektromotor;650;NISSAN;188;Fahrwerksfeder;Federung/Dämpfung;4262079;3292269;1540-173531;LSJ;175
+Elektromotor;650;NISSAN;188;Fahrwerksfeder;Federung/Dämpfung;19206;3293695;1540-174936;KIL;176
+Elektromotor;650;NISSAN;188;Fahrwerksfeder;Federung/Dämpfung;59053;3295886;1540-177021;KIL;176
+Elektromotor;650;NISSAN;188;Fahrwerksfeder;Federung/Dämpfung;59054;3295887;1540-177022;KIL;176
+Elektromotor;650;NISSAN;188;Fahrwerksfeder;Federung/Dämpfung;F11-63-032-01-FA;3382528;1540-169945;EIB;112
+Elektromotor;650;NISSAN;188;Fahrwerksfeder;Federung/Dämpfung;F11-63-032-01-RA;3382529;1540-169946;EIB;112
+Elektromotor;650;NISSAN;188;Fahrwerksfeder;Federung/Dämpfung;RA1291;3431298;1540-188389;KYB;85
+Elektromotor;650;NISSAN;188;Fahrwerksfeder;Federung/Dämpfung;8750 14132;3443246;1540-178060;TRN;108
+Elektromotor;650;NISSAN;188;Fahrwerksfeder;Federung/Dämpfung;8750 14133;3443247;1540-178061;TRN;108
+Elektromotor;650;NISSAN;188;Fahrwerksfeder;Federung/Dämpfung;8750 14134;3443248;1540-178062;TRN;108
+Elektromotor;650;NISSAN;188;Fahrwerksfeder;Federung/Dämpfung;87448;3450404;1540-170936;SPI;1
+Elektromotor;650;NISSAN;188;Fahrwerksfeder;Federung/Dämpfung;87449;3450405;1540-170937;SPI;1
+Elektromotor;650;NISSAN;188;Fahrwerksfeder;Federung/Dämpfung;87450;3450406;1540-170938;SPI;1
+Elektromotor;650;NISSAN;188;Fahrwerksfeder;Federung/Dämpfung;87451;3450407;1540-170939;SPI;1
+Elektromotor;650;NISSAN;188;Fahrwerksfeder;Federung/Dämpfung;22270;3746099;NULL;SUP;390
+Elektromotor;650;NISSAN;188;Fahrwerksfeder;Federung/Dämpfung;22271;3746100;NULL;SUP;390
+Elektromotor;650;NISSAN;188;Fahrwerksfeder;Federung/Dämpfung;22272;3746101;NULL;SUP;390
+Elektromotor;650;NISSAN;188;Fahrwerksfeder;Federung/Dämpfung;22273;3746102;NULL;SUP;390
+Elektromotor;650;NISSAN;188;Fahrwerksfeder;Federung/Dämpfung;SPS02612;4347075;NULL;IPS;238
+Elektromotor;650;NISSAN;188;Fahrwerksfeder;Federung/Dämpfung;SPS02613;4347076;NULL;IPS;238
+Elektromotor;650;NISSAN;188;Fahrwerksfeder;Federung/Dämpfung;SPS02717;4415616;NULL;IPS;238
+Elektromotor;650;NISSAN;188;Fahrwerksfeder;Federung/Dämpfung;SPS02718;4415617;NULL;IPS;238
+Elektromotor;650;NISSAN;188;Fahrwerksfeder;Federung/Dämpfung;RA5271;4696005;1540-190880;KYB;85
+Elektromotor;650;NISSAN;188;Fahrwerksfeder;Federung/Dämpfung;RA5272;4696006;1540-190881;KYB;85
+Elektromotor;650;NISSAN;189;Fahrwerksatz, Federn;Federung/Dämpfung;E10-63-032-01-22;2127756;1540-131916;EIB;112
+Elektromotor;650;NISSAN;191;Faltenbalg, Lenkung;Lenkung;84121;1006711;1510-21657;SPI;1
+Elektromotor;650;NISSAN;191;Faltenbalg, Lenkung;Lenkung;540268;3330310;NULL;GSP;373
+Elektromotor;650;NISSAN;191;Faltenbalg, Lenkung;Lenkung;341.035;4008945;1510-113607;SID;135
+Elektromotor;650;NISSAN;191;Faltenbalg, Lenkung;Lenkung;K5337;4070145;NULL;DA;332
+Elektromotor;650;NISSAN;193;Faltenbalg, Antriebswelle;Radantrieb;190975;2020384;1510-102449;SPI;1
+Elektromotor;650;NISSAN;193;Faltenbalg, Antriebswelle;Radantrieb;LKTB1002;3877129;NULL;LU;4501
+Elektromotor;650;NISSAN;193;Faltenbalg, Antriebswelle;Radantrieb;7919/KM;3877611;NULL;BIR;208
+Elektromotor;650;NISSAN;193;Faltenbalg, Antriebswelle;Radantrieb;0215-J32T;3877710;1510-113218;FBT;4674
+Elektromotor;650;NISSAN;193;Faltenbalg, Antriebswelle;Radantrieb;190975;3877904;1510-114003;LOB;56
+Elektromotor;650;NISSAN;194;Faltenbalgsatz, Antriebswelle;Radantrieb;ADM58170;285409;1510-22761;BLT;350
+Elektromotor;650;NISSAN;194;Faltenbalgsatz, Antriebswelle;Radantrieb;VKJP 01001;341964;1510-21940;SKF;50
+Elektromotor;650;NISSAN;194;Faltenbalgsatz, Antriebswelle;Radantrieb;100322;1643934;1510-101080;FEB;101
+Elektromotor;650;NISSAN;194;Faltenbalgsatz, Antriebswelle;Radantrieb;18553;1810297;1510-104878;MAP;133
+Elektromotor;650;NISSAN;194;Faltenbalgsatz, Antriebswelle;Radantrieb;540167;1882918;1570-154672;GSP;373
+Elektromotor;650;NISSAN;194;Faltenbalgsatz, Antriebswelle;Radantrieb;8540 14825;2115482;1510-103024;TRN;108
+Elektromotor;650;NISSAN;194;Faltenbalgsatz, Antriebswelle;Radantrieb;VKJP 01001 S;2588679;1510-103911;SKF;50
+Elektromotor;650;NISSAN;194;Faltenbalgsatz, Antriebswelle;Radantrieb;0217P-B30;3616791;1510-110842;FBT;4674
+Elektromotor;650;NISSAN;194;Faltenbalgsatz, Antriebswelle;Radantrieb;49-1925;3681531;1510-111338;MXG;403
+Elektromotor;650;NISSAN;194;Faltenbalgsatz, Antriebswelle;Radantrieb;306987;4695033;1510-114044;LOB;56
+Elektromotor;650;NISSAN;194;Faltenbalgsatz, Antriebswelle;Radantrieb;306988;4695034;1510-114045;LOB;56
+Elektromotor;650;NISSAN;194;Faltenbalgsatz, Antriebswelle;Radantrieb;36808;4695097;NULL;SPI;1
+Elektromotor;650;NISSAN;194;Faltenbalgsatz, Antriebswelle;Radantrieb;36809;4695098;NULL;SPI;1
+Elektromotor;650;NISSAN;195;Faltenbalgsatz, Lenkung;Lenkung;ADN181506;303584;1510-22791;BLT;350
+Elektromotor;650;NISSAN;195;Faltenbalgsatz, Lenkung;Lenkung;L10020;374693;1510-21643;MON;37
+Elektromotor;650;NISSAN;195;Faltenbalgsatz, Lenkung;Lenkung;J4101024;1585848;1510-100992;JAK;55
+Elektromotor;650;NISSAN;195;Faltenbalgsatz, Lenkung;Lenkung;102067;1662893;1510-102373;FEB;101
+Elektromotor;650;NISSAN;195;Faltenbalgsatz, Lenkung;Lenkung;8500 10020;2093367;1510-102665;TRN;108
+Elektromotor;650;NISSAN;195;Faltenbalgsatz, Lenkung;Lenkung;506962;3549936;NULL;AUX;300
+Elektromotor;650;NISSAN;195;Faltenbalgsatz, Lenkung;Lenkung;N2841026;3550439;1510-110383;NIP;248
+Elektromotor;650;NISSAN;195;Faltenbalgsatz, Lenkung;Lenkung;35-5957;3550715;NULL;HP1;178
+Elektromotor;650;NISSAN;215;Fußmattensatz;Innenausstattung;PAL18-1104;4690914;NULL;ASU;442
+Elektromotor;650;NISSAN;215;Fußmattensatz;Innenausstattung;PAL18-6104;4692823;NULL;ASU;442
+Elektromotor;650;NISSAN;219;Gasfeder, Koffer-/Laderaum;Karosserie;330085;2958616;1135-115060;STL;126
+Elektromotor;650;NISSAN;219;Gasfeder, Koffer-/Laderaum;Karosserie;330324;2958617;1135-115061;STL;126
+Elektromotor;650;NISSAN;219;Gasfeder, Koffer-/Laderaum;Karosserie;330085;2983109;1135-115788;STL;126
+Elektromotor;650;NISSAN;219;Gasfeder, Koffer-/Laderaum;Karosserie;8710 14259;3001293;1135-115967;TRN;108
+Elektromotor;650;NISSAN;219;Gasfeder, Koffer-/Laderaum;Karosserie;8162069;3874470;1135-119321;LSJ;175
+Elektromotor;650;NISSAN;219;Gasfeder, Koffer-/Laderaum;Karosserie;442069;3943091;1135-120341;KIL;176
+Elektromotor;650;NISSAN;251;Lagerung, Lenker;Radaufhängung;8500 10839;1565617;1570-130270;TRN;108
+Elektromotor;650;NISSAN;251;Lagerung, Lenker;Radaufhängung;J4201113;1585955;1570-124059;JAK;55
+Elektromotor;650;NISSAN;251;Lagerung, Lenker;Radaufhängung;271159;1731378;1570-164036;ABS;206
+Elektromotor;650;NISSAN;251;Lagerung, Lenker;Radaufhängung;271160;1731380;1570-164037;ABS;206
+Elektromotor;650;NISSAN;251;Lagerung, Lenker;Radaufhängung;516186;1878450;1570-153551;GSP;373
+Elektromotor;650;NISSAN;251;Lagerung, Lenker;Radaufhängung;517808;1880168;1570-154348;GSP;373
+Elektromotor;650;NISSAN;251;Lagerung, Lenker;Radaufhängung;BSK7206;2014337;1570-186842;B+B;475
+Elektromotor;650;NISSAN;251;Lagerung, Lenker;Radaufhängung;8500 14806;2097737;1570-133744;TRN;108
+Elektromotor;650;NISSAN;251;Lagerung, Lenker;Radaufhängung;TD835W;2272872;1570-176248;DEH;89
+Elektromotor;650;NISSAN;251;Lagerung, Lenker;Radaufhängung;TD868W;2272939;1570-176280;DEH;89
+Elektromotor;650;NISSAN;251;Lagerung, Lenker;Radaufhängung;F8-8256;2489182;1570-198381;OPT;129
+Elektromotor;650;NISSAN;251;Lagerung, Lenker;Radaufhängung;FSK7206;3073709;1570-207219;FLI;407
+Elektromotor;650;NISSAN;251;Lagerung, Lenker;Radaufhängung;VKDS 336021;3297759;1570-222057;SKF;50
+Elektromotor;650;NISSAN;251;Lagerung, Lenker;Radaufhängung;532407;3485713;NULL;GSP;373
+Elektromotor;650;NISSAN;251;Lagerung, Lenker;Radaufhängung;841628;4195642;1570-262769;SID;135
+Elektromotor;650;NISSAN;251;Lagerung, Lenker;Radaufhängung;841633;4195647;1570-262772;SID;135
+Elektromotor;650;NISSAN;251;Lagerung, Lenker;Radaufhängung;GOM-1200;4196886;1570-263715;ASH;257
+Elektromotor;650;NISSAN;251;Lagerung, Lenker;Radaufhängung;RU-1200;4267317;1570-239464;JPP;156
+Elektromotor;650;NISSAN;251;Lagerung, Lenker;Radaufhängung;72-5068;4336841;NULL;MXG;403
+Elektromotor;650;NISSAN;251;Lagerung, Lenker;Radaufhängung;N400N49;4338044;NULL;NPS;440
+Elektromotor;650;NISSAN;251;Lagerung, Lenker;Radaufhängung;048656B;4408404;NULL;BDX;49
+Elektromotor;650;NISSAN;251;Lagerung, Lenker;Radaufhängung;20028;4408495;NULL;BIR;208
+Elektromotor;650;NISSAN;251;Lagerung, Lenker;Radaufhängung;2784;4480958;NULL;BIR;208
+Elektromotor;650;NISSAN;251;Lagerung, Lenker;Radaufhängung;NAB-J10B;4482212;1570-271860;FBT;4674
+Elektromotor;650;NISSAN;251;Lagerung, Lenker;Radaufhängung;NAB-J32S;4482220;1570-271868;FBT;4674
+Elektromotor;650;NISSAN;251;Lagerung, Lenker;Radaufhängung;NAB-J32SA;4482221;1570-271869;FBT;4674
+Elektromotor;650;NISSAN;251;Lagerung, Lenker;Radaufhängung;FSK8101;4686469;NULL;FLI;407
+Elektromotor;650;NISSAN;251;Lagerung, Lenker;Radaufhängung;BSK8101;4686486;NULL;B+B;475
+Elektromotor;650;NISSAN;259;Hauptscheinwerfer;Beleuchtung;045164;388057;1020-15322;VAL;21
+Elektromotor;650;NISSAN;259;Hauptscheinwerfer;Beleuchtung;045165;388058;1020-15323;VAL;21
+Elektromotor;650;NISSAN;273;Lenker, Radaufhängung;Radaufhängung;ADN186129;249159;1570-48372;BLT;350
+Elektromotor;650;NISSAN;273;Lenker, Radaufhängung;Radaufhängung;ADN186130;249207;1570-48385;BLT;350
+Elektromotor;650;NISSAN;273;Lenker, Radaufhängung;Radaufhängung;L14548;354850;1570-46039;MON;37
+Elektromotor;650;NISSAN;273;Lenker, Radaufhängung;Radaufhängung;L14547;354851;1570-46040;MON;37
+Elektromotor;650;NISSAN;273;Lenker, Radaufhängung;Radaufhängung;48158;375290;1570-91105758;FEB;101
+Elektromotor;650;NISSAN;273;Lenker, Radaufhängung;Radaufhängung;48159;375300;1570-91105768;FEB;101
+Elektromotor;650;NISSAN;273;Lenker, Radaufhängung;Radaufhängung;36-16 050 0059/HD;580820;1570-91106173;MYE;144
+Elektromotor;650;NISSAN;273;Lenker, Radaufhängung;Radaufhängung;36-16 050 0060/HD;580821;1570-91106174;MYE;144
+Elektromotor;650;NISSAN;273;Lenker, Radaufhängung;Radaufhängung;52380;1206121;1570-107056;MAP;133
+Elektromotor;650;NISSAN;273;Lenker, Radaufhängung;Radaufhängung;52381;1217052;1570-107637;MAP;133
+Elektromotor;650;NISSAN;273;Lenker, Radaufhängung;Radaufhängung;211352;1267757;1570-114163;ABS;206
+Elektromotor;650;NISSAN;273;Lenker, Radaufhängung;Radaufhängung;211353;1284945;1570-114481;ABS;206
+Elektromotor;650;NISSAN;273;Lenker, Radaufhängung;Radaufhängung;BCA6894;1311777;1570-120391;B+B;475
+Elektromotor;650;NISSAN;273;Lenker, Radaufhängung;Radaufhängung;BCA6894;1311777;1570-120391;B+B;475
+Elektromotor;650;NISSAN;273;Lenker, Radaufhängung;Radaufhängung;BCA6895;1314555;1570-119725;B+B;475
+Elektromotor;650;NISSAN;273;Lenker, Radaufhängung;Radaufhängung;BCA6895;1314555;1570-119725;B+B;475
+Elektromotor;650;NISSAN;273;Lenker, Radaufhängung;Radaufhängung;J4901069;1587605;1570-125151;JAK;55
+Elektromotor;650;NISSAN;273;Lenker, Radaufhängung;Radaufhängung;J4911069;1587742;1570-125288;JAK;55
+Elektromotor;650;NISSAN;273;Lenker, Radaufhängung;Radaufhängung;8500 14547;2097544;1570-133685;TRN;108
+Elektromotor;650;NISSAN;273;Lenker, Radaufhängung;Radaufhängung;8500 14548;2097547;1570-133686;TRN;108
+Elektromotor;650;NISSAN;273;Lenker, Radaufhängung;Radaufhängung;TC2496;2268864;1570-174408;DEH;89
+Elektromotor;650;NISSAN;273;Lenker, Radaufhängung;Radaufhängung;TC2496;2268864;1570-174408;DEH;89
+Elektromotor;650;NISSAN;273;Lenker, Radaufhängung;Radaufhängung;TC2497;2268867;1570-174409;DEH;89
+Elektromotor;650;NISSAN;273;Lenker, Radaufhängung;Radaufhängung;TC2497;2268867;1570-174409;DEH;89
+Elektromotor;650;NISSAN;273;Lenker, Radaufhängung;Radaufhängung;G6-1365;2497199;1570-145781;OPT;129
+Elektromotor;650;NISSAN;273;Lenker, Radaufhängung;Radaufhängung;G6-1366;2497200;1570-145782;OPT;129
+Elektromotor;650;NISSAN;273;Lenker, Radaufhängung;Radaufhängung;JTC2278;2519151;1570-148595;TRW;161
+Elektromotor;650;NISSAN;273;Lenker, Radaufhängung;Radaufhängung;JTC2279;2519152;1570-148596;TRW;161
+Elektromotor;650;NISSAN;273;Lenker, Radaufhängung;Radaufhängung;NI-WP-10629;2535662;1570-190139;MOG;134
+Elektromotor;650;NISSAN;273;Lenker, Radaufhängung;Radaufhängung;NI-WP-10630;2535663;1570-190140;MOG;134
+Elektromotor;650;NISSAN;273;Lenker, Radaufhängung;Radaufhängung;V38-0186;2576350;1570-169263;VAI;162
+Elektromotor;650;NISSAN;273;Lenker, Radaufhängung;Radaufhängung;S061342;2797194;1570-200049;GSP;373
+Elektromotor;650;NISSAN;273;Lenker, Radaufhängung;Radaufhängung;S061343;2797195;1570-200050;GSP;373
+Elektromotor;650;NISSAN;273;Lenker, Radaufhängung;Radaufhängung;49400604;3010703;1570-212716;COC;140
+Elektromotor;650;NISSAN;273;Lenker, Radaufhängung;Radaufhängung;49400605;3010704;1570-212717;COC;140
+Elektromotor;650;NISSAN;273;Lenker, Radaufhängung;Radaufhängung;4050203270;3010992;1570-202863;JP;268
+Elektromotor;650;NISSAN;273;Lenker, Radaufhängung;Radaufhängung;4050203280;3010993;1570-202864;JP;268
+Elektromotor;650;NISSAN;273;Lenker, Radaufhängung;Radaufhängung;FCA6894;3066953;1570-204700;FLI;407
+Elektromotor;650;NISSAN;273;Lenker, Radaufhängung;Radaufhängung;FCA6894;3066953;1570-204700;FLI;407
+Elektromotor;650;NISSAN;273;Lenker, Radaufhängung;Radaufhängung;FCA6895;3066954;1570-204701;FLI;407
+Elektromotor;650;NISSAN;273;Lenker, Radaufhängung;Radaufhängung;FCA6895;3066954;1570-204701;FLI;407
+Elektromotor;650;NISSAN;273;Lenker, Radaufhängung;Radaufhängung;VKDS 822006 B;3297991;1570-222284;SKF;50
+Elektromotor;650;NISSAN;273;Lenker, Radaufhängung;Radaufhängung;VKDS 822007 B;3297992;1570-222285;SKF;50
+Elektromotor;650;NISSAN;273;Lenker, Radaufhängung;Radaufhängung;5012253;3444562;1570-224671;NK;127
+Elektromotor;650;NISSAN;273;Lenker, Radaufhängung;Radaufhängung;5012254;3444563;1570-224672;NK;127
+Elektromotor;650;NISSAN;273;Lenker, Radaufhängung;Radaufhängung;5012253;3445957;NULL;9NK;127
+Elektromotor;650;NISSAN;273;Lenker, Radaufhängung;Radaufhängung;5012254;3445958;NULL;9NK;127
+Elektromotor;650;NISSAN;273;Lenker, Radaufhängung;Radaufhängung;41278;3668476;1570-233548;SID;135
+Elektromotor;650;NISSAN;273;Lenker, Radaufhängung;Radaufhängung;41279;3668477;1570-233549;SID;135
+Elektromotor;650;NISSAN;273;Lenker, Radaufhängung;Radaufhängung;301181386300;3731496;1570-236822;MAR;95
+Elektromotor;650;NISSAN;273;Lenker, Radaufhängung;Radaufhängung;301181386400;3731497;1570-236823;MAR;95
+Elektromotor;650;NISSAN;273;Lenker, Radaufhängung;Radaufhängung;BR2091;3865301;NULL;BIR;208
+Elektromotor;650;NISSAN;273;Lenker, Radaufhängung;Radaufhängung;BR2092;3865302;NULL;BIR;208
+Elektromotor;650;NISSAN;273;Lenker, Radaufhängung;Radaufhängung;N4901043;3866134;1570-248181;NIP;248
+Elektromotor;650;NISSAN;273;Lenker, Radaufhängung;Radaufhängung;N4911043;3866232;1570-248277;NIP;248
+Elektromotor;650;NISSAN;273;Lenker, Radaufhängung;Radaufhängung;SS7396;3933536;1570-250469;FAI;267
+Elektromotor;650;NISSAN;273;Lenker, Radaufhängung;Radaufhängung;SS7397;3933537;1570-250470;FAI;267
+Elektromotor;650;NISSAN;273;Lenker, Radaufhängung;Radaufhängung;2254025;3934281;1570-250966;SAS;260
+Elektromotor;650;NISSAN;273;Lenker, Radaufhängung;Radaufhängung;2256148;3934412;1570-251097;SAS;260
+Elektromotor;650;NISSAN;273;Lenker, Radaufhängung;Radaufhängung;7476235;3996274;1570-253119;SAS;260
+Elektromotor;650;NISSAN;273;Lenker, Radaufhängung;Radaufhängung;7476237;3996275;1570-253120;SAS;260
+Elektromotor;650;NISSAN;273;Lenker, Radaufhängung;Radaufhängung;045750B;4059058;NULL;BDX;49
+Elektromotor;650;NISSAN;273;Lenker, Radaufhängung;Radaufhängung;045751B;4059059;NULL;BDX;49
+Elektromotor;650;NISSAN;273;Lenker, Radaufhängung;Radaufhängung;N421N136;4123695;NULL;NPS;440
+Elektromotor;650;NISSAN;273;Lenker, Radaufhängung;Radaufhängung;N421N137;4123696;NULL;NPS;440
+Elektromotor;650;NISSAN;273;Lenker, Radaufhängung;Radaufhängung;0224-F15LH;4124081;1570-258515;FBT;4674
+Elektromotor;650;NISSAN;273;Lenker, Radaufhängung;Radaufhängung;0224-F15RH;4124082;1570-258516;FBT;4674
+Elektromotor;650;NISSAN;273;Lenker, Radaufhängung;Radaufhängung;72-5309;4192982;NULL;MXG;403
+Elektromotor;650;NISSAN;273;Lenker, Radaufhängung;Radaufhängung;72-5310;4192983;NULL;MXG;403
+Elektromotor;650;NISSAN;273;Lenker, Radaufhängung;Radaufhängung;26560;4263946;NULL;VEM;4425
+Elektromotor;650;NISSAN;273;Lenker, Radaufhängung;Radaufhängung;26561;4263947;NULL;VEM;4425
+Elektromotor;650;NISSAN;284;Spurstange;Lenkung;G0-805;2495236;1570-198484;OPT;129
+Elektromotor;650;NISSAN;284;Spurstange;Lenkung;G0-806;2495237;1570-198485;OPT;129
+Elektromotor;650;NISSAN;284;Spurstange;Lenkung;049153B;4191479;NULL;BDX;49
+Elektromotor;650;NISSAN;284;Spurstange;Lenkung;049154B;4191480;NULL;BDX;49
+Elektromotor;650;NISSAN;286;Lenkgetriebe;Lenkung;STSR000L;3011441;NULL;SVT;2534
+Elektromotor;650;NISSAN;286;Lenkgetriebe;Lenkung;DM3158;4057284;NULL;DA;332
+Elektromotor;650;NISSAN;289;Nebelscheinwerfer;Beleuchtung;044186;398596;1035-3657;VAL;21
+Elektromotor;650;NISSAN;289;Nebelscheinwerfer;Beleuchtung;3201999;1186227;1035-101959;VAN;36
+Elektromotor;650;NISSAN;289;Nebelscheinwerfer;Beleuchtung;2903688;1210338;1035-102052;AKA;362
+Elektromotor;650;NISSAN;289;Nebelscheinwerfer;Beleuchtung;19-12317-01-9;1435309;1020-107193;TYC;61
+Elektromotor;650;NISSAN;289;Nebelscheinwerfer;Beleuchtung;1480088;1707731;1020-123389;DID;253
+Elektromotor;650;NISSAN;289;Nebelscheinwerfer;Beleuchtung;214-2047N-UQ;1818128;1020-118264;ABK;4657
+Elektromotor;650;NISSAN;289;Nebelscheinwerfer;Beleuchtung;937 06 561 01 11;3729315;NULL;OES;2728
+Elektromotor;650;NISSAN;291;Nebelschlussleuchte;Beleuchtung;19-12619-01-2;1435330;1030-106471;TYC;61
+Elektromotor;650;NISSAN;291;Nebelschlussleuchte;Beleuchtung;3380929;2160193;1030-116297;VAN;36
+Elektromotor;650;NISSAN;291;Nebelschlussleuchte;Beleuchtung;27 43 87-9;2747827;1030-117767;JO;138
+Elektromotor;650;NISSAN;291;Nebelschlussleuchte;Beleuchtung;27 43 87-9;2983974;1030-117879;9JO;138
+Elektromotor;650;NISSAN;291;Nebelschlussleuchte;Beleuchtung;6075094;3603833;1030-119182;DID;253
+Elektromotor;650;NISSAN;298;Wischblatt;Scheibenreinigung;A65/B01;669388;2380-8557;CHA;43
+Elektromotor;650;NISSAN;298;Wischblatt;Scheibenreinigung;A38/B01;669393;2380-8535;CHA;43
+Elektromotor;650;NISSAN;298;Wischblatt;Scheibenreinigung;ER35/B01;670153;2380-8752;CHA;43
+Elektromotor;650;NISSAN;298;Wischblatt;Scheibenreinigung;ER65/B01;670166;2380-8762;CHA;43
+Elektromotor;650;NISSAN;298;Wischblatt;Scheibenreinigung;AFL6535L/C02;670970;2380-8846;CHA;43
+Elektromotor;650;NISSAN;298;Wischblatt;Scheibenreinigung;AP25B/B01;670999;2380-8859;CHA;43
+Elektromotor;650;NISSAN;298;Wischblatt;Scheibenreinigung;AHL35/B01;671356;2380-8663;CHA;43
+Elektromotor;650;NISSAN;298;Wischblatt;Scheibenreinigung;AHL65/B01;671363;2380-8670;CHA;43
+Elektromotor;650;NISSAN;298;Wischblatt;Scheibenreinigung;E38/B01;671549;2380-8724;CHA;43
+Elektromotor;650;NISSAN;298;Wischblatt;Scheibenreinigung;E65/B01;671559;2380-8733;CHA;43
+Elektromotor;650;NISSAN;298;Wischblatt;Scheibenreinigung;578580;1641226;2380-101284;VAL;21
+Elektromotor;650;NISSAN;298;Wischblatt;Scheibenreinigung;104650HPS;1755242;2380-103647;MAP;133
+Elektromotor;650;NISSAN;298;Wischblatt;Scheibenreinigung;000723061794;1907574;2380-104463;MAR;95
+Elektromotor;650;NISSAN;298;Wischblatt;Scheibenreinigung;000723061802;1907600;2380-104471;MAR;95
+Elektromotor;650;NISSAN;298;Wischblatt;Scheibenreinigung;BW10R;2025623;2380-105089;B+B;475
+Elektromotor;650;NISSAN;298;Wischblatt;Scheibenreinigung;BW16F;2025674;2380-105106;B+B;475
+Elektromotor;650;NISSAN;298;Wischblatt;Scheibenreinigung;BW26F;2025779;2380-105140;B+B;475
+Elektromotor;650;NISSAN;298;Wischblatt;Scheibenreinigung;262260;2085992;2380-103255;SWF;19
+Elektromotor;650;NISSAN;298;Wischblatt;Scheibenreinigung;DFR-002;2110166;2380-104275;DEN;66
+Elektromotor;650;NISSAN;298;Wischblatt;Scheibenreinigung;DFR-010;2110204;2380-104282;DEN;66
+Elektromotor;650;NISSAN;298;Wischblatt;Scheibenreinigung;DM-040;2111734;2380-103269;DEN;66
+Elektromotor;650;NISSAN;298;Wischblatt;Scheibenreinigung;DM-565;2111796;2380-103281;DEN;66
+Elektromotor;650;NISSAN;298;Wischblatt;Scheibenreinigung;DMS-565;2111981;2380-103289;DEN;66
+Elektromotor;650;NISSAN;298;Wischblatt;Scheibenreinigung;DRA-025;2119515;2380-103301;DEN;66
+Elektromotor;650;NISSAN;298;Wischblatt;Scheibenreinigung;116503;2739280;2380-106931;SWF;19
+Elektromotor;650;NISSAN;298;Wischblatt;Scheibenreinigung;574086;2971396;2380-107348;VAL;21
+Elektromotor;650;NISSAN;298;Wischblatt;Scheibenreinigung;EP25R/B01;3012646;2380-108402;CHA;43
+Elektromotor;650;NISSAN;298;Wischblatt;Scheibenreinigung;RD38/B01;3012653;2380-107861;CHA;43
+Elektromotor;650;NISSAN;298;Wischblatt;Scheibenreinigung;RD65/B01;3012662;2380-107870;CHA;43
+Elektromotor;650;NISSAN;298;Wischblatt;Scheibenreinigung;2800011527180;3316278;2380-108728;CTT;4434
+Elektromotor;650;NISSAN;298;Wischblatt;Scheibenreinigung;577980;3385581;2380-108302;VAL;21
+Elektromotor;650;NISSAN;298;Wischblatt;Scheibenreinigung;AD16CH400;4400702;2380-109628;BLT;350
+Elektromotor;650;NISSAN;298;Wischblatt;Scheibenreinigung;AD16FL400;4400703;2380-109629;BLT;350
+Elektromotor;650;NISSAN;298;Wischblatt;Scheibenreinigung;AD16HY400;4400704;2380-109630;BLT;350
+Elektromotor;650;NISSAN;298;Wischblatt;Scheibenreinigung;AD26CH660;4400727;2380-109653;BLT;350
+Elektromotor;650;NISSAN;298;Wischblatt;Scheibenreinigung;AD26FL660;4400728;2380-109654;BLT;350
+Elektromotor;650;NISSAN;298;Wischblatt;Scheibenreinigung;AD26HY660;4400729;2380-109655;BLT;350
+Elektromotor;650;NISSAN;298;Wischblatt;Scheibenreinigung;92431;4400754;NULL;MIH;315
+Elektromotor;650;NISSAN;298;Wischblatt;Scheibenreinigung;92438;4400761;NULL;MIH;315
+Elektromotor;650;NISSAN;298;Wischblatt;Scheibenreinigung;ECO106;4400769;NULL;MIH;315
+Elektromotor;650;NISSAN;298;Wischblatt;Scheibenreinigung;411 16 261 01 11;4400994;NULL;OES;2728
+Elektromotor;650;NISSAN;298;Wischblatt;Scheibenreinigung;411 16 261 01 11;4400994;NULL;OES;2728
+Elektromotor;650;NISSAN;298;Wischblatt;Scheibenreinigung;411 28 224 01 11;4401024;NULL;OES;2728
+Elektromotor;650;NISSAN;298;Wischblatt;Scheibenreinigung;411 28 224 01 11;4401024;NULL;OES;2728
+Elektromotor;650;NISSAN;298;Wischblatt;Scheibenreinigung;431 27 053 01 11;4401133;NULL;OES;2728
+Elektromotor;650;NISSAN;298;Wischblatt;Scheibenreinigung;000723126535;4401272;2380-109675;MAR;95
+Elektromotor;650;NISSAN;298;Wischblatt;Scheibenreinigung;000723140375;4401280;2380-109682;MAR;95
+Elektromotor;650;NISSAN;298;Wischblatt;Scheibenreinigung;000723140650;4401290;2380-109692;MAR;95
+Elektromotor;650;NISSAN;298;Wischblatt;Scheibenreinigung;000723143500;4401292;2380-109694;MAR;95
+Elektromotor;650;NISSAN;298;Wischblatt;Scheibenreinigung;000723146500;4401303;2380-109705;MAR;95
+Elektromotor;650;NISSAN;298;Wischblatt;Scheibenreinigung;BW10R.10;4473174;NULL;B+B;475
+Elektromotor;650;NISSAN;298;Wischblatt;Scheibenreinigung;BW16F.10;4473191;NULL;B+B;475
+Elektromotor;650;NISSAN;298;Wischblatt;Scheibenreinigung;BW26F.10;4473225;NULL;B+B;475
+Elektromotor;650;NISSAN;298;Wischblatt;Scheibenreinigung;8065026;4473246;NULL;DKT;6450
+Elektromotor;650;NISSAN;298;Wischblatt;Scheibenreinigung;4.66189;4473339;NULL;DTT;355
+Elektromotor;650;NISSAN;298;Wischblatt;Scheibenreinigung;LWCR10C;4473780;NULL;LU;4501
+Elektromotor;650;NISSAN;298;Wischblatt;Scheibenreinigung;LWCR123;4473798;NULL;LU;4501
+Elektromotor;650;NISSAN;298;Wischblatt;Scheibenreinigung;LWDF16;4473938;NULL;LU;4501
+Elektromotor;650;NISSAN;298;Wischblatt;Scheibenreinigung;LWDF26;4474003;NULL;LU;4501
+Elektromotor;650;NISSAN;298;Wischblatt;Scheibenreinigung;LWMF16;4474084;NULL;LU;4501
+Elektromotor;650;NISSAN;298;Wischblatt;Scheibenreinigung;LWMF26;4474093;NULL;LU;4501
+Elektromotor;650;NISSAN;298;Wischblatt;Scheibenreinigung;35-260;4474177;NULL;TCO;227
+Elektromotor;650;NISSAN;298;Wischblatt;Scheibenreinigung;35-260;4474177;NULL;TCO;227
+Elektromotor;650;NISSAN;298;Wischblatt;Scheibenreinigung;EX252;4474313;NULL;TCO;227
+Elektromotor;650;NISSAN;298;Wischblatt;Scheibenreinigung;FX400;4474357;NULL;TCO;227
+Elektromotor;650;NISSAN;298;Wischblatt;Scheibenreinigung;FX650;4474365;NULL;TCO;227
+Elektromotor;650;NISSAN;298;Wischblatt;Scheibenreinigung;HF400L;4474377;NULL;TCO;227
+Elektromotor;650;NISSAN;298;Wischblatt;Scheibenreinigung;HF400R;4474378;NULL;TCO;227
+Elektromotor;650;NISSAN;298;Wischblatt;Scheibenreinigung;HF650L;4474401;NULL;TCO;227
+Elektromotor;650;NISSAN;298;Wischblatt;Scheibenreinigung;HF650R;4474402;NULL;TCO;227
+Elektromotor;650;NISSAN;298;Wischblatt;Scheibenreinigung;NF400;4474407;NULL;TCO;227
+Elektromotor;650;NISSAN;298;Wischblatt;Scheibenreinigung;NF650;4474415;NULL;TCO;227
+Elektromotor;650;NISSAN;298;Wischblatt;Scheibenreinigung;T400;4474421;NULL;TCO;227
+Elektromotor;650;NISSAN;298;Wischblatt;Scheibenreinigung;T650;4474430;NULL;TCO;227
+Elektromotor;650;NISSAN;298;Wischblatt;Scheibenreinigung;TF400L;4474434;NULL;TCO;227
+Elektromotor;650;NISSAN;298;Wischblatt;Scheibenreinigung;TF400R;4474435;NULL;TCO;227
+Elektromotor;650;NISSAN;298;Wischblatt;Scheibenreinigung;TF650L;4474450;NULL;TCO;227
+Elektromotor;650;NISSAN;298;Wischblatt;Scheibenreinigung;TF650R;4474451;NULL;TCO;227
+Elektromotor;650;NISSAN;298;Wischblatt;Scheibenreinigung;39-0094;4474588;2380-111293;MXG;403
+Elektromotor;650;NISSAN;298;Wischblatt;Scheibenreinigung;39-0123;4474615;2380-111319;MXG;403
+Elektromotor;650;NISSAN;298;Wischblatt;Scheibenreinigung;39-8650;4543287;2380-111478;MXG;403
+Elektromotor;650;NISSAN;298;Wischblatt;Scheibenreinigung;DM-040;4543445;NULL;NPS;440
+Elektromotor;650;NISSAN;298;Wischblatt;Scheibenreinigung;DM-565;4543458;NULL;NPS;440
+Elektromotor;650;NISSAN;298;Wischblatt;Scheibenreinigung;DMS-565;4543469;NULL;NPS;440
+Elektromotor;650;NISSAN;298;Wischblatt;Scheibenreinigung;DRA-025;4543489;NULL;NPS;440
+Elektromotor;650;NISSAN;298;Wischblatt;Scheibenreinigung;DRA-030;4543490;NULL;NPS;440
+Elektromotor;650;NISSAN;298;Wischblatt;Scheibenreinigung;DRB-030;4543494;NULL;NPS;440
+Elektromotor;650;NISSAN;298;Wischblatt;Scheibenreinigung;U653L300;4543555;NULL;NPS;440
+Elektromotor;650;NISSAN;298;Wischblatt;Scheibenreinigung;U653L300A;4543556;NULL;NPS;440
+Elektromotor;650;NISSAN;298;Wischblatt;Scheibenreinigung;9491 REAR WIPER;4543904;NULL;SCT;225
+Elektromotor;650;NISSAN;298;Wischblatt;Scheibenreinigung;29001;4544194;2380-111735;KAO;185
+Elektromotor;650;NISSAN;331;Lagerbuchse, Stabilisator;Radaufhängung;L14L00;2831192;1570-199480;MON;37
+Elektromotor;650;NISSAN;331;Lagerbuchse, Stabilisator;Radaufhängung;271756;3084625;1570-220848;ABS;206
+Elektromotor;650;NISSAN;331;Lagerbuchse, Stabilisator;Radaufhängung;RU-1197;4050861;1570-283671;JPP;156
+Elektromotor;650;NISSAN;331;Lagerbuchse, Stabilisator;Radaufhängung;GOM-1197;4051285;1570-255710;ASH;257
+Elektromotor;650;NISSAN;391;Heckleuchte;Beleuchtung;045170;387988;1030-10232;VAL;21
+Elektromotor;650;NISSAN;391;Heckleuchte;Beleuchtung;045171;388248;1030-10243;VAL;21
+Elektromotor;650;NISSAN;391;Heckleuchte;Beleuchtung;3324921;3244318;1030-118903;VAN;36
+Elektromotor;650;NISSAN;391;Heckleuchte;Beleuchtung;3324922;3244319;1030-118904;VAN;36
+Elektromotor;650;NISSAN;391;Heckleuchte;Beleuchtung;3324921;3264072;NULL;9VAN;36
+Elektromotor;650;NISSAN;391;Heckleuchte;Beleuchtung;3324922;3264073;NULL;9VAN;36
+Elektromotor;650;NISSAN;402;Bremsbelagsatz, Scheibenbremse;Bremsanlage;P 56 087;199171;1410-35129;BRO;65
+Elektromotor;650;NISSAN;402;Bremsbelagsatz, Scheibenbremse;Bremsanlage;ADN142179;240088;1410-35807;BLT;350
+Elektromotor;650;NISSAN;402;Bremsbelagsatz, Scheibenbremse;Bremsanlage;P 56 096;251866;1410-35408;BRO;65
+Elektromotor;650;NISSAN;402;Bremsbelagsatz, Scheibenbremse;Bremsanlage;ADN142130;331883;1410-14118;BLT;350
+Elektromotor;650;NISSAN;402;Bremsbelagsatz, Scheibenbremse;Bremsanlage;ADN142152;334541;1410-15608;BLT;350
+Elektromotor;650;NISSAN;402;Bremsbelagsatz, Scheibenbremse;Bremsanlage;ADN142113;344302;1410-3512;BLT;350
+Elektromotor;650;NISSAN;402;Bremsbelagsatz, Scheibenbremse;Bremsanlage;13.0460-5843.2;659599;1410-5738;ATE;3
+Elektromotor;650;NISSAN;402;Bremsbelagsatz, Scheibenbremse;Bremsanlage;13.0460-5783.2;661322;1410-15416;ATE;3
+Elektromotor;650;NISSAN;402;Bremsbelagsatz, Scheibenbremse;Bremsanlage;13.0460-5843.2;662406;1410-17376;BKL;3
+Elektromotor;650;NISSAN;402;Bremsbelagsatz, Scheibenbremse;Bremsanlage;13.0460-5783.2;663589;1410-18571;BKL;3
+Elektromotor;650;NISSAN;402;Bremsbelagsatz, Scheibenbremse;Bremsanlage;37745;1204118;1410-104393;ABS;206
+Elektromotor;650;NISSAN;402;Bremsbelagsatz, Scheibenbremse;Bremsanlage;6754;1225472;1410-102335;MAP;133
+Elektromotor;650;NISSAN;402;Bremsbelagsatz, Scheibenbremse;Bremsanlage;37321;1226806;1410-104695;ABS;206
+Elektromotor;650;NISSAN;402;Bremsbelagsatz, Scheibenbremse;Bremsanlage;1170079;1233118;1410-102464;MEZ;94
+Elektromotor;650;NISSAN;402;Bremsbelagsatz, Scheibenbremse;Bremsanlage;J3601094;1262645;1410-100692;JAK;55
+Elektromotor;650;NISSAN;402;Bremsbelagsatz, Scheibenbremse;Bremsanlage;37518;1304922;1410-105609;ABS;206
+Elektromotor;650;NISSAN;402;Bremsbelagsatz, Scheibenbremse;Bremsanlage;BBP2283;1313222;1410-106540;B+B;475
+Elektromotor;650;NISSAN;402;Bremsbelagsatz, Scheibenbremse;Bremsanlage;598738;1380465;1410-112528;VAL;21
+Elektromotor;650;NISSAN;402;Bremsbelagsatz, Scheibenbremse;Bremsanlage;J3611051;1584345;1410-109090;JAK;55
+Elektromotor;650;NISSAN;402;Bremsbelagsatz, Scheibenbremse;Bremsanlage;025 238 7114/PD;1665448;1410-110856;MYE;144
+Elektromotor;650;NISSAN;402;Bremsbelagsatz, Scheibenbremse;Bremsanlage;025 238 7114/W;1665449;1410-110857;MYE;144
+Elektromotor;650;NISSAN;402;Bremsbelagsatz, Scheibenbremse;Bremsanlage;025 242 2716/W;1665560;1410-110954;MYE;144
+Elektromotor;650;NISSAN;402;Bremsbelagsatz, Scheibenbremse;Bremsanlage;025 248 7113/W;1665740;1410-111121;MYE;144
+Elektromotor;650;NISSAN;402;Bremsbelagsatz, Scheibenbremse;Bremsanlage;BBP2389;1978022;1410-131089;B+B;475
+Elektromotor;650;NISSAN;402;Bremsbelagsatz, Scheibenbremse;Bremsanlage;BBP2389;1978022;1410-131089;B+B;475
+Elektromotor;650;NISSAN;402;Bremsbelagsatz, Scheibenbremse;Bremsanlage;FDB1693;2038088;1410-114439;FED;62
+Elektromotor;650;NISSAN;402;Bremsbelagsatz, Scheibenbremse;Bremsanlage;FDB1997;2038665;1410-114606;FED;62
+Elektromotor;650;NISSAN;402;Bremsbelagsatz, Scheibenbremse;Bremsanlage;23871.138.1;2049886;1410-115334;ZIM;86
+Elektromotor;650;NISSAN;402;Bremsbelagsatz, Scheibenbremse;Bremsanlage;24227.160.1;2054390;1410-115455;ZIM;86
+Elektromotor;650;NISSAN;402;Bremsbelagsatz, Scheibenbremse;Bremsanlage;8110 14059;2058012;1410-116410;TRN;108
+Elektromotor;650;NISSAN;402;Bremsbelagsatz, Scheibenbremse;Bremsanlage;8110 14060;2058015;1410-116411;TRN;108
+Elektromotor;650;NISSAN;402;Bremsbelagsatz, Scheibenbremse;Bremsanlage;J3601099;2095290;1410-134617;JAK;55
+Elektromotor;650;NISSAN;402;Bremsbelagsatz, Scheibenbremse;Bremsanlage;PA-1001AF;2196688;1410-128657;JPP;156
+Elektromotor;650;NISSAN;402;Bremsbelagsatz, Scheibenbremse;Bremsanlage;PA-121AF;2196755;1410-128676;JPP;156
+Elektromotor;650;NISSAN;402;Bremsbelagsatz, Scheibenbremse;Bremsanlage;PD21.503;2199999;1410-123116;FRR;313
+Elektromotor;650;NISSAN;402;Bremsbelagsatz, Scheibenbremse;Bremsanlage;PD21.507;2200013;1410-123120;FRR;313
+Elektromotor;650;NISSAN;402;Bremsbelagsatz, Scheibenbremse;Bremsanlage;PP-154AF;2209490;1410-129155;JPP;156
+Elektromotor;650;NISSAN;402;Bremsbelagsatz, Scheibenbremse;Bremsanlage;363916060864;2218404;1410-134662;MAR;95
+Elektromotor;650;NISSAN;402;Bremsbelagsatz, Scheibenbremse;Bremsanlage;LP1807;2221677;1410-126868;DEH;89
+Elektromotor;650;NISSAN;402;Bremsbelagsatz, Scheibenbremse;Bremsanlage;LP3158;2223348;1410-127416;DEH;89
+Elektromotor;650;NISSAN;402;Bremsbelagsatz, Scheibenbremse;Bremsanlage;LP3251;2223515;1410-134434;DEH;89
+Elektromotor;650;NISSAN;402;Bremsbelagsatz, Scheibenbremse;Bremsanlage;601148;2423456;1410-118644;VAL;21
+Elektromotor;650;NISSAN;402;Bremsbelagsatz, Scheibenbremse;Bremsanlage;8DB 355 016-121;2676940;1410-133844;HLP;4625
+Elektromotor;650;NISSAN;402;Bremsbelagsatz, Scheibenbremse;Bremsanlage;8DB 355 020-401;2677286;1410-134189;HLP;4625
+Elektromotor;650;NISSAN;402;Bremsbelagsatz, Scheibenbremse;Bremsanlage;8DB 355 023-321;2677510;1410-134399;HLP;4625
+Elektromotor;650;NISSAN;402;Bremsbelagsatz, Scheibenbremse;Bremsanlage;4763700110;3023446;1410-138270;JP;268
+Elektromotor;650;NISSAN;402;Bremsbelagsatz, Scheibenbremse;Bremsanlage;P56087;3090578;1410-142052;ABS;206
+Elektromotor;650;NISSAN;402;Bremsbelagsatz, Scheibenbremse;Bremsanlage;P56096;3090583;1410-142057;ABS;206
+Elektromotor;650;NISSAN;402;Bremsbelagsatz, Scheibenbremse;Bremsanlage;BBP2534;3091596;1410-142640;B+B;475
+Elektromotor;650;NISSAN;402;Bremsbelagsatz, Scheibenbremse;Bremsanlage;BP-12346;3108712;1410-139466;OPT;129
+Elektromotor;650;NISSAN;402;Bremsbelagsatz, Scheibenbremse;Bremsanlage;BP-87601;3109153;1410-139775;OPT;129
+Elektromotor;650;NISSAN;402;Bremsbelagsatz, Scheibenbremse;Bremsanlage;116355;3319825;1410-140368;FEB;101
+Elektromotor;650;NISSAN;402;Bremsbelagsatz, Scheibenbremse;Bremsanlage;170242;3319905;1410-140541;FEB;101
+Elektromotor;650;NISSAN;402;Bremsbelagsatz, Scheibenbremse;Bremsanlage;170292;3319926;1410-140562;FEB;101
+Elektromotor;650;NISSAN;402;Bremsbelagsatz, Scheibenbremse;Bremsanlage;GDB3508BTE;3436377;1410-141056;TRW;161
+Elektromotor;650;NISSAN;402;Bremsbelagsatz, Scheibenbremse;Bremsanlage;GDB3520BTE;3436378;NULL;TRW;161
+Elektromotor;650;NISSAN;402;Bremsbelagsatz, Scheibenbremse;Bremsanlage;35260;3443846;1410-142955;ABS;206
+Elektromotor;650;NISSAN;402;Bremsbelagsatz, Scheibenbremse;Bremsanlage;2558101;3524427;1410-143292;TEX;39
+Elektromotor;650;NISSAN;402;Bremsbelagsatz, Scheibenbremse;Bremsanlage;2577801;3524478;1410-143339;TEX;39
+Elektromotor;650;NISSAN;402;Bremsbelagsatz, Scheibenbremse;Bremsanlage;822-1080-0;3525002;NULL;CIF;311
+Elektromotor;650;NISSAN;402;Bremsbelagsatz, Scheibenbremse;Bremsanlage;822-612-0;3525800;1410-144526;CIF;311
+Elektromotor;650;NISSAN;402;Bremsbelagsatz, Scheibenbremse;Bremsanlage;822-743-1;3590834;NULL;CIF;311
+Elektromotor;650;NISSAN;402;Bremsbelagsatz, Scheibenbremse;Bremsanlage;572501J;3653765;1410-145418;JUR;48
+Elektromotor;650;NISSAN;402;Bremsbelagsatz, Scheibenbremse;Bremsanlage;573431J;3715423;1410-146942;JUR;48
+Elektromotor;650;NISSAN;402;Bremsbelagsatz, Scheibenbremse;Bremsanlage;6754HPS;3715655;1410-169181;MAP;133
+Elektromotor;650;NISSAN;402;Bremsbelagsatz, Scheibenbremse;Bremsanlage;JQ101110;3715681;1410-147124;KAO;185
+Elektromotor;650;NISSAN;402;Bremsbelagsatz, Scheibenbremse;Bremsanlage;JQ1013386;3716080;1410-147504;KAO;185
+Elektromotor;650;NISSAN;402;Bremsbelagsatz, Scheibenbremse;Bremsanlage;05P1495;3716950;1410-147989;LPR;197
+Elektromotor;650;NISSAN;402;Bremsbelagsatz, Scheibenbremse;Bremsanlage;05P1862;3717282;1410-148310;LPR;197
+Elektromotor;650;NISSAN;402;Bremsbelagsatz, Scheibenbremse;Bremsanlage;05P1867;3717283;1410-148311;LPR;197
+Elektromotor;650;NISSAN;402;Bremsbelagsatz, Scheibenbremse;Bremsanlage;13046057832N-SET-MS;3781400;NULL;MSP;358
+Elektromotor;650;NISSAN;402;Bremsbelagsatz, Scheibenbremse;Bremsanlage;13046058432N-SET-MS;3781449;NULL;MSP;358
+Elektromotor;650;NISSAN;402;Bremsbelagsatz, Scheibenbremse;Bremsanlage;13046135082N-SET-MS;3781989;NULL;MSP;358
+Elektromotor;650;NISSAN;402;Bremsbelagsatz, Scheibenbremse;Bremsanlage;BL2583A1;3783248;1410-151443;FTE;54
+Elektromotor;650;NISSAN;402;Bremsbelagsatz, Scheibenbremse;Bremsanlage;BL2583B1;3783249;1410-151444;FTE;54
+Elektromotor;650;NISSAN;402;Bremsbelagsatz, Scheibenbremse;Bremsanlage;BL2657B1;3783330;1410-151525;FTE;54
+Elektromotor;650;NISSAN;402;Bremsbelagsatz, Scheibenbremse;Bremsanlage;LP3578;3849356;1410-145062;DEH;89
+Elektromotor;650;NISSAN;402;Bremsbelagsatz, Scheibenbremse;Bremsanlage;RAP1051;3849518;NULL;DEL;214
+Elektromotor;650;NISSAN;402;Bremsbelagsatz, Scheibenbremse;Bremsanlage;RAP1765;3850031;NULL;DEL;214
+Elektromotor;650;NISSAN;402;Bremsbelagsatz, Scheibenbremse;Bremsanlage;KBP2283;3851578;NULL;KYP;4879
+Elektromotor;650;NISSAN;402;Bremsbelagsatz, Scheibenbremse;Bremsanlage;22-0612-0;3917588;NULL;MLI;121
+Elektromotor;650;NISSAN;402;Bremsbelagsatz, Scheibenbremse;Bremsanlage;22-0743-1;3917756;NULL;MLI;121
+Elektromotor;650;NISSAN;402;Bremsbelagsatz, Scheibenbremse;Bremsanlage;22-1080-0;3918124;NULL;MLI;121
+Elektromotor;650;NISSAN;402;Bremsbelagsatz, Scheibenbremse;Bremsanlage;50-01-1001;3919487;1410-158436;ASH;257
+Elektromotor;650;NISSAN;402;Bremsbelagsatz, Scheibenbremse;Bremsanlage;50-01-121;3919510;1410-158456;ASH;257
+Elektromotor;650;NISSAN;402;Bremsbelagsatz, Scheibenbremse;Bremsanlage;363700456087;3981127;1410-154196;MAR;95
+Elektromotor;650;NISSAN;402;Bremsbelagsatz, Scheibenbremse;Bremsanlage;363700456096;3981132;1410-154201;MAR;95
+Elektromotor;650;NISSAN;402;Bremsbelagsatz, Scheibenbremse;Bremsanlage;51-01-154;3981723;1410-159871;ASH;257
+Elektromotor;650;NISSAN;402;Bremsbelagsatz, Scheibenbremse;Bremsanlage;6214025;3982026;1410-160127;SAS;260
+Elektromotor;650;NISSAN;402;Bremsbelagsatz, Scheibenbremse;Bremsanlage;6216118;3982142;1410-160243;SAS;260
+Elektromotor;650;NISSAN;402;Bremsbelagsatz, Scheibenbremse;Bremsanlage;PCP1123;3982381;NULL;DO;278
+Elektromotor;650;NISSAN;402;Bremsbelagsatz, Scheibenbremse;Bremsanlage;PCP1558;3982806;NULL;DO;278
+Elektromotor;650;NISSAN;402;Bremsbelagsatz, Scheibenbremse;Bremsanlage;363916060926;4042263;1410-154912;MAR;95
+Elektromotor;650;NISSAN;402;Bremsbelagsatz, Scheibenbremse;Bremsanlage;BPNI-1007;4043024;NULL;ASI;166
+Elektromotor;650;NISSAN;402;Bremsbelagsatz, Scheibenbremse;Bremsanlage;BPNI-2001;4043057;NULL;ASI;166
+Elektromotor;650;NISSAN;402;Bremsbelagsatz, Scheibenbremse;Bremsanlage;FCP1693H;4043710;NULL;FOD;4986
+Elektromotor;650;NISSAN;402;Bremsbelagsatz, Scheibenbremse;Bremsanlage;511090;4044210;NULL;BDX;49
+Elektromotor;650;NISSAN;402;Bremsbelagsatz, Scheibenbremse;Bremsanlage;511347;4044452;NULL;BDX;49
+Elektromotor;650;NISSAN;402;Bremsbelagsatz, Scheibenbremse;Bremsanlage;511513;4044559;NULL;BDX;49
+Elektromotor;650;NISSAN;402;Bremsbelagsatz, Scheibenbremse;Bremsanlage;5502222264;4045304;1410-160871;EBK;4770
+Elektromotor;650;NISSAN;402;Bremsbelagsatz, Scheibenbremse;Bremsanlage;5502225221;4110131;1410-162851;EBK;4770
+Elektromotor;650;NISSAN;402;Bremsbelagsatz, Scheibenbremse;Bremsanlage;0876.31;4176362;1410-163963;RE;153
+Elektromotor;650;NISSAN;402;Bremsbelagsatz, Scheibenbremse;Bremsanlage;0876.41;4176363;1410-163964;RE;153
+Elektromotor;650;NISSAN;402;Bremsbelagsatz, Scheibenbremse;Bremsanlage;1162.12;4176590;1410-164173;RE;153
+Elektromotor;650;NISSAN;402;Bremsbelagsatz, Scheibenbremse;Bremsanlage;1517.04;4176973;NULL;RE;153
+Elektromotor;650;NISSAN;402;Bremsbelagsatz, Scheibenbremse;Bremsanlage;19-1439;4177731;1410-165110;MXG;403
+Elektromotor;650;NISSAN;402;Bremsbelagsatz, Scheibenbremse;Bremsanlage;19-3381;4245905;1410-165484;MXG;403
+Elektromotor;650;NISSAN;402;Bremsbelagsatz, Scheibenbremse;Bremsanlage;8DB 355 016-121;4247118;NULL;HLL;2
+Elektromotor;650;NISSAN;402;Bremsbelagsatz, Scheibenbremse;Bremsanlage;8DB 355 020-401;4316525;NULL;HLL;2
+Elektromotor;650;NISSAN;402;Bremsbelagsatz, Scheibenbremse;Bremsanlage;8DB 355 023-321;4316673;NULL;HLL;2
+Elektromotor;650;NISSAN;402;Bremsbelagsatz, Scheibenbremse;Bremsanlage;10300570;4317543;NULL;AAN;479
+Elektromotor;650;NISSAN;402;Bremsbelagsatz, Scheibenbremse;Bremsanlage;10301162;4386258;NULL;AAN;479
+Elektromotor;650;NISSAN;402;Bremsbelagsatz, Scheibenbremse;Bremsanlage;MDB3201;4459646;NULL;MIN;73
+Elektromotor;650;NISSAN;402;Bremsbelagsatz, Scheibenbremse;Bremsanlage;MDB3396;4459776;NULL;MIN;73
+Elektromotor;650;NISSAN;402;Bremsbelagsatz, Scheibenbremse;Bremsanlage;MDB3774;4459880;NULL;MIN;73
+Elektromotor;650;NISSAN;402;Bremsbelagsatz, Scheibenbremse;Bremsanlage;572501CH;4528943;1410-155605;CHA;43
+Elektromotor;650;NISSAN;402;Bremsbelagsatz, Scheibenbremse;Bremsanlage;573431CH;4529359;1410-156019;CHA;43
+Elektromotor;650;NISSAN;402;Bremsbelagsatz, Scheibenbremse;Bremsanlage;N360N90;4530138;NULL;NPS;440
+Elektromotor;650;NISSAN;402;Bremsbelagsatz, Scheibenbremse;Bremsanlage;N361N04;4530147;NULL;NPS;440
+Elektromotor;650;NISSAN;402;Bremsbelagsatz, Scheibenbremse;Bremsanlage;1170916;4598370;1410-156260;MEZ;94
+Elektromotor;650;NISSAN;402;Bremsbelagsatz, Scheibenbremse;Bremsanlage;1170916;4598370;1410-156260;MEZ;94
+Elektromotor;650;NISSAN;402;Bremsbelagsatz, Scheibenbremse;Bremsanlage;2422704;4599773;1410-166959;TEX;39
+Elektromotor;650;NISSAN;402;Bremsbelagsatz, Scheibenbremse;Bremsanlage;37321;4647502;1410-167328;BKL;206
+Elektromotor;650;NISSAN;402;Bremsbelagsatz, Scheibenbremse;Bremsanlage;37745;4647688;1410-167514;BKL;206
+Elektromotor;650;NISSAN;402;Bremsbelagsatz, Scheibenbremse;Bremsanlage;37518;4648027;1410-167853;BKL;206
+Elektromotor;650;NISSAN;402;Bremsbelagsatz, Scheibenbremse;Bremsanlage;35260;4648438;1410-168264;BKL;206
+Elektromotor;650;NISSAN;402;Bremsbelagsatz, Scheibenbremse;Bremsanlage;J3611044;4674158;NULL;NIP;248
+Elektromotor;650;NISSAN;402;Bremsbelagsatz, Scheibenbremse;Bremsanlage;175210;4674211;1410-169856;FEB;101
+Elektromotor;650;NISSAN;405;Reparatursatz, Bremssattel;Bremsanlage;204536;1440750;1440-125394;BDW;114
+Elektromotor;650;NISSAN;405;Reparatursatz, Bremssattel;Bremsanlage;KD-128;2156421;1440-145772;JPP;156
+Elektromotor;650;NISSAN;405;Reparatursatz, Bremssattel;Bremsanlage;ST1727;3023791;1440-151900;TRW;161
+Elektromotor;650;NISSAN;405;Reparatursatz, Bremssattel;Bremsanlage;57417;3088469;1440-155490;ABS;206
+Elektromotor;650;NISSAN;405;Reparatursatz, Bremssattel;Bremsanlage;57654;3088704;1440-163345;ABS;206
+Elektromotor;650;NISSAN;405;Reparatursatz, Bremssattel;Bremsanlage;73533;3088903;1440-155920;ABS;206
+Elektromotor;650;NISSAN;405;Reparatursatz, Bremssattel;Bremsanlage;73607;3088970;1440-155986;ABS;206
