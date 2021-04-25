@@ -1,6 +1,5 @@
 /*
-
-
+   Original attempt
 */
 
 SELECT TOP 10000 
@@ -21,27 +20,34 @@ SELECT TOP 10000
 
   art.[ArticleID] as "PDM-ArtID", 
   art.[K24Number] as "K24-Nr",
-  T1.[ImportVersionNo],
 
   art.[Manufacturer:Link], -- ATE is manufacturer
   T11.[Manufacturer:Link] -- 3 is the link to the manufacturer
 
  FROM [dbo].[TecDoc.Linkages.PassengerCars] base WITH (NOLOCK) 
-  LEFT OUTER JOIN [dbo].[TecDoc.LinkingTargets.PassengerCars] T1 WITH (NOLOCK) ON T1.[PassengerCarNo] = [base].[LinkingTarget:Link]
+   LEFT OUTER JOIN [dbo].[TecDoc.LinkingTargets.PassengerCars] T1 WITH (NOLOCK) ON T1.[PassengerCarNo] = [base].[LinkingTarget:Link]
+
   LEFT OUTER JOIN [dbo].[TecDoc.GeneralData.KeyValues] T2 WITH (NOLOCK) ON T2.[KeyValueNo] = [T1].[EngineType:Link]
   LEFT OUTER JOIN [dbo].[TecDoc.GeneralData.KeyValues <TecDoc.GeneralData.UsedLanguages>] T3 WITH (NOLOCK) ON T3.[:Id] = [T2].[:Id]
               AND T3.[:TecDoc.GeneralData.UsedLanguages_Id] = '3e8124e1-b1cd-4faf-bdda-eebbfaf0acfd'
+  
   LEFT OUTER JOIN [dbo].[TecDoc.LinkingTargets.Models] T4 WITH (NOLOCK) ON T4.[ModelNo] = [T1].[Model:Link]
+  
   LEFT OUTER JOIN [dbo].[TecDoc.Manufacturer.LinkingTargetBrands] T5 WITH (NOLOCK) ON T5.[ManufacturerNo] = [T4].[Manufacturer:Link]
+  
   LEFT OUTER JOIN [dbo].[TecDoc.LinkingTargets.Models <TecDoc.GeneralData.UsedCountries>] T6 WITH (NOLOCK) ON T6.[:Id] = [T4].[:Id]
               AND T6.[:TecDoc.GeneralData.UsedCountries_Id] = 'fa28054b-7d56-4c8a-a303-cbaa1df0e43d'
+  
   LEFT OUTER JOIN [dbo].[TecDoc.ProductClassification.GenericArticles] T7 WITH (NOLOCK) ON T7.[GenericArticleNo] = [base].[GenericArticle:Link]
   LEFT OUTER JOIN [dbo].[TecDoc.ProductClassification.GenericArticles <TecDoc.GeneralData.UsedLanguages>] T8 WITH (NOLOCK) ON T8.[:Id] = [T7].[:Id]
               AND T8.[:TecDoc.GeneralData.UsedLanguages_Id] = '3e8124e1-b1cd-4faf-bdda-eebbfaf0acfd'
-    LEFT OUTER JOIN [dbo].[TecDoc.ProductClassification.AssemblyGroups] T9 WITH (NOLOCK) ON T9.[AssemblyGroupNo] = [T7].[AssemblyGroup:Link]
+  
+  LEFT OUTER JOIN [dbo].[TecDoc.ProductClassification.AssemblyGroups] T9 WITH (NOLOCK) ON T9.[AssemblyGroupNo] = [T7].[AssemblyGroup:Link]
   LEFT OUTER JOIN [dbo].[TecDoc.ProductClassification.AssemblyGroups <TecDoc.GeneralData.UsedLanguages>] T10 WITH (NOLOCK) ON T10.[:Id] = [T9].[:Id] 
               AND T10.[:TecDoc.GeneralData.UsedLanguages_Id] = '3e8124e1-b1cd-4faf-bdda-eebbfaf0acfd'
+  
   LEFT OUTER JOIN [dbo].[TecDoc.Articles.Articles] T11 WITH (NOLOCK) ON T11.[ArticleNo] = [base].[Article:Link]
+  
   LEFT OUTER JOIN [dbo].[TecDoc.Articles.Articles <TecDoc.GeneralData.UsedLanguages>] T12 WITH (NOLOCK) ON T12.[:Id] = [T11].[:Id]
               AND T12.[:TecDoc.GeneralData.UsedLanguages_Id] = '3e8124e1-b1cd-4faf-bdda-eebbfaf0acfd'
  
@@ -64,3 +70,10 @@ ORDER BY
   T3.[Name], 
   T1.[PassengerCarNo], 
   T7.[GenericArticleNo]
+
+/*
+  TODO:
+  - Run without engine type for comparison 
+  - Check art.[Manufacturer:Link]
+  - Add grouping
+*/
