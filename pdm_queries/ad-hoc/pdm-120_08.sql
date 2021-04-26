@@ -1,18 +1,33 @@
 /*
-   Retrieve the number of products in TD and in the PDM for electric cars
+   Query retrieves records without duplicates. 
+    
 */
-SELECT DISTINCT TOP (100)
+SELECT DISTINCT TOP (5000)
 
   td_t4.[Name] as "EngineType", 
   td_t2.[PassengerCarNo] as "CarNr", 
   td_t6.[Name] as "CarMake", 
- 
-  td_t8.[GenericArticleNo],
-  COUNT(td_art.[ArtNo]) as "TD-ArtNr",
---  COUNT(art.[ArticleID]) as "PDM-ArtID"
-  COUNT(art.[K24Number]) as "K24-Nr",
-  (COUNT(td_art.[ArtNo]) - COUNT(art.[K24Number])) as "Summe"
+--  td_t2.[Model:Link], 
 
+--  td_t1.[GenericArticle:Link],
+  td_t8.[GenericArticleNo] as "TD-GenartNr",
+  td_t9.[Designation] as "TD-Genart", 
+  td_t11.[Designation] as "K24-Kategorie", 
+
+  td_art.[ArtNo] as "TD-ArtNr",
+--  art_td.[TecDoc.ArtNo] as "PDM-TD-ArtNr",
+--  art.[ManufacturerArticleNo],
+  art.[ArticleID] as "PDM-ArtID",
+  art.[K24Number],
+
+--  td_t11.[Designation] as "Art-Desc",
+--  T6.[Designation] as "CarModel", 
+
+ art.[Manufacturer:Link] as "Manufacturer",
+-- md_manu.[ManufacturerNo], -- ATE, BRO
+-- md_manu.[Name], -- ATE, BREMBO
+ md_manu.[TecDoc.Link]  as "TD-ManufacturerNr" -- 3, 65
+ 
 FROM dbo.[TecDoc.Articles.Articles] td_art WITH (NOLOCK) 
   -- 6903998 unique articles IN TD
   LEFT OUTER JOIN dbo.[TecDoc.Linkages.PassengerCars] td_t1 WITH (NOLOCK) ON td_t1.[Article:Link] = td_art.[ArticleNo]
@@ -55,18 +70,13 @@ WHERE
   OR td_t4.[Name] = 'Plug-In Hybrid' -- 80-046
   ) 
   
-GROUP BY
-  td_t4.[Name],
-  td_t2.[PassengerCarNo], 
-  td_t6.[Name], 
-  td_t8.[GenericArticleNo]
-
 ORDER BY
   td_t4.[Name],
   td_t2.[PassengerCarNo], 
-  td_t8.[GenericArticleNo]
- 
-/*
+  td_t8.[GenericArticleNo],
+  art.[ArticleID]
+
+  /*
   TODO:
 
-*/
+ */
