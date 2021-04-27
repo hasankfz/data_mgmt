@@ -1,5 +1,5 @@
 /*
-   Compare the number of products for electric vehicles that are in TecDoc and in the PDM
+  Obtain the number of products for electric vehicles in TecDoc and in the PDM with a K24-Nr
 */
 SELECT DISTINCT
 
@@ -7,15 +7,26 @@ SELECT DISTINCT
   td_t2.[PassengerCarNo] as "CarNr", 
   td_t6.[Name] as "CarMake", 
   td_t7.[Designation] as "CarModel", 
- 
-  td_t8.[GenericArticleNo] as "TD-GenArtNr",
+
+--  td_t1.[GenericArticle:Link],
+  td_t8.[GenericArticleNo] as "TD-GenartNr",
   td_t9.[Designation] as "TD-GenartDesc", 
+  td_t11.[Designation] as "K24-Kategorie", 
 
-  COUNT(td_art.[ArtNo]) as "TecDoc",
---  COUNT(art.[ArticleID]) as "PDM-ArtID"
-  COUNT(art.[K24Number]) as "PMD",
-  (COUNT(td_art.[ArtNo]) - COUNT(art.[K24Number])) as "Difference"
+  td_art.[ArtNo] as "TD-ArtNr",
+--  art_td.[TecDoc.ArtNo] as "PDM-TD-ArtNr",
+--  art.[ManufacturerArticleNo],
+  art.[ArticleID] as "PDM-ArtID",
+  art.[K24Number],
 
+--  td_t11.[Designation] as "Art-Desc",
+--  T6.[Designation] as "CarModel", 
+
+ art.[Manufacturer:Link] as "Manufacturer",
+-- md_manu.[ManufacturerNo], -- ATE, BRO
+-- md_manu.[Name], -- ATE, BREMBO
+ md_manu.[TecDoc.Link]  as "TD-ManufacturerNr" -- 3, 65
+ 
 FROM dbo.[TecDoc.Articles.Articles] td_art WITH (NOLOCK) 
   -- Articles in TecDoc
   LEFT OUTER JOIN dbo.[TecDoc.Linkages.PassengerCars] td_t1 WITH (NOLOCK) ON td_t1.[Article:Link] = td_art.[ArticleNo]
@@ -65,21 +76,20 @@ WHERE
   OR td_t4.[Name] = 'Full Hybrid' -- 80-048
   OR td_t4.[Name] = 'Plug-In Hybrid' -- 80-046
   ) 
-  
-GROUP BY
-  td_t4.[Name],
-  td_t2.[PassengerCarNo], 
-  td_t6.[Name], 
-  td_t7.[Designation], 
-  td_t8.[GenericArticleNo],
-  td_t9.[Designation] 
+  -- Get articles with a K24-Nr
+  AND
+  art.[K24Number] IS NOT NULL
+
 
 ORDER BY
   td_t4.[Name],
   td_t2.[PassengerCarNo], 
-  td_t8.[GenericArticleNo]
- 
-/*
+  td_t8.[GenericArticleNo],
+  td_art.[ArtNo],
+-- art.[ArticleID]
+ art.[Manufacturer:Link]
+
+  /*
   TODO:
 
-*/
+ */
