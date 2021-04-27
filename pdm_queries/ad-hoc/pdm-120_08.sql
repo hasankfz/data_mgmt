@@ -2,16 +2,16 @@
    Query retrieves records without duplicates. 
     
 */
-SELECT DISTINCT TOP (5000)
+SELECT DISTINCT TOP (100)
 
   td_t4.[Name] as "EngineType", 
   td_t2.[PassengerCarNo] as "CarNr", 
   td_t6.[Name] as "CarMake", 
---  td_t2.[Model:Link], 
+  td_t7.[Designation] as "CarModel", 
 
 --  td_t1.[GenericArticle:Link],
   td_t8.[GenericArticleNo] as "TD-GenartNr",
-  td_t9.[Designation] as "TD-Genart", 
+  td_t9.[Designation] as "TD-GenartDesc", 
   td_t11.[Designation] as "K24-Kategorie", 
 
   td_art.[ArtNo] as "TD-ArtNr",

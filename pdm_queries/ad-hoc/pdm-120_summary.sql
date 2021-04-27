@@ -42,16 +42,20 @@ FROM dbo.[TecDoc.Articles.Articles] td_art WITH (NOLOCK)
   LEFT OUTER JOIN dbo.[Article.Articles:TecDocData] art_td WITH (NOLOCK) ON art_td.[TecDoc.Link] = td_art.[ArticleNo] -- art_td.[TecDoc.ArtNo] = td_art.[ArtNo]
   -- 2519100 unique articles IN PDM
   LEFT OUTER JOIN dbo.[Article.Articles] art WITH (NOLOCK) ON art.[:Id] = art_td.[:Id]
+  LEFT OUTER JOIN dbo.[Article.Articles:ArticleProperties] art_props WITH (NOLOCK) ON art_props.[:Id] = art.[:Id]
+  -- Manufactorer
   LEFT OUTER JOIN dbo.[MasterData.Manufacturers] md_manu WITH (NOLOCK) ON md_manu.[ArticleBrand:Link] = td_art.[Manufacturer:Link] -- md_manu.[ManufacturerNo] = art.[Manufacturer:Link]
 
 WHERE
   -- Use the latest dataset
   (td_art.[ImportVersionNo] = '20210401' OR art_td.[TecDoc.Version] = '20210401')  
-  -- Get articles that are active (normal) in the system
+  -- Get articles that are active in TecDoc and in the PDM
   AND
-  (td_art.[State:Link] = '73-001' AND art_td.[Status:Link] = '73-001') -- TODO: May be a bug in status since other codes are in art_td
-  AND
+  (td_art.[State:Link] = '73-001'
+   AND art_td.[Status:Link] = '73-001'
+   AND art_props.[ArticleStatus:Link] = '1' )
   -- Get cars with electric engines td_t2.[EngineType:Link] or td_t3.[KeyValueNo]
+  AND
   (
      td_t4.[Name] = 'Elektromotor' --80-040
   OR td_t4.[Name] = 'Mild Hybrid' -- 80-048
