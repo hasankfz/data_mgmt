@@ -1,101 +1,95 @@
-﻿EngineType;CarNr;CarMake;GenericArticleNo;TD-ArtNr;K24-Nr;Summe
-Elektromotor;650;NISSAN;1;22;18;4
-Elektromotor;650;NISSAN;5;7;5;2
-Elektromotor;650;NISSAN;7;1;0;1
-Elektromotor;650;NISSAN;8;1;0;1
-Elektromotor;650;NISSAN;12;1;0;1
-Elektromotor;650;NISSAN;39;1;1;0
-Elektromotor;650;NISSAN;51;4;2;2
-Elektromotor;650;NISSAN;56;5;5;0
-Elektromotor;650;NISSAN;62;2;2;0
-Elektromotor;650;NISSAN;70;3;1;2
-Elektromotor;650;NISSAN;78;60;36;24
-Elektromotor;650;NISSAN;82;193;152;41
-Elektromotor;650;NISSAN;83;29;26;3
-Elektromotor;650;NISSAN;105;45;34;11
-Elektromotor;650;NISSAN;106;39;37;2
-Elektromotor;650;NISSAN;107;81;81;0
-Elektromotor;650;NISSAN;108;18;16;2
-Elektromotor;650;NISSAN;112;30;25;5
-Elektromotor;650;NISSAN;113;14;10;4
-Elektromotor;650;NISSAN;114;16;11;5
-Elektromotor;650;NISSAN;179;1;1;0
-Elektromotor;650;NISSAN;188;33;22;11
-Elektromotor;650;NISSAN;189;1;1;0
-Elektromotor;650;NISSAN;191;4;2;2
-Elektromotor;650;NISSAN;193;5;3;2
-Elektromotor;650;NISSAN;194;13;11;2
-Elektromotor;650;NISSAN;195;8;6;2
-Elektromotor;650;NISSAN;215;2;0;2
-Elektromotor;650;NISSAN;219;6;6;0
-Elektromotor;650;NISSAN;251;28;20;8
-Elektromotor;650;NISSAN;259;2;2;0
-Elektromotor;650;NISSAN;273;71;59;12
-Elektromotor;650;NISSAN;284;4;2;2
-Elektromotor;650;NISSAN;286;2;0;2
-Elektromotor;650;NISSAN;289;7;6;1
-Elektromotor;650;NISSAN;291;5;5;0
-Elektromotor;650;NISSAN;298;91;46;45
-Elektromotor;650;NISSAN;331;4;4;0
-Elektromotor;650;NISSAN;391;6;4;2
-Elektromotor;650;NISSAN;402;128;96;32
-Elektromotor;650;NISSAN;405;21;19;2
-Elektromotor;650;NISSAN;412;8;8;0
-Elektromotor;650;NISSAN;424;35;27;8
-Elektromotor;650;NISSAN;447;4;0;4
-Elektromotor;650;NISSAN;448;12;12;0
-Elektromotor;650;NISSAN;449;4;2;2
-Elektromotor;650;NISSAN;450;3;3;0
-Elektromotor;650;NISSAN;467;6;6;0
-Elektromotor;650;NISSAN;470;5;4;1
-Elektromotor;650;NISSAN;508;6;5;1
-Elektromotor;650;NISSAN;626;2;2;0
-Elektromotor;650;NISSAN;653;7;7;0
-Elektromotor;650;NISSAN;654;65;50;15
-Elektromotor;650;NISSAN;655;3;1;2
-Elektromotor;650;NISSAN;657;4;4;0
-Elektromotor;650;NISSAN;658;2;2;0
-Elektromotor;650;NISSAN;794;2;1;1
-Elektromotor;650;NISSAN;806;6;5;1
-Elektromotor;650;NISSAN;830;10;10;0
-Elektromotor;650;NISSAN;854;4;1;3
-Elektromotor;650;NISSAN;878;2;1;1
-Elektromotor;650;NISSAN;901;2;2;0
-Elektromotor;650;NISSAN;914;63;53;10
-Elektromotor;650;NISSAN;919;2;2;0
-Elektromotor;650;NISSAN;950;2;2;0
-Elektromotor;650;NISSAN;1080;7;7;0
-Elektromotor;650;NISSAN;1092;28;27;1
-Elektromotor;650;NISSAN;1093;4;2;2
-Elektromotor;650;NISSAN;1159;2;2;0
-Elektromotor;650;NISSAN;1164;20;19;1
-Elektromotor;650;NISSAN;1165;5;5;0
-Elektromotor;650;NISSAN;1180;26;18;8
-Elektromotor;650;NISSAN;1182;1;0;1
-Elektromotor;650;NISSAN;1191;7;7;0
-Elektromotor;650;NISSAN;1192;4;4;0
-Elektromotor;650;NISSAN;1194;5;5;0
-Elektromotor;650;NISSAN;1209;6;6;0
-Elektromotor;650;NISSAN;1300;1;1;0
-Elektromotor;650;NISSAN;1334;13;10;3
-Elektromotor;650;NISSAN;1337;5;3;2
-Elektromotor;650;NISSAN;1360;6;6;0
-Elektromotor;650;NISSAN;1419;34;26;8
-Elektromotor;650;NISSAN;1502;3;2;1
-Elektromotor;650;NISSAN;1590;2;2;0
-Elektromotor;650;NISSAN;1626;13;12;1
-Elektromotor;650;NISSAN;1632;13;10;3
-Elektromotor;650;NISSAN;1701;2;2;0
-Elektromotor;650;NISSAN;1724;4;2;2
-Elektromotor;650;NISSAN;1761;6;2;4
-Elektromotor;650;NISSAN;1914;4;4;0
-Elektromotor;650;NISSAN;2055;7;7;0
-Elektromotor;650;NISSAN;2065;1;1;0
-Elektromotor;650;NISSAN;2066;2;0;2
-Elektromotor;650;NISSAN;2070;2;0;2
-Elektromotor;650;NISSAN;2169;6;6;0
-Elektromotor;650;NISSAN;2232;10;4;6
-Elektromotor;650;NISSAN;2248;11;9;2
-Elektromotor;650;NISSAN;2391;1;1;0
-Elektromotor;650;NISSAN;2394;8;8;0
-Elektromotor;650;NISSAN;2462;28;22;6
+﻿/*
+  Obtain the number of products for electric vehicles in TecDoc and in the PDM with a K24-Nr
+*/
+SELECT DISTINCT
+
+  td_t4.[Name] as "EngineType", 
+  td_t2.[PassengerCarNo] as "CarNr", 
+  td_t6.[Name] as "CarMake", 
+  td_t7.[Designation] as "CarModel", 
+
+--  td_t1.[GenericArticle:Link],
+  td_t8.[GenericArticleNo] as "TD-GenartNr",
+  td_t9.[Designation] as "TD-GenartDesc", 
+  td_t11.[Designation] as "K24-Kategorie", 
+
+  td_art.[ArtNo] as "TD-ArtNr",
+--  art_td.[TecDoc.ArtNo] as "PDM-TD-ArtNr",
+--  art.[ManufacturerArticleNo],
+  art.[ArticleID] as "PDM-ArtID",
+  art.[K24Number],
+
+--  td_t11.[Designation] as "Art-Desc",
+--  T6.[Designation] as "CarModel", 
+
+ art.[Manufacturer:Link] as "Manufacturer",
+-- md_manu.[ManufacturerNo], -- ATE, BRO
+-- md_manu.[Name], -- ATE, BREMBO
+ md_manu.[TecDoc.Link]  as "TD-ManufacturerNr" -- 3, 65
+ 
+FROM dbo.[TecDoc.Articles.Articles] td_art WITH (NOLOCK) 
+  -- Articles in TecDoc
+  LEFT OUTER JOIN dbo.[TecDoc.Linkages.PassengerCars] td_t1 WITH (NOLOCK) ON td_t1.[Article:Link] = td_art.[ArticleNo]
+  LEFT OUTER JOIN dbo.[TecDoc.LinkingTargets.PassengerCars] td_t2 WITH (NOLOCK) ON td_t2.[PassengerCarNo] = td_t1.[LinkingTarget:Link]
+  -- EngineType  
+  LEFT OUTER JOIN dbo.[TecDoc.GeneralData.KeyValues] td_t3 WITH (NOLOCK) ON td_t3.[KeyValueNo] = td_t2.[EngineType:Link]
+  LEFT OUTER JOIN dbo.[TecDoc.GeneralData.KeyValues <TecDoc.GeneralData.UsedLanguages>] td_t4 WITH (NOLOCK) ON td_t4.[:Id] = td_t3.[:Id]
+              AND td_t4.[:TecDoc.GeneralData.UsedLanguages_Id] = '3e8124e1-b1cd-4faf-bdda-eebbfaf0acfd' -- DE
+  -- Model
+  LEFT OUTER JOIN dbo.[TecDoc.LinkingTargets.Models] td_t5 WITH (NOLOCK) ON td_t5.[ModelNo] = td_t2.[Model:Link]
+  LEFT OUTER JOIN dbo.[TecDoc.Manufacturer.LinkingTargetBrands] td_t6 WITH (NOLOCK) ON td_t6.[ManufacturerNo] = td_t5.[Manufacturer:Link]
+  LEFT OUTER JOIN dbo.[TecDoc.LinkingTargets.Models <TecDoc.GeneralData.UsedCountries>] td_t7 WITH (NOLOCK) ON td_t7.[:Id] = td_t5.[:Id]
+              AND td_t7.[:TecDoc.GeneralData.UsedCountries_Id] = 'fa28054b-7d56-4c8a-a303-cbaa1df0e43d' -- DE
+
+  -- Genart
+  LEFT OUTER JOIN dbo.[TecDoc.ProductClassification.GenericArticles] td_t8 WITH (NOLOCK) ON td_t8.[GenericArticleNo] = td_t1.[GenericArticle:Link]
+  LEFT OUTER JOIN dbo.[TecDoc.ProductClassification.GenericArticles <TecDoc.GeneralData.UsedLanguages>] td_t9 WITH (NOLOCK) ON td_t9.[:Id] = td_t8.[:Id]
+              AND td_t9.[:TecDoc.GeneralData.UsedLanguages_Id] = '3e8124e1-b1cd-4faf-bdda-eebbfaf0acfd' -- DE
+  -- Article Description
+  LEFT OUTER JOIN dbo.[TecDoc.ProductClassification.AssemblyGroups] td_t10 WITH (NOLOCK) ON td_t10.[AssemblyGroupNo] = td_t8.[AssemblyGroup:Link]
+  LEFT OUTER JOIN dbo.[TecDoc.ProductClassification.AssemblyGroups <TecDoc.GeneralData.UsedLanguages>] td_t11 WITH (NOLOCK) ON td_t11.[:Id] = td_t10.[:Id] 
+              AND td_t11.[:TecDoc.GeneralData.UsedLanguages_Id] = '3e8124e1-b1cd-4faf-bdda-eebbfaf0acfd' -- DE
+  -- TecDoc articles in the PDM
+  LEFT OUTER JOIN dbo.[Article.Articles:TecDocData] art_td WITH (NOLOCK) ON art_td.[TecDoc.Link] = td_art.[ArticleNo] -- art_td.[TecDoc.ArtNo] = td_art.[ArtNo]
+  -- Articles in the PDM
+  LEFT OUTER JOIN dbo.[Article.Articles] art WITH (NOLOCK) ON art.[:Id] = art_td.[:Id]
+  LEFT OUTER JOIN dbo.[Article.Articles:ArticleProperties] art_props WITH (NOLOCK) ON art_props.[:Id] = art.[:Id]
+  -- Manufactorer
+  LEFT OUTER JOIN dbo.[MasterData.Manufacturers] md_manu WITH (NOLOCK) ON md_manu.[ArticleBrand:Link] = td_art.[Manufacturer:Link] -- md_manu.[ManufacturerNo] = art.[Manufacturer:Link]
+
+WHERE
+  -- Use the latest dataset
+  (td_art.[ImportVersionNo] = '20210401' OR art_td.[TecDoc.Version] = '20210401')  
+  -- Get articles that are active in TecDoc and in the PDM
+  AND
+  (td_art.[State:Link] = '73-001'
+   AND
+   art_td.[Status:Link] = '73-001'
+   AND
+   art_props.[ArticleStatus:Link] = '1'
+  )
+  -- Get cars with electric engines td_t2.[EngineType:Link] or td_t3.[KeyValueNo]
+  AND
+  (
+     td_t4.[Name] = 'Elektromotor' --80-040
+  OR td_t4.[Name] = 'Mild Hybrid' -- 80-048
+  OR td_t4.[Name] = 'Full Hybrid' -- 80-048
+  OR td_t4.[Name] = 'Plug-In Hybrid' -- 80-046
+  ) 
+  -- Get articles with a K24-Nr
+  AND
+  art.[K24Number] IS NOT NULL
+
+
+ORDER BY
+  td_t4.[Name],
+  td_t2.[PassengerCarNo], 
+  td_t8.[GenericArticleNo],
+  td_art.[ArtNo],
+-- art.[ArticleID]
+ art.[Manufacturer:Link]
+
+  /*
+  TODO:
+
+ */
