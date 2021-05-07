@@ -2,7 +2,7 @@
    Get products in TecDoc with an active status
     
 */
-SELECT TOP 100
+SELECT DISTINCT
 /*
   td_art.[ArticleNo] as "TD-ArticleNo",
   td_art.[ArtNo] as "TD-ArtNo", 

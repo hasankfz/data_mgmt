@@ -20,24 +20,25 @@ FROM dbo.[TecDoc.Articles.Articles] td_art WITH (NOLOCK)
 
 WHERE
   -- Use the latest dataset
-  (td_art.[ImportVersionNo] = '20210401' OR art_td.[TecDoc.Version] = '20210401')  
-  -- Get articles that are active in TecDoc and in the PDM
+  td_art.[ImportVersionNo] = '20210401' -- art_td.[TecDoc.Version] = '20210401'  
+  -- Get articles with an active status in TecDoc
   AND
-  (td_art.[State:Link] = '73-001' OR art_td.[Status:Link] = '73-001')
-  -- Include articles in the German market
+  td_art.[State:Link] = '73-001' -- art_td.[Status:Link] = '73-001'
+  -- Include articles from the German market
   AND
   art_td.[IsValid <DE>] = '1'
   -- Include articles with an active status
   AND
   art_props.[ArticleStatus:Link] = '1'
  
- /*
+/*
   TODO:
 
   2021-05-07
   ----------
   TD-Art  PDM-Art  PDM-ArtID  PDM-K24Nr
-  2655892 2655892  2655892    2045093   ALL
-  1809936 1809936  1809936    1809407   WITH ArticleStatus = '1'
+  2655581 2655581  2655581    2044787   Articles in TecDoc with an active status
+  1809900 1809900  1809900    1809327   Articles in the PDM with an active status
 
- */
+*/
+  

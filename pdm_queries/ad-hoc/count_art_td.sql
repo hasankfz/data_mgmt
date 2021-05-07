@@ -12,7 +12,7 @@ FROM dbo.[TecDoc.Articles.Articles] td_art WITH (NOLOCK)
 WHERE
   -- Use the latest dataset
   td_art.[ImportVersionNo] = '20210401'  
-  -- Get articles that are active in TecDoc and in the PDM
+  -- Get articles with an active status
   AND
   td_art.[State:Link] = '73-001'
 
