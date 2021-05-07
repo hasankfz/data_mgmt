@@ -2,7 +2,7 @@
    Count the number of products in TecDoc and in the PDM with an active status
     
 */
-SELECT DISTINCT 
+SELECT DISTINCT TOP 45000
 
   td_art.[ArticleNo] as "TD-ArticleNo",
 --  art_td.[TecDoc.Link] as "PDM-Art",
@@ -38,7 +38,8 @@ WHERE
   -- Include articles with an active status
   AND
   art_props.[ArticleStatus:Link] = '1'
- 
+  AND art.[Manufacturer:Link] NOT LIKE '9%'
+
 ORDER BY
   art.[ArticleID],
   art.[K24Number]

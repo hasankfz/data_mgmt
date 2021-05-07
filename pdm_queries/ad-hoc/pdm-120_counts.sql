@@ -38,10 +38,10 @@ WHERE
   -- Get cars with electric engines td_t2.[EngineType:Link] or td_t3.[KeyValueNo]
   AND
   (
-     td_t4.[Name] = 'Elektromotor' --80-040
-  OR td_t4.[Name] = 'Mild Hybrid' -- 80-048
-  OR td_t4.[Name] = 'Full Hybrid' -- 80-048
-  OR td_t4.[Name] = 'Plug-In Hybrid' -- 80-046
+      td_t4.[Name] = 'Elektromotor' --80-040
+   OR td_t4.[Name] = 'Mild Hybrid' -- 80-048
+   OR td_t4.[Name] = 'Full Hybrid' -- 80-048
+   OR td_t4.[Name] = 'Plug-In Hybrid' -- 80-046
   ) 
   /*
   TODO:
@@ -50,5 +50,10 @@ WHERE
   AND
   art.[K24Number] IS NULL
 
-
+TD-ArtNr  PDM-TD-ArtNr  PDM-ArtID  K24-Nr
+147725	147524	147725	147484
+238179  237397  238179  237560
+170871  170420  170871  170485
+175735  175296  175735  175299
+732510	730637	732510	730828
  */
