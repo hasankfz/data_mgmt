@@ -7,7 +7,7 @@ SELECT DISTINCT
   COUNT(td_art.[ArtNo]) as "TD-ArtNr"
 
 -- Articles in TecDoc
-FROM dbo.[TecDoc.Articles.Articles] td_art WITH (NOLOCK) 
+FROM dbo.[TecDoc.Articles.Articles] td_art 
 
 WHERE
   -- Use the latest dataset
