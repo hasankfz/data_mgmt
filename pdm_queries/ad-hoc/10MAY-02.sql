@@ -66,7 +66,34 @@ WHERE
    114266 Active articles in TecDoc for the German market
 */
   
-  )
+  ),
 
-SELECT SUM(TDArtNr)
-FROM td_art_count_CTE
+td_art_totalcount_CTE (TDArtNr)
+AS(
+   SELECT SUM(TDArtNr)
+   FROM td_art_count_CTE
+  ),
+
+td_art_combine_CTE (TDArticleNr)
+AS(
+SELECT TDArtNumber 
+
+FROM td_art_CTE 
+
+WHERE
+  -- Get articles with an active status
+  TDArtStatus = '73-001' 
+
+UNION ALL
+
+SELECT TDDEArtNumber
+
+FROM td_art_de_CTE  
+
+WHERE
+  -- Get articles with an active status
+  TDDEArtStatus = '73-001' 
+)
+
+SELECT TOP 10 *
+FROM td_art_combine_CTE
