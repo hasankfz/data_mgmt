@@ -183,14 +183,18 @@ GROUP BY
 )
 
 -- 4843188 Articles
--- 332730
-SELECT DISTINCT
+--  332730 Articles for EVs
+SELECT DISTINCT 
 --COUNT(DISTINCT(td_art_combine_nr_CTE.TDArticleNrs)), -- Articles in TecDoc
 --COUNT(DISTINCT(td_art_pc_CTE.TDArtPCNr)) -- Articles in TecDoc for passenger cars
 -- td_art_combine_nr_CTE.TDArticleNrs, -- Articles in TecDoc
 -- COUNT(DISTINCT(TEST_CTE.Article)) -- Articles in TecDoc for passenger cars
-TEST_CTE.Article -- Articles in TecDoc for passenger cars
+TEST_CTE.Article, -- Articles in TecDoc for passenger cars
 --TEST_CTE.Car
+art.ArticleID,
+art.K24Number,
+art.ManufacturerArticleNo,
+art.[Manufacturer:Link]
 
 FROM td_art_combine_nr_CTE
 -- Extract the number of articles related to passenger cars
@@ -198,15 +202,19 @@ FROM td_art_combine_nr_CTE
    INNER JOIN TEST_CTE ON td_art_combine_nr_CTE.TDArticleNrs = CAST(TEST_CTE.Article as varchar)
 
 -- Extract the artices for EVs
-   INNER JOIN td_ev_CTE ON  TEST_CTE.Car = td_ev_CTE.TDEVNr --  td_pcl.[LinkingTarget:Link] = td_pc.[PassengerCarNo]
+   INNER JOIN td_ev_CTE ON TEST_CTE.Car = td_ev_CTE.TDEVNr --  td_pcl.[LinkingTarget:Link] = td_pc.[PassengerCarNo]
+
+
+   LEFT OUTER JOIN dbo.[Article.Articles:TecDocData] art_td ON TEST_CTE.Article = art_td.[TecDoc.Link]          
+   LEFT OUTER JOIN dbo.[Article.Articles] art ON art_td.[:Id] = art.[:Id]
+   LEFT OUTER JOIN dbo.[Article.Articles:ArticleProperties] art_props ON art.[:Id] = art_props.[:Id]
+
+WHERE
+   art_props.[ArticleStatus:Link] = '1'
 
 --GROUP BY
 --TEST_CTE.Article
 
 /*
-  FROM dbo.[TecDoc.Articles.Articles] td_art 
-  -- Links to articles for passenger cars (PKW or PC)
-     INNER JOIN dbo.[TecDoc.Linkages.PassengerCars] td_pcl ON td_art.[ArticleNo] = td_pcl.[Article:Link] 
-  -- Links to passenger cars (PKW or PC)
-     INNER JOIN dbo.[TecDoc.LinkingTargets.PassengerCars] td_pc ON td_pcl.[LinkingTarget:Link] = td_pc.[PassengerCarNo] 
+
 */
