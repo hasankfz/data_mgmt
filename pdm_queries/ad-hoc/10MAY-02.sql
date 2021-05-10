@@ -105,6 +105,7 @@ FROM td_art_combine_CTE
 
 -- Get the passenger cars in TecDoc that have a reference to an article. 
 -- 85120 Links to passenger cars
+-- HERE
 td_pc_CTE (TDPCNr)
 AS(
 
@@ -164,22 +165,43 @@ GROUP BY
 --  td_pc.[EngineType:Link],
   td_pc.PassengerCarNo
 
+),
+
+TEST_CTE (Article, Car)
+AS(
+
+SELECT DISTINCT 
+td_pcl.[Article:Link],
+td_pcl.[LinkingTarget:Link]
+
+FROM
+  dbo.[TecDoc.Linkages.PassengerCars] td_pcl
+
+GROUP BY
+  td_pcl.[Article:Link],
+  td_pcl.[LinkingTarget:Link]
 )
 
 -- 4843188 Articles
-SELECT TOP 10
-COUNT(DISTINCT(td_art_combine_nr_CTE.TDArticleNrs)), -- Articles in TecDoc
-COUNT(DISTINCT(td_art_pc_CTE.TDArtPCNr)) -- Articles in TecDoc for passenger cars
---td_art_combine_nr_CTE.TDArticleNrs, -- Articles in TecDoc
---td_art_pc_CTE.TDArtPCNr -- Articles in TecDoc for passenger cars
---td_pc_CTE.TDPCNr,
---td_ev_CTE.TDEVNr
+-- 332730
+SELECT DISTINCT
+--COUNT(DISTINCT(td_art_combine_nr_CTE.TDArticleNrs)), -- Articles in TecDoc
+--COUNT(DISTINCT(td_art_pc_CTE.TDArtPCNr)) -- Articles in TecDoc for passenger cars
+-- td_art_combine_nr_CTE.TDArticleNrs, -- Articles in TecDoc
+-- COUNT(DISTINCT(TEST_CTE.Article)) -- Articles in TecDoc for passenger cars
+TEST_CTE.Article -- Articles in TecDoc for passenger cars
+--TEST_CTE.Car
 
 FROM td_art_combine_nr_CTE
 -- Extract the number of articles related to passenger cars
-   INNER JOIN td_art_pc_CTE ON td_art_combine_nr_CTE.TDArticleNrs = td_art_pc_CTE.TDArtPCNr --  td_art.[ArticleNo] = td_pcl.[Article:Link]
+-- INNER JOIN td_art_pc_CTE ON td_art_combine_nr_CTE.TDArticleNrs = td_art_pc_CTE.TDArtPCNr --  td_art.[ArticleNo] = td_pcl.[Article:Link]
+   INNER JOIN TEST_CTE ON td_art_combine_nr_CTE.TDArticleNrs = CAST(TEST_CTE.Article as varchar)
 
---LEFT OUTER JOIN td_ev_CTE ON td_pc_CTE.TDPCNr = td_ev_CTE.TDEVNr --  td_pcl.[LinkingTarget:Link] = td_pc.[PassengerCarNo]
+-- Extract the artices for EVs
+   INNER JOIN td_ev_CTE ON  TEST_CTE.Car = td_ev_CTE.TDEVNr --  td_pcl.[LinkingTarget:Link] = td_pc.[PassengerCarNo]
+
+--GROUP BY
+--TEST_CTE.Article
 
 /*
   FROM dbo.[TecDoc.Articles.Articles] td_art 
