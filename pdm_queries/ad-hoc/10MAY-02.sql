@@ -95,5 +95,5 @@ WHERE
   TDDEArtStatus = '73-001' 
 )
 
-SELECT TOP 10 *
+SELECT DISTINCT *
 FROM td_art_combine_CTE
