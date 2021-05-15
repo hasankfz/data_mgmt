@@ -1,5 +1,5 @@
 /*
-  Obtain the number of products for electric vehicles in TecDoc and in the PDM with a K24-Nr
+  DEPRECATED: Obtain the number of products for electric vehicles in TecDoc and in the PDM with a K24-Nr
 */
 SELECT DISTINCT
 

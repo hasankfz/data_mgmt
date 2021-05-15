@@ -1,7 +1,7 @@
 /*
-   Query from PDM to extract relevant data for PDM-120.
+  Query from PDM to extract relevant data for PDM-120.
 */
-SELECT  TOP 10
+SELECT TOP 10
        T1.[EngineType:Link], 
        base.[Article:Link], 
        T2.[DataSupplier:Link], 
