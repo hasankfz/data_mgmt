@@ -1,6 +1,6 @@
 /*
   List the electric vehicles (EVs) in TecDoc.
-  The descriptions are for the German market.
+  The descriptions are for the German market. The EVs don't include hydrogen fueled cars.
 */
 
 SELECT 

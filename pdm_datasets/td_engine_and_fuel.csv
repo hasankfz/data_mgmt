@@ -1,0 +1,24 @@
+﻿EngineType:Link;EngineType;FuelType:Link;FuelType;(Kein Spaltenname)
+80-001;Otto;182-001;Benzin;29549
+80-001;Otto;182-008;CNG;26
+80-001;Otto;182-012;LPG;2
+80-001;Otto;182-016;Benzin/Erdgas (CNG);193
+80-001;Otto;182-018;Benzin/Autogas (LPG);471
+80-001;Otto;182-019;Benzin/Ethanol;266
+80-001;Otto;182-020;Benzin/Methanol;4
+80-001;Otto;182-031;Ethanol;2
+80-002;Diesel;182-002;Diesel;12260
+80-003;Otto (Zweitakter);182-001;Benzin;22
+80-003;Otto (Zweitakter);182-004;Gemisch;1654
+80-004;Wankel;182-001;Benzin;26
+80-040;Elektromotor;182-007;Wasserstoff;6
+80-040;Elektromotor;182-011;Elektro;392
+80-046;Plug-In Hybrid;182-013;Benzin/Elektro;309
+80-046;Plug-In Hybrid;182-014;Diesel/Elektro;28
+80-047;Range Extender;182-013;Benzin/Elektro;16
+80-048;Full Hybrid;182-013;Benzin/Elektro;168
+80-048;Full Hybrid;182-014;Diesel/Elektro;21
+80-048;Full Hybrid;182-028;Benzin/Ethanol/Elektro;2
+80-049;Mild Hybrid;182-013;Benzin/Elektro;306
+80-049;Mild Hybrid;182-014;Diesel/Elektro;250
+80-049;Mild Hybrid;182-028;Benzin/Ethanol/Elektro;2

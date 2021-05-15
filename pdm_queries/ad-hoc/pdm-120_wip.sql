@@ -185,7 +185,7 @@ FROM
 WHERE
   td_pc.ImportVersionNo = '20210401'
   AND
-  td_pc.[EngineType:Link] IN ('80-046','80-048')
+  td_pc.[EngineType:Link] IN ('80-046','80-048','80-049')
 
 GROUP BY
 --  td_pc.[EngineType:Link],
@@ -206,12 +206,31 @@ FROM
 WHERE
   td_pc.ImportVersionNo = '20210401'
   AND
-  td_pc.[EngineType:Link] NOT IN ('80-040','80-046','80-048')
+  td_pc.[EngineType:Link] NOT IN ('80-040','80-046','80-048','80-049')
 
 GROUP BY
 --  td_pc.[EngineType:Link],
   td_pc.PassengerCarNo
 ),
+
+-- Count the total number of vehicles
+td_tv_CTE (TDTVNr)
+AS(
+SELECT
+  td_pc.[EngineType:Link],
+  COUNT(td_pc.PassengerCarNo)
+--  td_pc.PassengerCarNo
+
+FROM
+  dbo.[TecDoc.LinkingTargets.PassengerCars] td_pc 
+
+WHERE
+  td_pc.ImportVersionNo = '20210401'
+
+GROUP BY
+  td_pc.[EngineType:Link],
+),
+
 
 -- HERE
 TEST_CTE (Article, Car)
