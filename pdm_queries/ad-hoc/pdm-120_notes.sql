@@ -50,9 +50,26 @@ GROUP BY
 ORDER BY
   td_pcl.[Article:Link]
 
+ -- 2.3
+
+ SELECT DISTINCT
+td_pcl.[Article:Link],
+COUNT(td_pcl.[LinkingTarget:Link]) as "Counted"
+--td_pcl.[GenericArticle:Link]
+
+FROM
+  dbo.[TecDoc.Linkages.PassengerCars] td_pcl
+
+GROUP BY
+  td_pcl.[Article:Link]
+
+ORDER BY
+  Counted DESC 
+
 -- 3. List of electric vehicles (EVs)
 
 SELECT
+  td_pc.[EngineType:Link],
   td_pc.PassengerCarNo
 
 FROM
@@ -63,7 +80,11 @@ WHERE
   AND
   td_pc.[EngineType:Link] IN ('80-040','80-046','80-048')
 
-ORDER BY
+GROUP BY
+  td_pc.[EngineType:Link],
   td_pc.PassengerCarNo
+
+ORDER BY
+  td_pc.[EngineType:Link]
 
 -- 4. Articles in PDM

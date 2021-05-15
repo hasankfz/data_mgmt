@@ -183,7 +183,9 @@ GROUP BY
 )
 
 -- 4843188 Articles
---  332730 Articles for EVs
+--  332730 Articles for EVs in TD
+--  121662 Articles for EVs in PDM
+--      61 Articles for EVs in PDM without K24-Nr
 SELECT DISTINCT 
 --COUNT(DISTINCT(td_art_combine_nr_CTE.TDArticleNrs)), -- Articles in TecDoc
 --COUNT(DISTINCT(td_art_pc_CTE.TDArtPCNr)) -- Articles in TecDoc for passenger cars

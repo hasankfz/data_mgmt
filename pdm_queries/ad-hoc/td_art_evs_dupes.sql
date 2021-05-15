@@ -10,13 +10,13 @@ td_pc.[PassengerCarNo],
 COUNT(*)
 
 -- Articles in TecDoc
-FROM dbo.[TecDoc.Articles.Articles] td_art WITH (NOLOCK) 
+FROM dbo.[TecDoc.Articles.Articles] td_art 
   -- Links to articles for passenger cars (PKW or PC)
-     INNER JOIN dbo.[TecDoc.Linkages.PassengerCars] td_pcl WITH (NOLOCK) ON td_pcl.[Article:Link] = td_art.[ArticleNo]
+     INNER JOIN dbo.[TecDoc.Linkages.PassengerCars] td_pcl ON td_pcl.[Article:Link] = td_art.[ArticleNo]
   -- Links to passenger cars (PKW or PC)
-     INNER JOIN dbo.[TecDoc.LinkingTargets.PassengerCars] td_pc WITH (NOLOCK) ON td_pc.[PassengerCarNo] = td_pcl.[LinkingTarget:Link] 
+     INNER JOIN dbo.[TecDoc.LinkingTargets.PassengerCars] td_pc ON td_pc.[PassengerCarNo] = td_pcl.[LinkingTarget:Link] 
   -- Cars in the German market 
-     LEFT OUTER JOIN [dbo].[TecDoc.LinkingTargets.PassengerCars <TecDoc.GeneralData.UsedCountries>] td_pc_de WITH (NOLOCK) ON td_pc_de.[:Id] = td_pc.[:Id]
+     LEFT OUTER JOIN [dbo].[TecDoc.LinkingTargets.PassengerCars <TecDoc.GeneralData.UsedCountries>] td_pc_de ON td_pc_de.[:Id] = td_pc.[:Id]
                  AND td_pc_de.[:TecDoc.GeneralData.UsedCountries_Id] = 'fa28054b-7d56-4c8a-a303-cbaa1df0e43d'
  
 WHERE

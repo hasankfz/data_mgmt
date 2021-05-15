@@ -19,12 +19,12 @@ SELECT DISTINCT TOP 45000
   td_art.[DataSupplier:Link]  
 
 -- Articles in TecDoc
-FROM dbo.[TecDoc.Articles.Articles] td_art WITH (NOLOCK) 
+FROM dbo.[TecDoc.Articles.Articles] td_art 
 -- TecDoc articles in the PDM
-  LEFT OUTER JOIN dbo.[Article.Articles:TecDocData] art_td WITH (NOLOCK) ON art_td.[TecDoc.Link] = td_art.[ArticleNo] -- art_td.[TecDoc.ArtNo] = td_art.[ArtNo]
+  LEFT OUTER JOIN dbo.[Article.Articles:TecDocData] art_td ON art_td.[TecDoc.Link] = td_art.[ArticleNo] -- art_td.[TecDoc.ArtNo] = td_art.[ArtNo]
 -- Articles in the PDM
-  LEFT OUTER JOIN dbo.[Article.Articles] art WITH (NOLOCK) ON art.[:Id] = art_td.[:Id]
-  LEFT OUTER JOIN dbo.[Article.Articles:ArticleProperties] art_props WITH (NOLOCK) ON art_props.[:Id] = art.[:Id]
+  LEFT OUTER JOIN dbo.[Article.Articles] art ON art.[:Id] = art_td.[:Id]
+  LEFT OUTER JOIN dbo.[Article.Articles:ArticleProperties] art_props ON art_props.[:Id] = art.[:Id]
 
 WHERE
   -- Use the latest dataset

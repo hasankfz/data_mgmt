@@ -8,7 +8,7 @@ SELECT
   td_pc.PassengerCarNo
 
 FROM dbo.[TecDoc.LinkingTargets.PassengerCars] td_pc 
-  -- Get cars in the German market 
+  -- Description for cars in German 
   LEFT OUTER JOIN [dbo].[TecDoc.LinkingTargets.PassengerCars <TecDoc.GeneralData.UsedCountries>] td_pc_de  ON td_pc_de.[:Id] = td_pc.[:Id]
               AND td_pc_de.[:TecDoc.GeneralData.UsedCountries_Id] = 'fa28054b-7d56-4c8a-a303-cbaa1df0e43d'
 
