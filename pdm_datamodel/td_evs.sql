@@ -1,10 +1,10 @@
 /*
-  List the electric vehicles in TecDoc that are available.
+  List the electric vehicles (EVs) in TecDoc.
   The descriptions are for the German market.
 */
 
 SELECT 
-  --COUNT(DISTINCT(td_pc.[:Id])) -- 926 EVS
+  --COUNT(DISTINCT(td_pc.[:Id])) -- 392 EVS
   td_pc_de.LongDesignation,
   td_pc.PassengerCarNo
 
@@ -16,7 +16,9 @@ FROM dbo.[TecDoc.LinkingTargets.PassengerCars] td_pc
 WHERE
   td_pc.ImportVersionNo = '20210401'
   AND
-  td_pc.[EngineType:Link] IN ('80-040','80-046','80-048')
+  td_pc.[EngineType:Link] IN ('80-040')
+  AND
+  td_pc.[FuelType:Link] = '182-011'
 
 ORDER BY
   td_pc_de.LongDesignation
