@@ -148,14 +148,9 @@ GROUP BY
 
 ),
 
--- Get the electric vehicles (EVs) in TecDoc.
--- EngineType   Count
--- 80-046       337
--- 80-040       398
--- 80-048       191
+-- Get the electric vehicles (EVs) in TecDoc (392). See Page 20 of specification.
 td_ev_CTE (TDEVNr)
 AS(
-
 SELECT
 --  td_pc.[EngineType:Link],
 --  COUNT(td_pc.PassengerCarNo)
@@ -167,18 +162,58 @@ FROM
 WHERE
   td_pc.ImportVersionNo = '20210401'
   AND
-  td_pc.[EngineType:Link] IN ('80-040','80-046','80-048')
-    td_pc.[EngineType:Link] IN ('80-040')
+  td_pc.[EngineType:Link] IN ('80-040')
   AND
   td_pc.[FuelType:Link] = '182-011'
-$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
 
 GROUP BY
 --  td_pc.[EngineType:Link],
   td_pc.PassengerCarNo
-
 ),
 
+-- Get the hybrid vehicles in TecDoc (528).
+td_hv_CTE (TDHVNr)
+AS(
+SELECT
+--  td_pc.[EngineType:Link],
+--  COUNT(td_pc.PassengerCarNo)
+  td_pc.PassengerCarNo
+
+FROM
+  dbo.[TecDoc.LinkingTargets.PassengerCars] td_pc 
+
+WHERE
+  td_pc.ImportVersionNo = '20210401'
+  AND
+  td_pc.[EngineType:Link] IN ('80-046','80-048')
+
+GROUP BY
+--  td_pc.[EngineType:Link],
+  td_pc.PassengerCarNo
+),
+
+-- Get vehicles that are neither electric nor hybrid in TecDoc (45049).
+td_nehv_CTE (TDNEHVNr)
+AS(
+SELECT
+--  td_pc.[EngineType:Link],
+--  COUNT(td_pc.PassengerCarNo)
+  td_pc.PassengerCarNo
+
+FROM
+  dbo.[TecDoc.LinkingTargets.PassengerCars] td_pc 
+
+WHERE
+  td_pc.ImportVersionNo = '20210401'
+  AND
+  td_pc.[EngineType:Link] NOT IN ('80-040','80-046','80-048')
+
+GROUP BY
+--  td_pc.[EngineType:Link],
+  td_pc.PassengerCarNo
+),
+
+-- HERE
 TEST_CTE (Article, Car)
 AS(
 
@@ -217,7 +252,6 @@ FROM td_art_combine_nr_CTE
 
 -- Extract the artices for EVs
    INNER JOIN td_ev_CTE ON TEST_CTE.Car = td_ev_CTE.TDEVNr --  td_pcl.[LinkingTarget:Link] = td_pc.[PassengerCarNo]
-
 
    LEFT OUTER JOIN dbo.[Article.Articles:TecDocData] art_td ON TEST_CTE.Article = art_td.[TecDoc.Link]          
    LEFT OUTER JOIN dbo.[Article.Articles] art ON art_td.[:Id] = art.[:Id]
