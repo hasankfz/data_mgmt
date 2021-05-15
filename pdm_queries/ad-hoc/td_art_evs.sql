@@ -1,6 +1,5 @@
 /*
-   Dump the number of products for electric vehicles in TecDoc with an active status
-    
+  Dump the number of products for electric vehicles in TecDoc with an active status
 */
 SELECT DISTINCT TOP 50
 --  COUNT(td_art.[ArticleNo]) as "TD-ArtNr"
@@ -37,7 +36,3 @@ WHERE
 ORDER BY
   td_art.[ArticleNo], 
   td_pc.[PassengerCarNo]
-
-/*
-  TODO:
-*/

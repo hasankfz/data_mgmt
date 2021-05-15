@@ -1,5 +1,6 @@
 /*
-  List the electric vehicles in TecDoc that are available. The descriptions are for the German market.
+  List the electric vehicles in TecDoc that are available.
+  The descriptions are for the German market.
 */
 
 SELECT 

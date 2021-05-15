@@ -1,14 +1,17 @@
-SELECT TOP 10
-       base.[Article:Link], 
-       base.[LinkingTarget:Link], 
-       T6.[LongDesignation],
+/*
+   Query from PDM to extract relevant data for PDM-120.
+*/
+SELECT  TOP 10
        T1.[EngineType:Link], 
-       T5.[Designation], 
+       base.[Article:Link], 
        T2.[DataSupplier:Link], 
        T2.[Manufacturer:Link], 
        T2.[ArtNo], 
-	   T2.[ArticleNo],
-       T3.[Designation] 
+       T3.[Designation], 
+       base.[GenericArticle:Link], 
+       T5.[Designation], 
+       base.[LinkingTarget:Link], 
+       T6.[LongDesignation]
 
  FROM [dbo].[TecDoc.Linkages.PassengerCars] base  
   LEFT OUTER JOIN [dbo].[TecDoc.LinkingTargets.PassengerCars] T1 ON T1.[PassengerCarNo] = [base].[LinkingTarget:Link]

@@ -1,23 +1,23 @@
 /*
-   Dump the number of products for electric vehicles in TecDoc with an active status
-    
+  Count the number of products for electric vehicles in TecDoc with an active status.
 */
 SELECT DISTINCT
 --  COUNT(td_art.[ArticleNo]) as "TD-ArtNr"
-
-td_art.[ArticleNo] as "TD-ArticleNo",
+td_art.[ArticleNo],
 td_pc.[PassengerCarNo],
 COUNT(*)
 
 -- Articles in TecDoc
-FROM dbo.[TecDoc.Articles.Articles] td_art 
-  -- Links to articles for passenger cars (PKW or PC)
-     INNER JOIN dbo.[TecDoc.Linkages.PassengerCars] td_pcl ON td_pcl.[Article:Link] = td_art.[ArticleNo]
-  -- Links to passenger cars (PKW or PC)
-     INNER JOIN dbo.[TecDoc.LinkingTargets.PassengerCars] td_pc ON td_pc.[PassengerCarNo] = td_pcl.[LinkingTarget:Link] 
-  -- Cars in the German market 
-     LEFT OUTER JOIN [dbo].[TecDoc.LinkingTargets.PassengerCars <TecDoc.GeneralData.UsedCountries>] td_pc_de ON td_pc_de.[:Id] = td_pc.[:Id]
-                 AND td_pc_de.[:TecDoc.GeneralData.UsedCountries_Id] = 'fa28054b-7d56-4c8a-a303-cbaa1df0e43d'
+FROM dbo.[TecDoc.Articles.Articles] td_art
+-- Links to articles for passenger cars (PKW or PC)
+   JOIN (SELECT td_pcl.[Article:Link], td_pcl.[LinkingTarget:Link]
+         FROM dbo.[TecDoc.Linkages.PassengerCars] td_pcl
+	      GROUP BY td_pcl.[Article:Link], td_pcl.[LinkingTarget:Link]) as td_pcl ON td_art.[ArticleNo] = td_pcl.[Article:Link]
+-- Links to passenger cars (PKW or PC)
+   INNER JOIN dbo.[TecDoc.LinkingTargets.PassengerCars] td_pc ON td_pc.[PassengerCarNo] = td_pcl.[LinkingTarget:Link] 
+-- German description for cars 
+   LEFT OUTER JOIN [dbo].[TecDoc.LinkingTargets.PassengerCars <TecDoc.GeneralData.UsedCountries>] td_pc_de ON td_pc_de.[:Id] = td_pc.[:Id]
+               AND td_pc_de.[:TecDoc.GeneralData.UsedCountries_Id] = 'fa28054b-7d56-4c8a-a303-cbaa1df0e43d'
  
 WHERE
   -- Use the latest dataset
@@ -33,14 +33,4 @@ GROUP BY
   td_art.[ArticleNo], 
   td_pc.[PassengerCarNo]
 
-HAVING COUNT(*) > 1
-
-/*
-  TODO:
-
-  2021-05-08
-  ----------
-  6903998   Articles in TD
-
-  - Duplicate article numbers
-*/
+HAVING COUNT(*) >= 1
