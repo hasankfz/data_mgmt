@@ -215,11 +215,10 @@ GROUP BY
   td_pcl.[LinkingTarget:Link]
 ),
 
--- 7000506 Articles in TD
 -- 4811969 Articles for PCs in TD 
 --  125251 Articles for EVs in TD
---  264522 Articles for HVs in TD
-td_art_pcs_CTE (Article)
+--  264514 Articles for HVs in TD
+td_art_pcs_e_CTE (Article)
 AS(
    SELECT COUNT(DISTINCT(td_art_combine_nr_CTE.TDArticleNrs))
 
@@ -229,14 +228,45 @@ AS(
 
    -- Extract the articles for EVs
       INNER JOIN td_ev_CTE ON td_art_pcs_CTE.Car = td_ev_CTE.TDEVNr --  td_pcl.[LinkingTarget:Link] = td_pc.[PassengerCarNo]
-
-   -- Extract the articles for HVs
-   -- INNER JOIN td_hv_CTE ON td_art_pcs_CTE.Car = td_hv_CTE.TDHVNr 
-
-   -- Extract the articles for non EV or HV
-   -- INNER JOIN td_nehv_CTE ON td_art_pcs_CTE.Car = td_nehv_CTE.TDNEHVNr 
    ),
 
+td_art_pcs_h_CTE (Article)
+AS(
+   SELECT COUNT(DISTINCT(td_art_combine_nr_CTE.TDArticleNrs))
+
+   FROM td_art_combine_nr_CTE
+   -- Extract the number of articles related to passenger cars
+      INNER JOIN td_art_pcs_CTE ON td_art_combine_nr_CTE.TDArticleNrs = CAST(td_art_pcs_CTE.Article as varchar) -- td_art.[ArticleNo] = td_pcl.[Article:Link]
+
+   -- Extract the articles for HVs
+      INNER JOIN td_hv_CTE ON td_art_pcs_CTE.Car = td_hv_CTE.TDHVNr 
+   ),
+
+-- 4811969 Articles for PCs in TD 
+td_art_pcs_a_CTE (Article)
+AS(
+   SELECT COUNT(DISTINCT(td_art_combine_nr_CTE.TDArticleNrs))
+
+   FROM td_art_combine_nr_CTE
+   -- Extract the number of articles related to passenger cars
+      INNER JOIN td_art_pcs_CTE ON td_art_combine_nr_CTE.TDArticleNrs = CAST(td_art_pcs_CTE.Article as varchar) -- td_art.[ArticleNo] = td_pcl.[Article:Link]
+
+   -- Extract the articles for non EV or HV
+      INNER JOIN td_nehv_CTE ON td_art_pcs_CTE.Car = td_nehv_CTE.TDNEHVNr 
+   ),
+
+td_art_totals_CTE (Article)
+AS(
+   SELECT "EVs", Article
+   FROM td_art_pcs_e_CTE
+   UNION ALL
+   SELECT "HVs", Article
+   FROM td_art_pcs_h_CTE
+   UNION ALL
+   SELECT Article
+   FROM td_art_pcs_h_CTE
+  ),
+  
 -- 2215771 Articles for PCs in PDM (1576977)
 --   60430 Articles for EVs in PDM (45244)
 --    9978 Articles for EVs in PDM without K24-Nr (23)
