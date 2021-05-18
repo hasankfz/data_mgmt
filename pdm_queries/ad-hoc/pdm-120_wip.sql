@@ -255,22 +255,24 @@ AS(
       INNER JOIN td_nehv_CTE ON td_art_pcs_CTE.Car = td_nehv_CTE.TDNEHVNr 
    ),
 
-td_art_totals_CTE (Article)
+td_art_total_count_CTE (Article)
 AS(
-   SELECT "EVs", Article
+   SELECT Article as "Articles"
    FROM td_art_pcs_e_CTE
-   UNION ALL
-   SELECT "HVs", Article
-   FROM td_art_pcs_h_CTE
    UNION ALL
    SELECT Article
    FROM td_art_pcs_h_CTE
+   /*
+   UNION ALL
+   SELECT Article
+   FROM td_art_pcs_h_CTE
+   */
   ),
-  
+
 -- 2215771 Articles for PCs in PDM (1576977)
 --   60430 Articles for EVs in PDM (45244)
 --    9978 Articles for EVs in PDM without K24-Nr (23)
-pmd_art_pcs_CTE (Article)
+pmd_art_pcs_e_CTE (Article)
 AS(
    SELECT COUNT(DISTINCT(art.[:Id])) -- td_art_pcs_CTE.Article)) 125251 --td_art_combine_nr_CTE.TDArticleNrs)) 4811180
 
@@ -286,9 +288,53 @@ AS(
    LEFT OUTER JOIN dbo.[Article.Articles:ArticleProperties] art_props ON art.[:Id] = art_props.[:Id]
 
    WHERE
-     art_props.[ArticleStatus:Link] = '1'
+     art.K24Number IS NOT NULL
+--     art_props.[ArticleStatus:Link] = '1'
+),
+
+pmd_art_pcs_h_CTE (Article)
+AS(
+   SELECT COUNT(DISTINCT(art.[:Id])) -- td_art_pcs_CTE.Article)) 125251 --td_art_combine_nr_CTE.TDArticleNrs)) 4811180
+
+   FROM td_art_combine_nr_CTE
+   -- Extract the number of articles related to passenger cars
+      INNER JOIN td_art_pcs_CTE ON td_art_combine_nr_CTE.TDArticleNrs = CAST(td_art_pcs_CTE.Article as varchar) -- td_art.[ArticleNo] = td_pcl.[Article:Link]
+
+   -- Extract the articles for HVs
+      INNER JOIN td_hv_CTE ON td_art_pcs_CTE.Car = td_hv_CTE.TDHVNr --  td_pcl.[LinkingTarget:Link] = td_pc.[PassengerCarNo]
+
+   LEFT OUTER JOIN dbo.[Article.Articles:TecDocData] art_td ON td_art_pcs_CTE.Article = art_td.[TecDoc.Link]          
+   LEFT OUTER JOIN dbo.[Article.Articles] art ON art_td.[:Id] = art.[:Id]
+   LEFT OUTER JOIN dbo.[Article.Articles:ArticleProperties] art_props ON art.[:Id] = art_props.[:Id]
+
+   WHERE
+     art.K24Number IS NOT NULL
+--     art_props.[ArticleStatus:Link] = '1'
+),
+
+pmd_art_total_count_CTE (Article)
+AS(
+   SELECT Article as "Articles"
+   FROM pmd_art_pcs_e_CTE
+   UNION ALL
+   SELECT Article
+   FROM pmd_art_pcs_h_CTE
    /*
-     AND 
-     art.K24Number IS NULL
+   UNION ALL
+   SELECT Article
+   FROM td_art_pcs_h_CTE
    */
-)
+  )
+
+  SELECT td_art_total_count_CTE.Article
+  FROM td_art_total_count_CTE
+  UNION ALL
+  SELECT pmd_art_total_count_CTE.Article
+  FROM pmd_art_total_count_CTE
+
+  /*
+    125251
+    264514
+    50452
+    107071
+*/
