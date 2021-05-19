@@ -1,80 +1,41 @@
 /*
-  Queries to count and list the number of articles in TecDoc and in the PDM for electric vehicles (EV) in Germany.
-
-  To count the articles with an active statusin TecDoc including articles for the German market, use td_art_combine_nr_CTE.
-  To count the articles in TecDoc for the German market that are related to passenger cars, use td_art_pcs_CTE.
-
+  Queries to the number of articles in TecDoc and in the PDM for electric vehicles (EV) in Germany.
 */
 
 -- Get articles in TecDoc with an active state
--- 2021-05-16 = 6903998
 WITH td_art_CTE (TDArtNumber)
 AS
   (
-SELECT DISTINCT
--- COUNT(DISTINCT(td_art.[ArticleNo]))
-td_art.[ArticleNo]
---td_art.[ArtNo]
---td_art.[Manufacturer:Link],
---td_art.[DataSupplier:Link],
---td_art.[State:Link]
+   SELECT DISTINCT
+     td_art.[ArticleNo]
 
--- Articles in TecDoc
-FROM dbo.[TecDoc.Articles.Articles] td_art
+   FROM dbo.[TecDoc.Articles.Articles] td_art
 
-WHERE
-  -- Use the latest dataset
-  td_art.[ImportVersionNo] = '20210401'  
-  AND
-    -- Get articles with an active status
-  td_art.[State:Link] = '73-001'
+   WHERE
+   -- Use the latest dataset
+      td_art.[ImportVersionNo] = '20210401'  
+      AND
+   -- Get articles with an active status
+      td_art.[State:Link] = '73-001'
   ),
 
 -- Get additional articles in TecDoc for the German market with an active state
--- 2021-05-16 = 114266
 td_art_de_CTE (TDArtNumberDE)
 AS
   (
-SELECT DISTINCT
---COUNT(DISTINCT(td_art_de.[Article:Link]))
-td_art_de.[Article:Link]
---td_art_de.[State:Link]
+   SELECT DISTINCT
+     td_art_de.[Article:Link]
 
--- Articles in TecDoc for specific markets
-FROM dbo.[TecDoc.Articles.ArticlesCouSpec] td_art_de
+   FROM dbo.[TecDoc.Articles.ArticlesCouSpec] td_art_de
 
-WHERE
-  -- Get the articles for the German market.
-  -- You can add other markets by using an IN statement like IN ('DE','PL').
-  td_art_de.[Country:Link] = 'DE'
-  AND
-  -- Get articles with an active status
-  td_art_de.[State:Link] = '73-001'
+   WHERE
+   -- Get the articles for the German market.
+   -- You can add other markets by using an IN statement like IN ('DE','PL').
+      td_art_de.[Country:Link] = 'DE'
+      AND
+   -- Get articles with an active status
+      td_art_de.[State:Link] = '73-001'
   ),
-
-/*
-  NOTE: If you combine the number of active articles in TecDoc with articles for the German market, you will get a false count.
-  These two CTEs sum the total number of unique records in each subcount before removing any duplicates that appear in both subcounts. 
-  The better approach is to combine the articles and then count as with td_art_combine_nr_CTE.
-
-td_art_count_CTE (TDArtNr)
-AS(
-SELECT  
-  COUNT(DISTINCT(TDArtNumber))
-FROM td_art_CTE 
-
-UNION ALL
-
-SELECT  
-  COUNT(DISTINCT(TDArtNumberDE))
-FROM td_art_de_CTE  
-
-td_art_totalcount_CTE (TDArtNr)
-AS(
-   SELECT SUM(TDArtNr)
-   FROM td_art_count_CTE
-  ),
-*/
 
 -- Combine the articles for each group.
 td_art_combine_CTE (TDArticleNr)
@@ -177,35 +138,12 @@ GROUP BY
   td_pc.PassengerCarNo
 ),
 
--- Count the total number of vehicles
-td_tv_CTE (TDTVNr, PcsCount)
-AS(
-SELECT
-  td_pc.[EngineType:Link],
-  COUNT(td_pc.PassengerCarNo)
---  td_pc.PassengerCarNo
-
-FROM
-  dbo.[TecDoc.LinkingTargets.PassengerCars] td_pc 
-
-WHERE
-  td_pc.ImportVersionNo = '20210401'
-
-GROUP BY
-  td_pc.[EngineType:Link]
-),
-
 -- Get the acticles in TecDoc that reference passenger cars (PC or PKWs). 
--- Counting the number of links shows the most popular products by links or references to cars.
--- NOTE: Counting the unique articles gives the number of articles for cars, which is in the presentation. 
 td_art_pcs_CTE (Article, Car)
 AS(
 SELECT DISTINCT 
 td_pcl.[Article:Link],
 td_pcl.[LinkingTarget:Link]
---COUNT(DISTINCT(td_pcl.[Article:Link]))
---COUNT(td_pcl.[LinkingTarget:Link]) as "Counted"
---td_pcl.[GenericArticle:Link]
 
 FROM
   dbo.[TecDoc.Linkages.PassengerCars] td_pcl
@@ -213,128 +151,33 @@ FROM
 GROUP BY
   td_pcl.[Article:Link],
   td_pcl.[LinkingTarget:Link]
-),
+)
 
--- 4811969 Articles for PCs in TD 
---  125251 Articles for EVs in TD
---  264514 Articles for HVs in TD
-td_art_pcs_e_CTE (Article)
-AS(
-   SELECT COUNT(DISTINCT(td_art_combine_nr_CTE.TDArticleNrs))
+--td_art_pcs_e_CTE (Article)
 
-   FROM td_art_combine_nr_CTE
-   -- Extract the number of articles related to passenger cars
-      INNER JOIN td_art_pcs_CTE ON td_art_combine_nr_CTE.TDArticleNrs = CAST(td_art_pcs_CTE.Article as varchar) -- td_art.[ArticleNo] = td_pcl.[Article:Link]
-
-   -- Extract the articles for EVs
-      INNER JOIN td_ev_CTE ON td_art_pcs_CTE.Car = td_ev_CTE.TDEVNr --  td_pcl.[LinkingTarget:Link] = td_pc.[PassengerCarNo]
-   ),
-
-td_art_pcs_h_CTE (Article)
-AS(
-   SELECT COUNT(DISTINCT(td_art_combine_nr_CTE.TDArticleNrs))
+   SELECT DISTINCT TOP 40
+   td_art.[Manufacturer:Link] as "Manufacturer",
+   md_manu.[Name] as "ManufacturerNr", -- ATE, BREMBO
+   
+--   td_art_combine_nr_CTE.TDArticleNrs as "TD-ArticleNr",
+   COUNT(td_art_combine_nr_CTE.TDArticleNrs) as "Count"
 
    FROM td_art_combine_nr_CTE
-   -- Extract the number of articles related to passenger cars
-      INNER JOIN td_art_pcs_CTE ON td_art_combine_nr_CTE.TDArticleNrs = CAST(td_art_pcs_CTE.Article as varchar) -- td_art.[ArticleNo] = td_pcl.[Article:Link]
+   -- Add the article properties back to the results (duh!)
+      LEFT OUTER JOIN dbo.[TecDoc.Articles.Articles] td_art ON td_art_combine_nr_CTE.TDArticleNrs = td_art.[ArticleNo]
+      LEFT OUTER JOIN dbo.[MasterData.Manufacturers] md_manu ON md_manu.[ArticleBrand:Link] = td_art.[Manufacturer:Link] 
 
-   -- Extract the articles for HVs
-      INNER JOIN td_hv_CTE ON td_art_pcs_CTE.Car = td_hv_CTE.TDHVNr 
-   ),
-
--- 4811969 Articles for PCs in TD 
-td_art_pcs_a_CTE (Article)
-AS(
-   SELECT COUNT(DISTINCT(td_art_combine_nr_CTE.TDArticleNrs))
-
-   FROM td_art_combine_nr_CTE
-   -- Extract the number of articles related to passenger cars
-      INNER JOIN td_art_pcs_CTE ON td_art_combine_nr_CTE.TDArticleNrs = CAST(td_art_pcs_CTE.Article as varchar) -- td_art.[ArticleNo] = td_pcl.[Article:Link]
-
-   -- Extract the articles for non EV or HV
-      INNER JOIN td_nehv_CTE ON td_art_pcs_CTE.Car = td_nehv_CTE.TDNEHVNr 
-   ),
-
-td_art_total_count_CTE (Article)
-AS(
-   SELECT Article as "Articles"
-   FROM td_art_pcs_e_CTE
-   UNION ALL
-   SELECT Article
-   FROM td_art_pcs_h_CTE
-   /*
-   UNION ALL
-   SELECT Article
-   FROM td_art_pcs_h_CTE
-   */
-  ),
-
--- 2215771 Articles for PCs in PDM (1576977)
---   60430 Articles for EVs in PDM (45244)
---    9978 Articles for EVs in PDM without K24-Nr (23)
-pmd_art_pcs_e_CTE (Article)
-AS(
-   SELECT COUNT(DISTINCT(art.[:Id])) -- td_art_pcs_CTE.Article)) 125251 --td_art_combine_nr_CTE.TDArticleNrs)) 4811180
-
-   FROM td_art_combine_nr_CTE
    -- Extract the number of articles related to passenger cars
       INNER JOIN td_art_pcs_CTE ON td_art_combine_nr_CTE.TDArticleNrs = CAST(td_art_pcs_CTE.Article as varchar) -- td_art.[ArticleNo] = td_pcl.[Article:Link]
 
    -- Extract the articles for EVs
       INNER JOIN td_ev_CTE ON td_art_pcs_CTE.Car = td_ev_CTE.TDEVNr --  td_pcl.[LinkingTarget:Link] = td_pc.[PassengerCarNo]
 
-   LEFT OUTER JOIN dbo.[Article.Articles:TecDocData] art_td ON td_art_pcs_CTE.Article = art_td.[TecDoc.Link]          
-   LEFT OUTER JOIN dbo.[Article.Articles] art ON art_td.[:Id] = art.[:Id]
-   LEFT OUTER JOIN dbo.[Article.Articles:ArticleProperties] art_props ON art.[:Id] = art_props.[:Id]
+	  GROUP BY
+   td_art.[Manufacturer:Link],
+   md_manu.[Name],
+   td_art_combine_nr_CTE.TDArticleNrs
 
-   WHERE
-     art.K24Number IS NOT NULL
---     art_props.[ArticleStatus:Link] = '1'
-),
-
-pmd_art_pcs_h_CTE (Article)
-AS(
-   SELECT COUNT(DISTINCT(art.[:Id])) -- td_art_pcs_CTE.Article)) 125251 --td_art_combine_nr_CTE.TDArticleNrs)) 4811180
-
-   FROM td_art_combine_nr_CTE
-   -- Extract the number of articles related to passenger cars
-      INNER JOIN td_art_pcs_CTE ON td_art_combine_nr_CTE.TDArticleNrs = CAST(td_art_pcs_CTE.Article as varchar) -- td_art.[ArticleNo] = td_pcl.[Article:Link]
-
-   -- Extract the articles for HVs
-      INNER JOIN td_hv_CTE ON td_art_pcs_CTE.Car = td_hv_CTE.TDHVNr --  td_pcl.[LinkingTarget:Link] = td_pc.[PassengerCarNo]
-
-   LEFT OUTER JOIN dbo.[Article.Articles:TecDocData] art_td ON td_art_pcs_CTE.Article = art_td.[TecDoc.Link]          
-   LEFT OUTER JOIN dbo.[Article.Articles] art ON art_td.[:Id] = art.[:Id]
-   LEFT OUTER JOIN dbo.[Article.Articles:ArticleProperties] art_props ON art.[:Id] = art_props.[:Id]
-
-   WHERE
-     art.K24Number IS NOT NULL
---     art_props.[ArticleStatus:Link] = '1'
-),
-
-pmd_art_total_count_CTE (Article)
-AS(
-   SELECT Article as "Articles"
-   FROM pmd_art_pcs_e_CTE
-   UNION ALL
-   SELECT Article
-   FROM pmd_art_pcs_h_CTE
-   /*
-   UNION ALL
-   SELECT Article
-   FROM td_art_pcs_h_CTE
-   */
-  )
-
-  SELECT td_art_total_count_CTE.Article
-  FROM td_art_total_count_CTE
-  UNION ALL
-  SELECT pmd_art_total_count_CTE.Article
-  FROM pmd_art_total_count_CTE
-
-  /*
-    125251
-    264514
-    50452
-    107071
-*/
+   ORDER BY
+   td_art.[Manufacturer:Link]
+--   td_art_combine_nr_CTE.TDArticleNrs
