@@ -181,3 +181,38 @@ GROUP BY
    ORDER BY
    td_art.[Manufacturer:Link]
 --   td_art_combine_nr_CTE.TDArticleNrs
+
+##################
+##################
+SELECT TOP 10
+      [ManufacturerNo],
+      [Name],
+      [TecDoc.Link],
+      [TecDoc.Version],
+      [ArticleBrand:Link],
+      [ManufacturerShortName],
+      [IsActive <DE>]
+
+FROM [K24Pdm].[dbo].[MasterData.Manufacturers]
+
+WHERE EXISTS
+(
+   SELECT *
+   FROM td_art_combine_nr_CTE
+   -- Add the article properties back to the results (duh!)
+      LEFT OUTER JOIN dbo.[TecDoc.Articles.Articles] td_art ON td_art_combine_nr_CTE.TDArticleNrs = td_art.[ArticleNo]
+ 
+   -- Extract the number of articles related to passenger cars
+      INNER JOIN td_art_pcs_CTE ON td_art_combine_nr_CTE.TDArticleNrs = CAST(td_art_pcs_CTE.Article as varchar) -- td_art.[ArticleNo] = td_pcl.[Article:Link]
+
+   -- Extract the articles for EVs
+      INNER JOIN td_ev_CTE ON td_art_pcs_CTE.Car = td_ev_CTE.TDEVNr --  td_pcl.[LinkingTarget:Link] = td_pc.[PassengerCarNo]
+)
+
+   SELECT DISTINCT TOP 40
+   td_art.[Manufacturer:Link] as "Manufacturer",
+   md_manu.[Name] as "ManufacturerNr", -- ATE, BREMBO
+   
+--   td_art_combine_nr_CTE.TDArticleNrs as "TD-ArticleNr",
+   COUNT(td_art_combine_nr_CTE.TDArticleNrs) as "Count"
+
