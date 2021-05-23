@@ -1,12 +1,16 @@
 /*
-  Count the number of personal cars (PCs or PKWs) by engine type
+Electric	Hybrid	Combustion
+459868	1821498	273307965
 */
-SELECT 
+SELECT
+
    SUM(EV) as Electric,
    SUM(HV) as Hybrid,
    SUM(CE) as Combustion
 
-   FROM (
+FROM dbo.[TecDoc.Linkages.PassengerCars] td_pcl 
+-- Get a list of electric vehicles (EVs)
+   JOIN (
        	 SELECT
             td_pc.PassengerCarNo,
             (CASE 
@@ -34,4 +38,9 @@ SELECT
 			   END) as CE
 
             FROM dbo.[TecDoc.LinkingTargets.PassengerCars] td_pc 
-			) td_pc
+			)  
+        td_pc ON td_pcl.[LinkingTarget:Link] = td_pc.PassengerCarNo
+/*
+GROUP BY
+   td_pcl.[Article:Link] 
+*/
