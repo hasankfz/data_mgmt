@@ -8,11 +8,7 @@
 
 SELECT 
    manu.[Name] as "BrandName",
-   COUNT(pdm_art.ArticleID) as "Articles (PDM)",
-   SUM(td_pcl.Electric) as Electric,
-   SUM(td_pcl.Hybrid) as Hybrid,
-   SUM(td_pcl.Combustion) as Combustion,
-   SUM(td_pcl.Total) as Total
+   COUNT(pdm_art.ArticleID) as "Articles (PDM)"
 
 FROM [K24Pdm].[dbo].[MasterData.Manufacturers] manu
 -- Add TecDoc articles
@@ -86,4 +82,7 @@ WHERE
    pdm_art.K24Number IS NOT NULL
 
 GROUP BY
+   manu.[Name]
+
+ORDER BY
    manu.[Name]
