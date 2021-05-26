@@ -1,5 +1,5 @@
 /*
-  Count the number of TecDoc products in the PDM that are for hybrid vehicles (HVs).
+  Count the number of TecDoc products in the PDM that are for vehicles with combusion engines (not electric or hybrid vehicles).
 */
 SELECT DISTINCT
    td_brand.Brand,
@@ -26,18 +26,18 @@ WHERE
 -- Get articles with an active status in TecDoc
    AND
    td_art.[State:Link] = '73-001'
--- Get articles for hybrid vehicles
+-- Get articles for vehicles with a combustion engine 
    AND
-   td_pc.[EngineType:Link] IN ('80-046','80-047','80-048','80-049')
--- Get the articles in the PDM with an active status     
-   AND
-   art_props.[ArticleStatus:Link] = '1'
--- Get the articles in the PDM with a K24 number
-   AND
-   pdm_art.K24Number IS NOT NULL
-
+   td_pc.[EngineType:Link] NOT IN ('80-046','80-047','80-048','80-049')
+-- Get articles for electric vehicles (EVs) with a hydgrogen engine
+   OR
+   ( td_pc.[EngineType:Link] = ('80-040')
+     AND
+     td_pc.[FuelType:Link] = '182-007' )
+	
 GROUP BY
    td_brand.Brand
 
 ORDER BY
-   td_brand.Brand    
+   td_brand.Brand
+ 

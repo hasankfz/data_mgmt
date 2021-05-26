@@ -1,32 +1,33 @@
 /*
-  Shows the manufacturers and number of articles for hybrid vehicles (HVs)
+  Count the number of products in TecDoc that are for hybrid vehicles (HVs).
 */
+SELECT DISTINCT
+   td_brand.Brand,
+   COUNT(DISTINCT(td_art.[ArticleNo])) as "Articles"
+   --td_art.[DataSupplier:Link],
+   --td_art.[Manufacturer:Link],
 
-SELECT 
-   manu.[Name] as "BrandName",
-   COUNT(td_art.ArticleNo) as "Articles (TD)"
-
-FROM [K24Pdm].[dbo].[MasterData.Manufacturers] manu
--- Add TecDoc articles
-   INNER JOIN dbo.[TecDoc.Articles.Articles] td_art ON manu.[TecDoc.Link] = td_art.[DataSupplier:Link] -- manu.[ArticleBrand:Link] = td_art.[Manufacturer:Link]
+FROM dbo.[TecDoc.Articles.Articles] td_art 
 -- Add links to passenger cars 
    INNER JOIN dbo.[TecDoc.Linkages.PassengerCars] td_pcl ON td_art.[ArticleNo] = td_pcl.[Article:Link]
 -- Include electric vehicles (EVs)
    INNER JOIN dbo.[TecDoc.LinkingTargets.PassengerCars] td_pc ON td_pcl.[LinkingTarget:Link] = td_pc.[PassengerCarNo]
+-- Add brand name
+   INNER JOIN [dbo].[TecDoc.GeneralData.DataSupplier] td_brand ON td_art.[DataSupplier:Link] = td_brand.[DataSupplierNo]
 
 WHERE
 -- Use the latest dataset
-   td_art.[ImportVersionNo] = '20210401'  
+   td_art.[ImportVersionNo] = '20210401'
+-- Get articles with an active status in TecDoc
    AND
--- Get articles with an active status
    td_art.[State:Link] = '73-001'
-   AND
 -- Get articles for hybrid vehicles
-   td_pc.[EngineType:Link] IN ('80-046','80-048','80-049')
--- Get the active articles in the PDM
+   AND
+   td_pc.[EngineType:Link] IN ('80-046','80-047','80-048','80-049')
 
 GROUP BY
-   manu.[Name]
+   td_brand.Brand
 
 ORDER BY
-   manu.[Name]
+   td_brand.Brand
+ 
