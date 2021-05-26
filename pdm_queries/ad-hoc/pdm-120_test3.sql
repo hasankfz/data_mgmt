@@ -16,23 +16,27 @@ FROM dbo.[TecDoc.Linkages.PassengerCars] td_pcl
             (CASE 
 			   WHEN td_pc.ImportVersionNo = '20210401'
 			        AND
-			        td_pc.[EngineType:Link] = ('80-040')
-					AND
-					td_pc.[FuelType:Link] = '182-011'
+			        ( td_pc.[EngineType:Link] = ('80-040')
+					  AND
+					  td_pc.[FuelType:Link] = '182-011' )
 			   THEN 1
 			   ELSE 0
 			   END) as EV,
             (CASE 
 			   WHEN td_pc.ImportVersionNo = '20210401'
 			        AND
-					td_pc.[EngineType:Link] IN ('80-046','80-048','80-049')
+					td_pc.[EngineType:Link] IN ('80-046','80-047','80-048','80-049')
 			   THEN 1
 			   ELSE 0
 			   END) as HV,
 			(CASE 
 			   WHEN td_pc.ImportVersionNo = '20210401'
 			        AND
-					td_pc.[EngineType:Link] NOT IN ('80-040','80-046','80-048','80-049')
+					td_pc.[EngineType:Link] NOT IN ('80-046','80-047','80-048','80-049')
+                    OR
+					( td_pc.[EngineType:Link] = ('80-040')
+					  AND
+					  td_pc.[FuelType:Link] = '182-007' )
 			   THEN 1
 			   ELSE 0
 			   END) as CE
