@@ -34,7 +34,13 @@ WHERE
    ( td_pc.[EngineType:Link] = ('80-040')
      AND
      td_pc.[FuelType:Link] = '182-007' )
-	
+-- Get the articles in the PDM with an active status     
+   AND
+   art_props.[ArticleStatus:Link] = '1'
+-- Get the articles in the PDM with a K24 number
+   AND
+   pdm_art.K24Number IS NOT NULL   
+   	
 GROUP BY
    td_brand.Brand
 
