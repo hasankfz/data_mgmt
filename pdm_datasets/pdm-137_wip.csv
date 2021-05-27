@@ -1,0 +1,11 @@
+﻿:Id;K24Number;ArticleID;GenericArticle:Link;GenericArticle:Link;Designation <de>;Description <de>;Name <de>;KeyValue <de>;UntypedValue;DateValue
+3980820C-946F-45BC-B1E3-2477409C0A39;2230-0142;952512;1;1;Starterbatterie;Batterie;Fahrzeugausstattung;für Fahrzeuge ohne Start-Stopp-Funktion;302;NULL
+C19DDB67-9015-49B6-ACA6-2DA103A9CBC9;2230-0128;952120;1;1;Starterbatterie;Batterie;Fahrzeugausstattung;für Fahrzeuge ohne Start-Stopp-Funktion;302;NULL
+C19DDB67-9015-49B6-ACA6-2DA103A9CBC9;2230-0128;952120;1;1;Starterbatterie;Batterie;Batterie;wartungsfrei;040;NULL
+3980820C-946F-45BC-B1E3-2477409C0A39;2230-0142;952512;1;1;Starterbatterie;Batterie;Batterie;wartungsfrei;040;NULL
+C19DDB67-9015-49B6-ACA6-2DA103A9CBC9;2230-0128;952120;1;1;Starterbatterie;Batterie;Batterie;auslaufsicher;030;NULL
+800CA67E-9DCD-4E1A-9734-190B28B5D415;2230-0214;164593;1;1;Starterbatterie;Batterie;Batterie;wartungsfrei;040;NULL
+C19DDB67-9015-49B6-ACA6-2DA103A9CBC9;2230-0128;952120;1;1;Starterbatterie;Batterie;Batterie;mit Zentralentgasung;001;NULL
+800CA67E-9DCD-4E1A-9734-190B28B5D415;2230-0214;164593;1;1;Starterbatterie;Batterie;Batterie;erhöhte Zyklenfestigkeit;022;NULL
+800CA67E-9DCD-4E1A-9734-190B28B5D415;2230-0214;164593;1;1;Starterbatterie;Batterie;Batterie;erhöhte Rüttelfestigkeit;021;NULL
+800CA67E-9DCD-4E1A-9734-190B28B5D415;2230-0214;164593;1;1;Starterbatterie;Batterie;Batterie;Gel-Batterie;036;NULL
