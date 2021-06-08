@@ -1,7 +1,6 @@
 /*
   Generate a list of the new products in our sortiment and send the results on a monthly basis to the retail shops.
 */
-
 SELECT 
   base.[ArticleID] as "Artikel-ID", 
   base.[K24Number] as "K24-Nr", 
@@ -23,7 +22,15 @@ WHERE
 -- Previous week
 --  T2.[IsActiveSince] >=  DATEADD(wk, DATEDIFF(wk,7,GETDATE()), 0)
 -- Previous month
-   MONTH(T2.[IsActiveSince]) = MONTH(DATEADD(MONTH, DATEDIFF(MONTH, 0, GETDATE()) -1, 0))
+/*
+   CAST(T2.[IsActiveSince] as DATE) >= CAST(DATEADD(MONTH, DATEDIFF(MONTH, 0, CURRENT_TIMESTAMP) -1, 0) as DATE)
+   AND
+   CAST(T2.[IsActiveSince] as DATE) <= CAST(DATEADD(MONTH, DATEDIFF(MONTH, 0, CURRENT_TIMESTAMP) -1, DAY(GETDATE())-1) as DATE)
+*/
+ -- Current month
+   CAST(T2.[IsActiveSince] as DATE) >= CAST(DATEADD(MONTH, DATEDIFF(MONTH, 0, CURRENT_TIMESTAMP), 0) as DATE)
+   AND
+   CAST(T2.[IsActiveSince] as DATE) <= CAST(EOMONTH(CURRENT_TIMESTAMP) as DATE)
 
 ORDER BY
 --  T2.[IsActiveSince] DESC,
