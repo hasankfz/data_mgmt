@@ -1,16 +1,33 @@
-SELECT  TOP 100
-       base.[ArticleID], 
-       T1.[IsActive], 
-       base.[K24Number], 
-       base.[ManufacturerArticleNo], 
-       T2.[ProductGroup:Link], 
-       base.[Manufacturer:Link], 
-       T2.[UnitOfMeasure:Link], 
-       T3.[Artikel ohne Bild], 
-       T2.[ArticleStatus:Link]
- FROM [dbo].[Article.Articles] base WITH (NOLOCK) 
-  LEFT OUTER JOIN [dbo].[Article.Articles:Catalog] T1 WITH (NOLOCK) ON T1.[:Id] = [base].[:Id]
-  LEFT OUTER JOIN [dbo].[Article.Articles:ArticleProperties] T2 WITH (NOLOCK) ON T2.[:Id] = [base].[:Id]
-  LEFT OUTER JOIN [dbo].[Article.Articles:UDF ArticleManagement] T3 WITH (NOLOCK) ON T3.[:Id] = [base].[:Id]
- WHERE ((T3.[Artikel ohne Bild] = 1) AND (T2.[ArticleStatus:Link] = 1))
- ORDER BY base.[ArticleID]
+/*
+
+*/
+SELECT TOP 40
+   (CASE
+     WHEN mdResPers.[Name] IS NULL
+     THEN 'Nicht zugewiesen'
+     ELSE mdResPers.[Name]
+     END) AS Verantwortlicher,
+
+   art.ArticleID,
+   art.[Manufacturer:Link] AS HLK,
+   art.ManufacturerArticleNo AS ArtN,
+   art.K24Number,
+   artText.[ArticleDesignation <de>] AS ArtikelText,
+   CAST(art.[:Log.CreatedAt] as DATE) AS created_at,
+   CAST(art.[:Log.LastModAt] as DATE) AS lastmod_at
+
+FROM [Article.Articles] AS art
+   LEFT JOIN [Article.Articles:ArticleProperties] AS artProp ON art.[:Id] = artProp.[:Id]
+   LEFT JOIN [Article.Articles:Texts] AS artText ON art.[:Id] = artText.[:Id]
+   LEFT JOIN [Article.Articles:UDF ArticleManagement] AS artUDF ON art.[:Id] = artUDF.[:Id]
+   LEFT JOIN [MasterData.SubCategories] AS mdSubCat ON artProp.[SubCategory:Link] = mdSubCat.[:Caption]
+   LEFT JOIN [MasterData.ResponsiblePersonsForArticles] AS mdResPers ON mdSubCat.[ResponsiblePerson:Link] = mdResPers.[ResponsiblePersonNo]
+     
+WHERE
+   artProp.[ArticleStatus:Link] = 1
+   AND
+   artUDF.[Artikel ohne Bild] = 1
+
+ORDER BY
+   mdResPers.[Name],
+   art.[:Log.LastModAt] DESC;
