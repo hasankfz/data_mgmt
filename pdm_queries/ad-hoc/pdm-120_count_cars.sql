@@ -1,6 +1,5 @@
 /*
-Electric	Hybrid	Combustion
-459868	1821498	273307965
+  DEPRECATED
 */
 SELECT
 

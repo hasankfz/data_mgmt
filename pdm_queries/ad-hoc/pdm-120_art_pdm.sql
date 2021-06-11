@@ -1,11 +1,8 @@
-/*
+/* 
+  DEPRECATED
   Summarizes the number of articles for each manufacturer and the number of references to articles by car type--electric, hybrid, or combustion.
-  Number of articles in TecDoc = 7000506
-  Number of articles for cars  = 4272622 (TecDoc)
-  Number of articles for cars  = 1511293 (PDM)
-  Number of manufacturers      = 281
-  */
-
+  DEPRECATED
+*/
 SELECT 
    manu.[Name] as "BrandName",
    COUNT(pdm_art.ArticleID) as "Articles (PDM)"

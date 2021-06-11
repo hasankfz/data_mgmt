@@ -29,10 +29,9 @@ WHERE
   art_props.[ArticleStatus:Link] = '1'
  
 /*
-  2021-05-16
+  2021-06-11
   ----------
   TD-Art  PDM-Art  PDM-ArtID  PDM-K24Nr
-  6903998 2528579  2761838    2076626   Articles in TecDoc with an active status
-  1782449 1782449  1840331    1839692   Articles in the PDM with an active status
+  2332079 2332079  2396317    2110009
 
 */

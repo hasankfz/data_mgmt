@@ -1,26 +1,23 @@
 /*
-  Creates a list of brands and the number of cars with related articles. For example:
-
-  BrandName             Electric    Hybrid  Combustion  Total
-  1A FIRST AUTOMOTIVE   167         1265    108734      110171
-
-  1A has articles that fit 167 electric vehicles and 1265 hybrid vehicles. 
+  DEPRECATED
+  Creates a list of articles and the number of references to the article by car type--electric, hybrid, or combustion.
+  DEPRECATED
 */
 
 SELECT
 
-manu.[Name] as "BrandName",
+manu.[Name],
 /*
 manu.[ArticleBrand:Link],
 td_art.[Manufacturer:Link],
 manu.[TecDoc.Link],
 td_art.[DataSupplier:Link],
 */
---td_art.ArticleNo,
-SUM(td_pcl.Electric) as Electric,
-SUM(td_pcl.Hybrid) as Hybrid,
-SUM(td_pcl.Combustion) as Combustion,
-SUM(td_pcl.Total) as Total
+td_art.ArticleNo,
+td_pcl.Electric,
+td_pcl.Hybrid,
+td_pcl.Combustion,
+td_pcl.Total
 
 FROM [K24Pdm].[dbo].[MasterData.Manufacturers] manu
 -- Add TecDoc articles
@@ -84,8 +81,6 @@ WHERE
    td_art.[State:Link] = '73-001'
 -- AND manu.[IsActive <DE>] IS NOT NULL 
 
-GROUP BY
-   manu.[Name]
-
 ORDER BY
-   manu.[Name]
+   manu.[Name],
+   td_art.ArticleNo

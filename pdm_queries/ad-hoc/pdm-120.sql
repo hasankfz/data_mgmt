@@ -1,5 +1,6 @@
 /*
-
+  List the number of articles in TecDoc for passegnger vehicles according to engine type and genart. 
+  The query currently lists articles for electric vehicles (EV) only. 
 */
 
 SELECT DISTINCT
@@ -18,8 +19,6 @@ SELECT DISTINCT
    ga_de.Designation as "Generic Article",
    td_brand.Brand as "Brand",
    COUNT(DISTINCT(td_art.[ArticleNo])) as "Article"
---   pdm.ArticleID
---   pdm.K24Number
 
 FROM dbo.[TecDoc.LinkingTargets.PassengerCars] td_pc
 -- Add links to passenger cars 
@@ -46,10 +45,14 @@ WHERE
    AND
    ( td_pc.[EngineType:Link] = '80-040'
              AND td_pc.[FuelType:Link] = '182-011' )
-             
+
 GROUP BY
    td_pc.[EngineType:Link],
    td_pc.[FuelType:Link],
-   td_pc_de.LongDesignation,
    ga_de.Designation,
+   td_pc_de.LongDesignation,
    td_brand.Brand
+
+/*
+  TODO: Change order of td_art
+*/
