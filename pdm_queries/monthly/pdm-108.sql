@@ -1,7 +1,7 @@
 /*
-
+  Create a list of articles that do not have pictures (images) in the PDM. 
 */
-SELECT TOP 40
+SELECT
    (CASE
      WHEN mdResPers.[Name] IS NULL
      THEN 'Nicht zugewiesen'
@@ -27,7 +27,17 @@ WHERE
    artProp.[ArticleStatus:Link] = 1
    AND
    artUDF.[Artikel ohne Bild] = 1
+/*
+   -- Get articles that were created in 2021
+   AND
+   YEAR(art.[:Log.CreatedAt]) = '2021'
+*/
 
 ORDER BY
    mdResPers.[Name],
    art.[:Log.LastModAt] DESC;
+
+/*
+  TODO:
+  - Improve handling of K24-Nr
+*/
