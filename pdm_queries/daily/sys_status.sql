@@ -22,8 +22,15 @@ JOIN master.dbo.sysdatabases sd ON sp.dbid = sd.dbid
 
 WHERE
    sd.name = 'K24Pdm'
+   AND
+   sp.status IN ('suspended','runnable')
+/* AND
+   sp.waittime <> 10
+*/
 
 ORDER BY
    sp.cpu DESC,
    sp.memusage DESC,
-   sp.physical_io DESC
+   sp.physical_io DESC,
+   sp.loginame
+
