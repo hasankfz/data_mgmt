@@ -8,9 +8,13 @@ SELECT DISTINCT
 --    art_td.[TecDoc.ArtNo]
 
 FROM [ji_reporting].[dbo].[pdm-158] ji 
-   LEFT OUTER JOIN [dbo].[Article.Articles] pdm_art ON pdm_art.[ManufacturerArticleNo] = ji.[HER-NR]
+   LEFT OUTER JOIN [dbo].[Article.Articles] pdm_art ON TRIM(ji.[HER-NR]) = pdm_art.[ManufacturerArticleNo]
+                                                    OR TRIM(ji.[HER-NR]) = pdm_art.[ManufacturerArticleNoWithoutFormat]
 -- TecDoc articles in the PDM
    LEFT OUTER JOIN [dbo].[Article.Articles:TecDocData] art_td ON pdm_art.[:Id] = art_td.[:Id] 
+
+WHERE
+   pdm_art.[Manufacturer:Link] IN ('SKF','TRW','VAL','BOH') 
 
 ORDER BY
    pdm_art.[Manufacturer:Link], 
