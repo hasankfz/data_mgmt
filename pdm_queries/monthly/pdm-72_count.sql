@@ -20,4 +20,7 @@ WHERE
    CAST(art_cat.IsActiveSince as DATE) >= '2021-06-01'
    AND
    CAST(art_cat.IsActiveSince as DATE) <= '2021-06-30'
+/*
+   CAST(art_cat.IsActiveSince as DATE) >=  DATEADD(wk, DATEDIFF(wk,7,GETDATE()), 0)
+*/
 
