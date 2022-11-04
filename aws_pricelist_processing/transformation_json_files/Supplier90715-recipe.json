@@ -21,11 +21,11 @@
     "Action": {
       "Operation": "BOOLEAN_OPERATION",
       "Parameters": {
-        "falseValueExpression": "'362'",
+        "falseValueExpression": "'4674'",
         "functionStepType": "BOOLEAN_OPERATION",
         "targetColumn": "brand_number",
-        "trueValueExpression": "'362'",
-        "valueExpression": "`brand_article_number` != '362'",
+        "trueValueExpression": "'4674'",
+        "valueExpression": "`brand_article_number` != '4674'",
         "withExpressions": "[]"
       }
     }
@@ -34,11 +34,11 @@
     "Action": {
       "Operation": "BOOLEAN_OPERATION",
       "Parameters": {
-        "falseValueExpression": "'90012'",
+        "falseValueExpression": "'90715'",
         "functionStepType": "BOOLEAN_OPERATION",
         "targetColumn": "supplier_number",
-        "trueValueExpression": "'90012'",
-        "valueExpression": "`brand_article_number` != '90012'",
+        "trueValueExpression": "'90715'",
+        "valueExpression": "`brand_article_number` != '90715'",
         "withExpressions": "[]"
       }
     }
@@ -61,7 +61,7 @@
       "Operation": "REPLACE_TEXT",
       "Parameters": {
         "pattern": ",",
-        "sourceColumn": "Column_13",
+        "sourceColumn": "Column_2",
         "value": "."
       }
     }
@@ -87,7 +87,7 @@
         "functionStepType": "BOOLEAN_OPERATION",
         "targetColumn": "country_code",
         "trueValueExpression": "'DE'",
-        "valueExpression": "`brand_article_number` != 'DE'",
+        "valueExpression": "`brand_article_number` = 'DE'",
         "withExpressions": "[]"
       }
     }
@@ -115,139 +115,6 @@
         "trueValueExpression": "1",
         "valueExpression": "`brand_article_number` != '1'",
         "withExpressions": "[]"
-      }
-    }
-  },
-  {
-    "Action": {
-      "Operation": "REPLACE_TEXT",
-      "Parameters": {
-        "pattern": ",",
-        "sourceColumn": "Column_19",
-        "value": "."
-      }
-    }
-  },
-  {
-    "Action": {
-      "Operation": "REPLACE_TEXT",
-      "Parameters": {
-        "pattern": ",",
-        "sourceColumn": "Column_18",
-        "value": "."
-      }
-    }
-  },
-  {
-    "Action": {
-      "Operation": "CHANGE_DATA_TYPE",
-      "Parameters": {
-        "columnDataType": "double",
-        "sourceColumn": "Column_18"
-      }
-    }
-  },
-  {
-    "Action": {
-      "Operation": "MULTIPLY",
-      "Parameters": {
-        "functionStepType": "MULTIPLY",
-        "sourceColumn1": "Column_18",
-        "targetColumn": "length_in_mm",
-        "value2": "10"
-      }
-    }
-  },
-  {
-    "Action": {
-      "Operation": "REPLACE_TEXT",
-      "Parameters": {
-        "pattern": ",",
-        "sourceColumn": "Column_17",
-        "value": "."
-      }
-    }
-  },
-  {
-    "Action": {
-      "Operation": "CHANGE_DATA_TYPE",
-      "Parameters": {
-        "columnDataType": "double",
-        "sourceColumn": "Column_17"
-      }
-    }
-  },
-  {
-    "Action": {
-      "Operation": "MULTIPLY",
-      "Parameters": {
-        "functionStepType": "MULTIPLY",
-        "sourceColumn1": "Column_17",
-        "targetColumn": "width_in_mm",
-        "value2": "10"
-      }
-    }
-  },
-  {
-    "Action": {
-      "Operation": "REPLACE_TEXT",
-      "Parameters": {
-        "pattern": ",",
-        "sourceColumn": "Column_16",
-        "value": "."
-      }
-    }
-  },
-  {
-    "Action": {
-      "Operation": "CHANGE_DATA_TYPE",
-      "Parameters": {
-        "columnDataType": "double",
-        "sourceColumn": "Column_16"
-      }
-    }
-  },
-  {
-    "Action": {
-      "Operation": "MULTIPLY",
-      "Parameters": {
-        "functionStepType": "MULTIPLY",
-        "sourceColumn1": "Column_16",
-        "targetColumn": "height_in_mm",
-        "value2": "10"
-      }
-    }
-  },
-  {
-    "Action": {
-      "Operation": "BOOLEAN_OPERATION",
-      "Parameters": {
-        "falseValueExpression": "' '",
-        "functionStepType": "BOOLEAN_OPERATION",
-        "targetColumn": "empty",
-        "trueValueExpression": "' '",
-        "valueExpression": "`brand_article_number` != 'empty'",
-        "withExpressions": "[]"
-      }
-    }
-  },
-  {
-    "Action": {
-      "Operation": "REMOVE_COMBINED",
-      "Parameters": {
-        "collapseConsecutiveWhitespace": "false",
-        "removeAllPunctuation": "false",
-        "removeAllQuotes": "false",
-        "removeAllWhitespace": "true",
-        "removeCustomCharacters": "false",
-        "removeCustomValue": "false",
-        "removeLeadingAndTrailingPunctuation": "false",
-        "removeLeadingAndTrailingQuotes": "false",
-        "removeLeadingAndTrailingWhitespace": "false",
-        "removeLetters": "false",
-        "removeNumbers": "false",
-        "removeSpecialCharacters": "false",
-        "sourceColumn": "empty"
       }
     }
   },
@@ -289,55 +156,10 @@
   },
   {
     "Action": {
-      "Operation": "DUPLICATE",
-      "Parameters": {
-        "sourceColumn": "empty",
-        "targetColumn": "retail_price_unit"
-      }
-    }
-  },
-  {
-    "Action": {
-      "Operation": "DUPLICATE",
-      "Parameters": {
-        "sourceColumn": "empty",
-        "targetColumn": "retail_price"
-      }
-    }
-  },
-  {
-    "Action": {
-      "Operation": "DUPLICATE",
-      "Parameters": {
-        "sourceColumn": "empty",
-        "targetColumn": "status_comment"
-      }
-    }
-  },
-  {
-    "Action": {
       "Operation": "MOVE_TO_INDEX",
       "Parameters": {
-        "sourceColumn": "empty",
-        "targetIndex": "9"
-      }
-    }
-  },
-  {
-    "Action": {
-      "Operation": "RENAME",
-      "Parameters": {
-        "sourceColumn": "Column_13",
-        "targetColumn": "purchase_price"
-      }
-    }
-  },
-  {
-    "Action": {
-      "Operation": "MOVE_TO_INDEX",
-      "Parameters": {
-        "sourceColumn": "purchase_price",
-        "targetIndex": "8"
+        "sourceColumn": "Column_2",
+        "targetIndex": "5"
       }
     }
   },
@@ -346,7 +168,205 @@
       "Operation": "MOVE_TO_INDEX",
       "Parameters": {
         "sourceColumn": "purchase_price_unit",
-        "targetIndex": "9"
+        "targetIndex": "6"
+      }
+    }
+  },
+  {
+    "Action": {
+      "Operation": "MOVE_TO_INDEX",
+      "Parameters": {
+        "sourceColumn": "country_code",
+        "targetIndex": "7"
+      }
+    }
+  },
+  {
+    "Action": {
+      "Operation": "MOVE_TO_INDEX",
+      "Parameters": {
+        "sourceColumn": "currency",
+        "targetIndex": "8"
+      }
+    }
+  },
+  {
+    "Action": {
+      "Operation": "ROW_NUMBER",
+      "Parameters": {
+        "functionStepType": "ROW_NUMBER",
+        "groupByColumns": "[\"brand_number\"]",
+        "targetColumn": "ROW_NUMBER Column 1"
+      }
+    }
+  },
+  {
+    "Action": {
+      "Operation": "BOOLEAN_OPERATION",
+      "Parameters": {
+        "falseValueExpression": "`ROW_NUMBER Column 1`",
+        "functionStepType": "BOOLEAN_OPERATION",
+        "targetColumn": "temporaryRowNumber",
+        "trueValueExpression": "'a'",
+        "valueExpression": "`ROW_NUMBER Column 1` = '1'",
+        "withExpressions": "[]"
+      }
+    }
+  },
+  {
+    "Action": {
+      "Operation": "REPLACE_TEXT",
+      "Parameters": {
+        "pattern": "a",
+        "sourceColumn": "temporaryRowNumber"
+      }
+    }
+  },
+  {
+    "Action": {
+      "Operation": "REMOVE_MISSING",
+      "Parameters": {
+        "sourceColumn": "temporaryRowNumber"
+      }
+    }
+  },
+  {
+    "Action": {
+      "Operation": "DELETE",
+      "Parameters": {
+        "sourceColumns": "[\"ROW_NUMBER Column 1\",\"temporaryRowNumber\"]"
+      }
+    }
+  },
+  {
+    "Action": {
+      "Operation": "BOOLEAN_OPERATION",
+      "Parameters": {
+        "falseValueExpression": "' '",
+        "functionStepType": "BOOLEAN_OPERATION",
+        "targetColumn": "empty",
+        "trueValueExpression": "' '",
+        "valueExpression": "`supplier_number` != 'empty'",
+        "withExpressions": "[]"
+      }
+    }
+  },
+  {
+    "Action": {
+      "Operation": "REMOVE_COMBINED",
+      "Parameters": {
+        "collapseConsecutiveWhitespace": "false",
+        "removeAllPunctuation": "false",
+        "removeAllQuotes": "false",
+        "removeAllWhitespace": "true",
+        "removeCustomCharacters": "false",
+        "removeCustomValue": "false",
+        "removeLeadingAndTrailingPunctuation": "false",
+        "removeLeadingAndTrailingQuotes": "false",
+        "removeLeadingAndTrailingWhitespace": "false",
+        "removeLetters": "false",
+        "removeNumbers": "false",
+        "removeSpecialCharacters": "false",
+        "sourceColumn": "empty"
+      }
+    }
+  },
+  {
+    "Action": {
+      "Operation": "DUPLICATE",
+      "Parameters": {
+        "sourceColumn": "empty",
+        "targetColumn": "country_of_origin"
+      }
+    }
+  },
+  {
+    "Action": {
+      "Operation": "MOVE_TO_INDEX",
+      "Parameters": {
+        "sourceColumn": "country_of_origin",
+        "targetIndex": "11"
+      }
+    }
+  },
+  {
+    "Action": {
+      "Operation": "MOVE_TO_INDEX",
+      "Parameters": {
+        "sourceColumn": "empty",
+        "targetIndex": "10"
+      }
+    }
+  },
+  {
+    "Action": {
+      "Operation": "DUPLICATE",
+      "Parameters": {
+        "sourceColumn": "empty",
+        "targetColumn": "customs_tariff_number"
+      }
+    }
+  },
+  {
+    "Action": {
+      "Operation": "DUPLICATE",
+      "Parameters": {
+        "sourceColumn": "empty",
+        "targetColumn": "ean_code"
+      }
+    }
+  },
+  {
+    "Action": {
+      "Operation": "DUPLICATE",
+      "Parameters": {
+        "sourceColumn": "empty",
+        "targetColumn": "height_in_mm"
+      }
+    }
+  },
+  {
+    "Action": {
+      "Operation": "DUPLICATE",
+      "Parameters": {
+        "sourceColumn": "empty",
+        "targetColumn": "width_in_mm"
+      }
+    }
+  },
+  {
+    "Action": {
+      "Operation": "DUPLICATE",
+      "Parameters": {
+        "sourceColumn": "empty",
+        "targetColumn": "length_in_mm"
+      }
+    }
+  },
+  {
+    "Action": {
+      "Operation": "DUPLICATE",
+      "Parameters": {
+        "sourceColumn": "empty",
+        "targetColumn": "weight_in_kg"
+      }
+    }
+  },
+  {
+    "Action": {
+      "Operation": "MOVE_TO_INDEX",
+      "Parameters": {
+        "sourceColumn": "empty",
+        "targetIndex": "6"
+      }
+    }
+  },
+  {
+    "Action": {
+      "Operation": "MOVE_TO_INDEX",
+      "Parameters": {
+        "sourceColumn": "empty",
+        "targetIndex": "7"
       }
     }
   },
@@ -370,10 +390,10 @@
   },
   {
     "Action": {
-      "Operation": "MOVE_TO_INDEX",
+      "Operation": "DUPLICATE",
       "Parameters": {
-        "sourceColumn": "deposit_price",
-        "targetIndex": "10"
+        "sourceColumn": "empty",
+        "targetColumn": "retail_price_unit"
       }
     }
   },
@@ -381,8 +401,8 @@
     "Action": {
       "Operation": "MOVE_TO_INDEX",
       "Parameters": {
-        "sourceColumn": "exchange_price",
-        "targetIndex": "11"
+        "sourceColumn": "retail_price_unit",
+        "targetIndex": "4"
       }
     }
   },
@@ -390,8 +410,8 @@
     "Action": {
       "Operation": "MOVE_TO_INDEX",
       "Parameters": {
-        "sourceColumn": "country_code",
-        "targetIndex": "12"
+        "sourceColumn": "retail_price_unit",
+        "targetIndex": "5"
       }
     }
   },
@@ -399,71 +419,8 @@
     "Action": {
       "Operation": "MOVE_TO_INDEX",
       "Parameters": {
-        "sourceColumn": "currency",
-        "targetIndex": "13"
-      }
-    }
-  },
-  {
-    "Action": {
-      "Operation": "RENAME",
-      "Parameters": {
-        "sourceColumn": "Column_19",
-        "targetColumn": "weight_in_kg"
-      }
-    }
-  },
-  {
-    "Action": {
-      "Operation": "MOVE_TO_INDEX",
-      "Parameters": {
-        "sourceColumn": "weight_in_kg",
-        "targetIndex": "15"
-      }
-    }
-  },
-  {
-    "Action": {
-      "Operation": "MOVE_TO_INDEX",
-      "Parameters": {
-        "sourceColumn": "length_in_mm",
-        "targetIndex": "16"
-      }
-    }
-  },
-  {
-    "Action": {
-      "Operation": "MOVE_TO_INDEX",
-      "Parameters": {
-        "sourceColumn": "width_in_mm",
-        "targetIndex": "17"
-      }
-    }
-  },
-  {
-    "Action": {
-      "Operation": "MOVE_TO_INDEX",
-      "Parameters": {
-        "sourceColumn": "height_in_mm",
-        "targetIndex": "18"
-      }
-    }
-  },
-  {
-    "Action": {
-      "Operation": "MOVE_TO_INDEX",
-      "Parameters": {
-        "sourceColumn": "Column_14",
-        "targetIndex": "19"
-      }
-    }
-  },
-  {
-    "Action": {
-      "Operation": "RENAME",
-      "Parameters": {
-        "sourceColumn": "Column_14",
-        "targetColumn": "ean_code"
+        "sourceColumn": "empty",
+        "targetIndex": "5"
       }
     }
   },
@@ -472,7 +429,7 @@
       "Operation": "DUPLICATE",
       "Parameters": {
         "sourceColumn": "empty",
-        "targetColumn": "country_of_origin"
+        "targetColumn": "retail_price"
       }
     }
   },
@@ -481,62 +438,7 @@
       "Operation": "RENAME",
       "Parameters": {
         "sourceColumn": "empty",
-        "targetColumn": "customs_tariff_number"
-      }
-    }
-  },
-  {
-    "Action": {
-      "Operation": "DELETE",
-      "Parameters": {
-        "sourceColumns": "[\"Column_2\",\"Column_3\",\"Column_4\",\"Column_5\",\"Column_6\",\"Column_7\",\"Column_8\",\"Column_9\",\"Column_10\",\"Column_11\",\"Column_15\",\"Column_12\",\"Column_16\",\"Column_17\",\"Column_18\"]"
-      }
-    }
-  },
-  {
-    "Action": {
-      "Operation": "ROW_NUMBER",
-      "Parameters": {
-        "functionStepType": "ROW_NUMBER",
-        "targetColumn": "ROW_NUMBER Column 1"
-      }
-    }
-  },
-  {
-    "Action": {
-      "Operation": "BOOLEAN_OPERATION",
-      "Parameters": {
-        "falseValueExpression": "`ROW_NUMBER Column 1`",
-        "functionStepType": "BOOLEAN_OPERATION",
-        "targetColumn": "temporary_rowNumber",
-        "trueValueExpression": "'a'",
-        "valueExpression": "`ROW_NUMBER Column 1` = '1'",
-        "withExpressions": "[]"
-      }
-    }
-  },
-  {
-    "Action": {
-      "Operation": "REPLACE_TEXT",
-      "Parameters": {
-        "pattern": "a",
-        "sourceColumn": "temporary_rowNumber"
-      }
-    }
-  },
-  {
-    "Action": {
-      "Operation": "REMOVE_MISSING",
-      "Parameters": {
-        "sourceColumn": "temporary_rowNumber"
-      }
-    }
-  },
-  {
-    "Action": {
-      "Operation": "DELETE",
-      "Parameters": {
-        "sourceColumns": "[\"ROW_NUMBER Column 1\",\"temporary_rowNumber\"]"
+        "targetColumn": "status_comment"
       }
     }
   },
@@ -544,7 +446,16 @@
     "Action": {
       "Operation": "RENAME",
       "Parameters": {
-        "sourceColumn": "Column_20",
+        "sourceColumn": "Column_2",
+        "targetColumn": "purchase_price"
+      }
+    }
+  },
+  {
+    "Action": {
+      "Operation": "RENAME",
+      "Parameters": {
+        "sourceColumn": "Column_3",
         "targetColumn": "file_date"
       }
     }
@@ -553,7 +464,7 @@
     "Action": {
       "Operation": "RENAME",
       "Parameters": {
-        "sourceColumn": "Column_21",
+        "sourceColumn": "Column_4",
         "targetColumn": "file_validity"
       }
     }
