@@ -165,6 +165,6 @@ def processing():
 
     header_compare(header1, header2)
 
-    search_symbol(symbol, filename2)
+    search_symbol(symbol, filename2) 
 
 processing()
