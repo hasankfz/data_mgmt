@@ -1,0 +1,611 @@
+[
+  {
+    "Action": {
+      "Operation": "DUPLICATE",
+      "Parameters": {
+        "sourceColumn": "Column_1",
+        "targetColumn": "brand_article_number"
+      }
+    }
+  },
+  {
+    "Action": {
+      "Operation": "RENAME",
+      "Parameters": {
+        "sourceColumn": "Column_1",
+        "targetColumn": "supplier_article_number"
+      }
+    }
+  },
+  {
+    "Action": {
+      "Operation": "BOOLEAN_OPERATION",
+      "Parameters": {
+        "falseValueExpression": "1",
+        "functionStepType": "BOOLEAN_OPERATION",
+        "targetColumn": "brand_number",
+        "trueValueExpression": "1",
+        "valueExpression": "`supplier_article_number` != '1'",
+        "withExpressions": "[]"
+      }
+    }
+  },
+  {
+    "Action": {
+      "Operation": "BOOLEAN_OPERATION",
+      "Parameters": {
+        "falseValueExpression": "'90719'",
+        "functionStepType": "BOOLEAN_OPERATION",
+        "targetColumn": "supplier_number",
+        "trueValueExpression": "'90719'",
+        "valueExpression": "`supplier_article_number` != '90719'",
+        "withExpressions": "[]"
+      }
+    }
+  },
+  {
+    "Action": {
+      "Operation": "CASE_OPERATION",
+      "Parameters": {
+        "functionStepType": "CASE_OPERATION",
+        "targetColumn": "supplier_article_status",
+        "valueExpression": "case when isMissing(`Column_21`) then '1' when `Column_21` = 'Auslaufartikel' then '8' when `Column_21` = 'Nicht mehr lieferbar' then '8' else `Column_21` end",
+        "withExpressions": "[]"
+      }
+    }
+  },
+  {
+    "Action": {
+      "Operation": "REPLACE_TEXT",
+      "Parameters": {
+        "pattern": ",",
+        "sourceColumn": "Column_19",
+        "value": "."
+      }
+    }
+  },
+  {
+    "Action": {
+      "Operation": "BOOLEAN_OPERATION",
+      "Parameters": {
+        "falseValueExpression": "1",
+        "functionStepType": "BOOLEAN_OPERATION",
+        "targetColumn": "retail_price_unit",
+        "trueValueExpression": "1",
+        "valueExpression": "`supplier_article_number` != '1'",
+        "withExpressions": "[]"
+      }
+    }
+  },
+  {
+    "Action": {
+      "Operation": "REPLACE_TEXT",
+      "Parameters": {
+        "pattern": ",",
+        "sourceColumn": "Column_20",
+        "value": "."
+      }
+    }
+  },
+  {
+    "Action": {
+      "Operation": "BOOLEAN_OPERATION",
+      "Parameters": {
+        "falseValueExpression": "1",
+        "functionStepType": "BOOLEAN_OPERATION",
+        "targetColumn": "purchase_price_unit",
+        "trueValueExpression": "1",
+        "valueExpression": "`supplier_article_number` != '1'",
+        "withExpressions": "[]"
+      }
+    }
+  },
+  {
+    "Action": {
+      "Operation": "REPLACE_TEXT",
+      "Parameters": {
+        "pattern": ",",
+        "sourceColumn": "Column_17",
+        "value": "."
+      }
+    }
+  },
+  {
+    "Action": {
+      "Operation": "BOOLEAN_OPERATION",
+      "Parameters": {
+        "falseValueExpression": "'DE'",
+        "functionStepType": "BOOLEAN_OPERATION",
+        "targetColumn": "country_code",
+        "trueValueExpression": "'DE'",
+        "valueExpression": "`supplier_article_number` != 'DE'",
+        "withExpressions": "[]"
+      }
+    }
+  },
+  {
+    "Action": {
+      "Operation": "BOOLEAN_OPERATION",
+      "Parameters": {
+        "falseValueExpression": "'EUR'",
+        "functionStepType": "BOOLEAN_OPERATION",
+        "targetColumn": "currency",
+        "trueValueExpression": "'EUR'",
+        "valueExpression": "`supplier_article_number` != 'EUR'",
+        "withExpressions": "[]"
+      }
+    }
+  },
+  {
+    "Action": {
+      "Operation": "RENAME",
+      "Parameters": {
+        "sourceColumn": "Column_18",
+        "targetColumn": "minimum_order_quantity"
+      }
+    }
+  },
+  {
+    "Action": {
+      "Operation": "REPLACE_TEXT",
+      "Parameters": {
+        "pattern": ",",
+        "sourceColumn": "Column_14",
+        "value": "."
+      }
+    }
+  },
+  {
+    "Action": {
+      "Operation": "REPLACE_TEXT",
+      "Parameters": {
+        "pattern": ",",
+        "sourceColumn": "Column_10",
+        "value": "."
+      }
+    }
+  },
+  {
+    "Action": {
+      "Operation": "REPLACE_TEXT",
+      "Parameters": {
+        "pattern": ",",
+        "sourceColumn": "Column_11",
+        "value": "."
+      }
+    }
+  },
+  {
+    "Action": {
+      "Operation": "REPLACE_TEXT",
+      "Parameters": {
+        "pattern": ",",
+        "sourceColumn": "Column_12",
+        "value": "."
+      }
+    }
+  },
+  {
+    "Action": {
+      "Operation": "RENAME",
+      "Parameters": {
+        "sourceColumn": "Column_4",
+        "targetColumn": "country_of_origin"
+      }
+    }
+  },
+  {
+    "Action": {
+      "Operation": "MOVE_TO_INDEX",
+      "Parameters": {
+        "sourceColumn": "brand_number",
+        "targetIndex": "0"
+      }
+    }
+  },
+  {
+    "Action": {
+      "Operation": "MOVE_TO_INDEX",
+      "Parameters": {
+        "sourceColumn": "brand_article_number",
+        "targetIndex": "1"
+      }
+    }
+  },
+  {
+    "Action": {
+      "Operation": "MOVE_TO_INDEX",
+      "Parameters": {
+        "sourceColumn": "supplier_number",
+        "targetIndex": "2"
+      }
+    }
+  },
+  {
+    "Action": {
+      "Operation": "MOVE_TO_INDEX",
+      "Parameters": {
+        "sourceColumn": "supplier_article_status",
+        "targetIndex": "4"
+      }
+    }
+  },
+  {
+    "Action": {
+      "Operation": "MOVE_TO_INDEX",
+      "Parameters": {
+        "sourceColumn": "Column_19",
+        "targetIndex": "5"
+      }
+    }
+  },
+  {
+    "Action": {
+      "Operation": "MOVE_TO_INDEX",
+      "Parameters": {
+        "sourceColumn": "retail_price_unit",
+        "targetIndex": "6"
+      }
+    }
+  },
+  {
+    "Action": {
+      "Operation": "MOVE_TO_INDEX",
+      "Parameters": {
+        "sourceColumn": "Column_20",
+        "targetIndex": "7"
+      }
+    }
+  },
+  {
+    "Action": {
+      "Operation": "MOVE_TO_INDEX",
+      "Parameters": {
+        "sourceColumn": "purchase_price_unit",
+        "targetIndex": "8"
+      }
+    }
+  },
+  {
+    "Action": {
+      "Operation": "MOVE_TO_INDEX",
+      "Parameters": {
+        "sourceColumn": "Column_17",
+        "targetIndex": "9"
+      }
+    }
+  },
+  {
+    "Action": {
+      "Operation": "MOVE_TO_INDEX",
+      "Parameters": {
+        "sourceColumn": "minimum_order_quantity",
+        "targetIndex": "12"
+      }
+    }
+  },
+  {
+    "Action": {
+      "Operation": "MOVE_TO_INDEX",
+      "Parameters": {
+        "sourceColumn": "Column_14",
+        "targetIndex": "13"
+      }
+    }
+  },
+  {
+    "Action": {
+      "Operation": "MOVE_TO_INDEX",
+      "Parameters": {
+        "sourceColumn": "Column_10",
+        "targetIndex": "14"
+      }
+    }
+  },
+  {
+    "Action": {
+      "Operation": "MOVE_TO_INDEX",
+      "Parameters": {
+        "sourceColumn": "Column_11",
+        "targetIndex": "15"
+      }
+    }
+  },
+  {
+    "Action": {
+      "Operation": "MOVE_TO_INDEX",
+      "Parameters": {
+        "sourceColumn": "Column_12",
+        "targetIndex": "16"
+      }
+    }
+  },
+  {
+    "Action": {
+      "Operation": "MOVE_TO_INDEX",
+      "Parameters": {
+        "sourceColumn": "Column_8",
+        "targetIndex": "17"
+      }
+    }
+  },
+  {
+    "Action": {
+      "Operation": "MOVE_TO_INDEX",
+      "Parameters": {
+        "sourceColumn": "Column_7",
+        "targetIndex": "18"
+      }
+    }
+  },
+  {
+    "Action": {
+      "Operation": "MOVE_TO_INDEX",
+      "Parameters": {
+        "sourceColumn": "country_of_origin",
+        "targetIndex": "19"
+      }
+    }
+  },
+  {
+    "Action": {
+      "Operation": "ROW_NUMBER",
+      "Parameters": {
+        "functionStepType": "ROW_NUMBER",
+        "targetColumn": "ROW_NUMBER Column 1"
+      }
+    }
+  },
+  {
+    "Action": {
+      "Operation": "BOOLEAN_OPERATION",
+      "Parameters": {
+        "falseValueExpression": "`ROW_NUMBER Column 1`",
+        "functionStepType": "BOOLEAN_OPERATION",
+        "targetColumn": "temporaryRowNumber",
+        "trueValueExpression": "'a'",
+        "valueExpression": "`ROW_NUMBER Column 1` = '1'",
+        "withExpressions": "[]"
+      }
+    }
+  },
+  {
+    "Action": {
+      "Operation": "REPLACE_TEXT",
+      "Parameters": {
+        "pattern": "a",
+        "sourceColumn": "temporaryRowNumber"
+      }
+    }
+  },
+  {
+    "Action": {
+      "Operation": "REMOVE_MISSING",
+      "Parameters": {
+        "sourceColumn": "temporaryRowNumber"
+      }
+    }
+  },
+  {
+    "Action": {
+      "Operation": "DELETE",
+      "Parameters": {
+        "sourceColumns": "[\"ROW_NUMBER Column 1\",\"temporaryRowNumber\"]"
+      }
+    }
+  },
+  {
+    "Action": {
+      "Operation": "BOOLEAN_OPERATION",
+      "Parameters": {
+        "falseValueExpression": "' '",
+        "functionStepType": "BOOLEAN_OPERATION",
+        "targetColumn": "emptyColumn",
+        "trueValueExpression": "' '",
+        "valueExpression": "`brand_article_number` != 'empty'",
+        "withExpressions": "[]"
+      }
+    }
+  },
+  {
+    "Action": {
+      "Operation": "REMOVE_COMBINED",
+      "Parameters": {
+        "collapseConsecutiveWhitespace": "false",
+        "removeAllPunctuation": "false",
+        "removeAllQuotes": "false",
+        "removeAllWhitespace": "true",
+        "removeCustomCharacters": "false",
+        "removeCustomValue": "false",
+        "removeLeadingAndTrailingPunctuation": "false",
+        "removeLeadingAndTrailingQuotes": "false",
+        "removeLeadingAndTrailingWhitespace": "false",
+        "removeLetters": "false",
+        "removeNumbers": "false",
+        "removeSpecialCharacters": "false",
+        "sourceColumn": "emptyColumn"
+      }
+    }
+  },
+  {
+    "Action": {
+      "Operation": "DUPLICATE",
+      "Parameters": {
+        "sourceColumn": "emptyColumn",
+        "targetColumn": "exchange_price"
+      }
+    }
+  },
+  {
+    "Action": {
+      "Operation": "RENAME",
+      "Parameters": {
+        "sourceColumn": "emptyColumn",
+        "targetColumn": "status_comment"
+      }
+    }
+  },
+  {
+    "Action": {
+      "Operation": "RENAME",
+      "Parameters": {
+        "sourceColumn": "Column_19",
+        "targetColumn": "retail_price"
+      }
+    }
+  },
+  {
+    "Action": {
+      "Operation": "RENAME",
+      "Parameters": {
+        "sourceColumn": "Column_20",
+        "targetColumn": "purchase_price"
+      }
+    }
+  },
+  {
+    "Action": {
+      "Operation": "RENAME",
+      "Parameters": {
+        "sourceColumn": "Column_17",
+        "targetColumn": "deposit_price"
+      }
+    }
+  },
+  {
+    "Action": {
+      "Operation": "RENAME",
+      "Parameters": {
+        "sourceColumn": "Column_14",
+        "targetColumn": "weight_in_kg"
+      }
+    }
+  },
+  {
+    "Action": {
+      "Operation": "RENAME",
+      "Parameters": {
+        "sourceColumn": "Column_10",
+        "targetColumn": "length_in_mm"
+      }
+    }
+  },
+  {
+    "Action": {
+      "Operation": "RENAME",
+      "Parameters": {
+        "sourceColumn": "Column_11",
+        "targetColumn": "width_in_mm"
+      }
+    }
+  },
+  {
+    "Action": {
+      "Operation": "RENAME",
+      "Parameters": {
+        "sourceColumn": "Column_12",
+        "targetColumn": "height_in_mm"
+      }
+    }
+  },
+  {
+    "Action": {
+      "Operation": "RENAME",
+      "Parameters": {
+        "sourceColumn": "Column_8",
+        "targetColumn": "ean_code"
+      }
+    }
+  },
+  {
+    "Action": {
+      "Operation": "RENAME",
+      "Parameters": {
+        "sourceColumn": "Column_7",
+        "targetColumn": "customs_tariff_number"
+      }
+    }
+  },
+  {
+    "Action": {
+      "Operation": "MOVE_TO_INDEX",
+      "Parameters": {
+        "sourceColumn": "status_comment",
+        "targetIndex": "5"
+      }
+    }
+  },
+  {
+    "Action": {
+      "Operation": "MOVE_TO_INDEX",
+      "Parameters": {
+        "sourceColumn": "status_comment",
+        "targetIndex": "6"
+      }
+    }
+  },
+  {
+    "Action": {
+      "Operation": "MOVE_TO_INDEX",
+      "Parameters": {
+        "sourceColumn": "exchange_price",
+        "targetIndex": "11"
+      }
+    }
+  },
+  {
+    "Action": {
+      "Operation": "MOVE_TO_INDEX",
+      "Parameters": {
+        "sourceColumn": "currency",
+        "targetIndex": "13"
+      }
+    }
+  },
+  {
+    "Action": {
+      "Operation": "DELETE",
+      "Parameters": {
+        "sourceColumns": "[\"Column_2\",\"Column_3\",\"Column_5\",\"Column_6\",\"Column_9\",\"Column_13\",\"Column_15\",\"Column_16\",\"Column_21\",\"Column_22\"]"
+      }
+    }
+  },
+  {
+    "Action": {
+      "Operation": "RENAME",
+      "Parameters": {
+        "sourceColumn": "Column_23",
+        "targetColumn": "file_date"
+      }
+    }
+  },
+  {
+    "Action": {
+      "Operation": "RENAME",
+      "Parameters": {
+        "sourceColumn": "Column_24",
+        "targetColumn": "file_validity"
+      }
+    }
+  },
+  {
+    "Action": {
+      "Operation": "MOVE_AFTER",
+      "Parameters": {
+        "sourceColumn": "file_date",
+        "targetColumn": "supplier_number",
+        "targetIndex": "NaN"
+      }
+    }
+  },
+  {
+    "Action": {
+      "Operation": "MOVE_AFTER",
+      "Parameters": {
+        "sourceColumn": "file_validity",
+        "targetColumn": "file_date",
+        "targetIndex": "NaN"
+      }
+    }
+  }
+]
